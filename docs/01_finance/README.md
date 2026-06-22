@@ -5,16 +5,22 @@
 ## 学习顺序
 
 1. [财务模块地图](finance-module-map.md)
-2. [财务基础资料与初始化](master-data-and-initialization.md)
-3. [总账](general-ledger.md)
-4. [应收款管理](accounts-receivable.md)
-5. [应付款管理](accounts-payable.md)
-6. [出纳与资金](cashier-and-funds.md)
-7. [固定资产](fixed-assets.md)
-8. [月结流程](month-end-close.md)
-9. [财务报表与对账](finance-reports.md)
-10. [财务常见问题](common-issues.md)
-11. [财务术语](terms.md)
+2. [财务实务手册](finance-practice-manual.md)
+3. [财务实施检查清单](finance-implementation-checklist.md)
+4. [财务基础资料与初始化](master-data-and-initialization.md)
+5. [总账](general-ledger.md)
+6. [凭证生成与常见分录](voucher-generation-and-entries.md)
+7. [应收款管理](accounts-receivable.md)
+8. [应付款管理](accounts-payable.md)
+9. [应收应付对账实务](ar-ap-reconciliation-playbook.md)
+10. [出纳与资金](cashier-and-funds.md)
+11. [固定资产](fixed-assets.md)
+12. [月结流程](month-end-close.md)
+13. [月结作战手册](month-end-close-playbook.md)
+14. [财务报表与对账](finance-reports.md)
+15. [财务案例库](finance-case-library.md)
+16. [财务常见问题](common-issues.md)
+17. [财务术语](terms.md)
 
 ## 财务模块总览
 
@@ -36,3 +42,12 @@
 - 当前月结顺序和负责人。
 - 常见报错、参数差异和客户化功能。
 - 财务相关核心表、字段和常用 SQL。
+
+## 本区已经沉淀的实务内容
+
+- 财务上线前调研表、配置清单、验收口径。
+- 总账、应收、应付、出纳、固定资产的日常操作主线。
+- 凭证模板、凭证生成、凭证生成情况查询和常见分录示例。
+- 应收应付和总账的对账方法、差异定位路径。
+- 月结从 D-5 到 D+3 的工作安排、检查表和失败排查。
+- 财务案例库：把典型报错和差异按“现象、排查、根因、处理”沉淀。
