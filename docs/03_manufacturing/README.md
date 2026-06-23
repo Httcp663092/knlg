@@ -10,15 +10,29 @@
 
 这里用于沉淀金蝶生产制造、计划、工程数据、委外和成本相关知识。
 
-## 后续目录建议
+## 已整理内容
 
 - [生产制造核心教程](manufacturing-core-guide.md)
-- 工程数据：物料生产属性、BOM、工艺路线、工作中心。
-- 计划管理：预测、销售订单、MRP、计划订单。
-- 生产管理：生产订单、领料、汇报、完工入库。
-- 委外管理：委外订单、委外发料、委外入库、委外应付。
+- [工程数据与 BOM 详细教程](engineering-data-bom-guide.md)
+- [MRP 与计划管理详细教程](mrp-planning-guide.md)
+- [生产订单执行详细教程](production-order-execution-guide.md)
+- [委外管理详细教程](outsourcing-management-guide.md)
+- [制造成本核算详细教程](manufacturing-costing-guide.md)
+
+## 学习顺序
+
+1. [生产制造核心教程](manufacturing-core-guide.md)
+2. [工程数据与 BOM 详细教程](engineering-data-bom-guide.md)
+3. [MRP 与计划管理详细教程](mrp-planning-guide.md)
+4. [生产订单执行详细教程](production-order-execution-guide.md)
+5. [委外管理详细教程](outsourcing-management-guide.md)
+6. [制造成本核算详细教程](manufacturing-costing-guide.md)
+
+## 后续继续加厚方向
+
 - 车间管理：工序、报工、质检、返工。
-- 产品成本核算：材料、人工、制造费用、完工成本。
+- 质量管理：检验、不合格、让步接收、返工返修。
+- 设备管理、条码报工、车间看板。
 
 ## 和财务的关系
 

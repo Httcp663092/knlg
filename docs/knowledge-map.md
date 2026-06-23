@@ -53,11 +53,12 @@
 
 - [生产制造知识区](03_manufacturing/README.md)
 - [生产制造核心教程](03_manufacturing/manufacturing-core-guide.md)
-- 工程数据
-- 计划管理
-- 生产管理
-- 委外管理
-- 成本核算
+- [工程数据与 BOM 详细教程](03_manufacturing/engineering-data-bom-guide.md)
+- [MRP 与计划管理详细教程](03_manufacturing/mrp-planning-guide.md)
+- [生产订单执行详细教程](03_manufacturing/production-order-execution-guide.md)
+- [委外管理详细教程](03_manufacturing/outsourcing-management-guide.md)
+- [制造成本核算详细教程](03_manufacturing/manufacturing-costing-guide.md)
+- 车间管理、质量管理、设备管理
 
 ## 实施交付
 

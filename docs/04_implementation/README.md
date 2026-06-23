@@ -5,7 +5,7 @@
 >
 > [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](../02_supply-chain/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
-> 上一章：[生产制造核心教程](../03_manufacturing/manufacturing-core-guide.md) | 下一章：[金蝶实施交付作战手册](implementation-delivery-playbook.md) | 本章目录：当前页
+> 上一章：[制造成本核算详细教程](../03_manufacturing/manufacturing-costing-guide.md) | 下一章：[金蝶实施交付作战手册](implementation-delivery-playbook.md) | 本章目录：当前页
 <!-- NAV_END -->
 
 这里用于沉淀金蝶实施交付方法。
