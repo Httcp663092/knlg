@@ -13,25 +13,28 @@
 ## 学习顺序
 
 1. [财务模块地图](finance-module-map.md)
-2. [财务理论到金蝶系统映射](finance-theory-to-kingdee-system.md)
-3. [财务实操场景：从业务单据到凭证报表](finance-operation-scenarios.md)
-4. [金蝶财务项目案例集](kingdee-finance-project-cases.md)
-5. [财务实务手册](finance-practice-manual.md)
-6. [财务实施检查清单](finance-implementation-checklist.md)
-7. [财务基础资料与初始化](master-data-and-initialization.md)
-8. [总账](general-ledger.md)
-9. [凭证生成与常见分录](voucher-generation-and-entries.md)
-10. [应收款管理](accounts-receivable.md)
-11. [应付款管理](accounts-payable.md)
-12. [应收应付对账实务](ar-ap-reconciliation-playbook.md)
-13. [出纳与资金](cashier-and-funds.md)
-14. [固定资产](fixed-assets.md)
-15. [月结流程](month-end-close.md)
-16. [月结作战手册](month-end-close-playbook.md)
-17. [财务报表与对账](finance-reports.md)
-18. [财务案例库](finance-case-library.md)
-19. [财务常见问题](common-issues.md)
-20. [财务术语](terms.md)
+2. [财务基础入门：结合金蝶理解](finance-basics-for-kingdee.md)
+3. [财务理论到金蝶系统映射](finance-theory-to-kingdee-system.md)
+4. [金蝶财务配置指南](kingdee-finance-configuration-guide.md)
+5. [财务内控与审计检查清单](finance-control-and-audit-checklist.md)
+6. [财务实操场景：从业务单据到凭证报表](finance-operation-scenarios.md)
+7. [金蝶财务项目案例集](kingdee-finance-project-cases.md)
+8. [财务实务手册](finance-practice-manual.md)
+9. [财务实施检查清单](finance-implementation-checklist.md)
+10. [财务基础资料与初始化](master-data-and-initialization.md)
+11. [总账](general-ledger.md)
+12. [凭证生成与常见分录](voucher-generation-and-entries.md)
+13. [应收款管理](accounts-receivable.md)
+14. [应付款管理](accounts-payable.md)
+15. [应收应付对账实务](ar-ap-reconciliation-playbook.md)
+16. [出纳与资金](cashier-and-funds.md)
+17. [固定资产](fixed-assets.md)
+18. [月结流程](month-end-close.md)
+19. [月结作战手册](month-end-close-playbook.md)
+20. [财务报表与对账](finance-reports.md)
+21. [财务案例库](finance-case-library.md)
+22. [财务常见问题](common-issues.md)
+23. [财务术语](terms.md)
 
 ## 财务模块总览
 
@@ -64,3 +67,6 @@
 - 财务案例库：把典型报错和差异按“现象、排查、根因、处理”沉淀。
 - 财务理论与金蝶系统对象的对应关系：会计要素、科目、账簿、核算维度、凭证和报表。
 - 金蝶项目案例：制造企业上线、商贸企业往来治理、月结提速、固定资产上线等。
+- 基础财务知识：借贷记账、会计要素、凭证、账簿、三大报表、常见分录。
+- 金蝶财务配置：组织、账簿、科目、核算维度、凭证模板、初始化、报表和权限。
+- 财务内控：职责分离、手工凭证治理、反审核反结账控制、月结证据包。
