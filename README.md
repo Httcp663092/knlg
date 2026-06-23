@@ -12,12 +12,21 @@
 
 当前第一阶段先建设财务知识区，后续可以继续扩展供应链、生产制造、BOS 开发、集成接口、数据模型和环境发布。
 
+当前已开始按完整金蝶知识库建设：财务作为第一批深度区，供应链、生产制造、实施交付、BOS 开发、数据 SQL、接口集成、环境发布和运维问题库也会持续补成可操作教程。
+
 ## 快速入口
 
 - [知识库首页](docs/README.md)
 - [知识地图](docs/knowledge-map.md)
 - [记录规范](docs/conventions.md)
 - [财务知识区](docs/01_finance/README.md)
+- [供应链知识区](docs/02_supply-chain/README.md)
+- [生产制造知识区](docs/03_manufacturing/README.md)
+- [实施方法与交付](docs/04_implementation/README.md)
+- [BOS/插件/二开](docs/05_development-bos/README.md)
+- [数据模型与 SQL](docs/06_data-model-sql/README.md)
+- [接口与集成](docs/07_integrations/README.md)
+- [环境、发布和版本](docs/08_environments-releases/README.md)
 - [财务模块地图](docs/01_finance/finance-module-map.md)
 - [月结流程](docs/01_finance/month-end-close.md)
 - [常见问题库](docs/10_common-questions/README.md)
