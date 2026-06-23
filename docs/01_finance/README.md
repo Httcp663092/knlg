@@ -5,22 +5,25 @@
 ## 学习顺序
 
 1. [财务模块地图](finance-module-map.md)
-2. [财务实务手册](finance-practice-manual.md)
-3. [财务实施检查清单](finance-implementation-checklist.md)
-4. [财务基础资料与初始化](master-data-and-initialization.md)
-5. [总账](general-ledger.md)
-6. [凭证生成与常见分录](voucher-generation-and-entries.md)
-7. [应收款管理](accounts-receivable.md)
-8. [应付款管理](accounts-payable.md)
-9. [应收应付对账实务](ar-ap-reconciliation-playbook.md)
-10. [出纳与资金](cashier-and-funds.md)
-11. [固定资产](fixed-assets.md)
-12. [月结流程](month-end-close.md)
-13. [月结作战手册](month-end-close-playbook.md)
-14. [财务报表与对账](finance-reports.md)
-15. [财务案例库](finance-case-library.md)
-16. [财务常见问题](common-issues.md)
-17. [财务术语](terms.md)
+2. [财务理论到金蝶系统映射](finance-theory-to-kingdee-system.md)
+3. [财务实操场景：从业务单据到凭证报表](finance-operation-scenarios.md)
+4. [金蝶财务项目案例集](kingdee-finance-project-cases.md)
+5. [财务实务手册](finance-practice-manual.md)
+6. [财务实施检查清单](finance-implementation-checklist.md)
+7. [财务基础资料与初始化](master-data-and-initialization.md)
+8. [总账](general-ledger.md)
+9. [凭证生成与常见分录](voucher-generation-and-entries.md)
+10. [应收款管理](accounts-receivable.md)
+11. [应付款管理](accounts-payable.md)
+12. [应收应付对账实务](ar-ap-reconciliation-playbook.md)
+13. [出纳与资金](cashier-and-funds.md)
+14. [固定资产](fixed-assets.md)
+15. [月结流程](month-end-close.md)
+16. [月结作战手册](month-end-close-playbook.md)
+17. [财务报表与对账](finance-reports.md)
+18. [财务案例库](finance-case-library.md)
+19. [财务常见问题](common-issues.md)
+20. [财务术语](terms.md)
 
 ## 财务模块总览
 
@@ -51,3 +54,5 @@
 - 应收应付和总账的对账方法、差异定位路径。
 - 月结从 D-5 到 D+3 的工作安排、检查表和失败排查。
 - 财务案例库：把典型报错和差异按“现象、排查、根因、处理”沉淀。
+- 财务理论与金蝶系统对象的对应关系：会计要素、科目、账簿、核算维度、凭证和报表。
+- 金蝶项目案例：制造企业上线、商贸企业往来治理、月结提速、固定资产上线等。

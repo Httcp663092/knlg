@@ -6,6 +6,9 @@
 
 - [财务知识区](01_finance/README.md)
 - [财务模块地图](01_finance/finance-module-map.md)
+- [财务理论到金蝶系统映射](01_finance/finance-theory-to-kingdee-system.md)
+- [财务实操场景：从业务单据到凭证报表](01_finance/finance-operation-scenarios.md)
+- [金蝶财务项目案例集](01_finance/kingdee-finance-project-cases.md)
 - [财务实务手册](01_finance/finance-practice-manual.md)
 - [财务实施检查清单](01_finance/finance-implementation-checklist.md)
 - [财务基础资料与初始化](01_finance/master-data-and-initialization.md)
