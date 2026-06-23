@@ -18,6 +18,7 @@
 - [财务理论到金蝶系统映射](01_finance/finance-theory-to-kingdee-system.md)
 - [金蝶财务配置指南](01_finance/kingdee-finance-configuration-guide.md)
 - [财务内控与审计检查清单](01_finance/finance-control-and-audit-checklist.md)
+- [金蝶财务日常操作手册](01_finance/finance-daily-operation-guide.md)
 - [财务实操场景：从业务单据到凭证报表](01_finance/finance-operation-scenarios.md)
 - [金蝶财务项目案例集](01_finance/kingdee-finance-project-cases.md)
 - [财务实务手册](01_finance/finance-practice-manual.md)
