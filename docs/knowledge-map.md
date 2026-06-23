@@ -26,6 +26,7 @@
 ## 供应链
 
 - [供应链知识区](02_supply-chain/README.md)
+- [物料库存信息](02_supply-chain/material-inventory-info.md)
 - 采购管理
 - 销售管理
 - 库存管理
@@ -52,17 +53,23 @@
 ## 开发与数据
 
 - [BOS/插件/二开](05_development-bos/README.md)
+- [苍穹开发者工作台与项目创建](05_development-bos/cangqiong-developer-portal-project.md)
+- [苍穹单据与基础资料建模](05_development-bos/cangqiong-business-object-modeling.md)
 - [数据模型与 SQL](06_data-model-sql/README.md)
 - [财务数据模型](06_data-model-sql/finance/README.md)
 - [接口与集成](07_integrations/README.md)
+- [AI 文档分类与结构化提取](07_integrations/ai-document-classification.md)
 
 ## 环境与运维
 
 - [环境、发布和版本](08_environments-releases/README.md)
+- [苍穹数据清理服务](08_environments-releases/cangqiong-data-cleaning.md)
+- [苍穹水平分库](08_environments-releases/cangqiong-horizontal-sharding.md)
 - [运维与问题库](09_operations-issues/README.md)
 
 ## 资料与模板
 
 - [官方资料链接](90_references/official-links.md)
+- [金蝶开发者官网资料索引](90_references/developer-kingdee-product-87.md)
 - [模板](98_templates/README.md)
 - [归档](99_archive/README.md)

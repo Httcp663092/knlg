@@ -17,6 +17,14 @@
 - [金蝶云产品手册：固定资产使用流程](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E5%9B%BA%E5%AE%9A%E8%B5%84%E4%BA%A7%E4%BD%BF%E7%94%A8%E6%B5%81%E7%A8%8B)
 - [金蝶云社区：金蝶云·星空系统结账手册](https://vip.kingdee.com/article/372379712616026112)
 
+## 金蝶开发者官网
+
+- [金蝶开发者官网：金蝶 AI 苍穹产品页](https://developer.kingdee.com/?productId=87&productLineId=29&lang=zh-CN)
+- [2.项目创建](https://developer.kingdee.com/knowledge/590541050947648512?productId=87&productLineId=29&lang=zh-CN)
+- [文档分类（大模型）使用手册](https://developer.kingdee.com/knowledge/436898093733304320?productId=87&productLineId=29&lang=zh-CN)
+- [数据清理服务使用指南](https://developer.kingdee.com/knowledge/577876642866010368?productId=87&productLineId=29&lang=zh-CN)
+- [物料库存信息](https://developer.kingdee.com/knowledge/235705120162166784?productId=87&productLineId=29&lang=zh-CN)
+
 ## 使用备注
 
 - 本知识库当前以金蝶云·星空资料为主要参考。

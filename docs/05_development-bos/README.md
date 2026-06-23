@@ -2,6 +2,11 @@
 
 这里用于沉淀金蝶 BOS、插件、表单扩展、服务插件、操作插件和二开相关内容。
 
+## 已整理内容
+
+- [苍穹开发者工作台与项目创建](cangqiong-developer-portal-project.md)
+- [苍穹单据与基础资料建模](cangqiong-business-object-modeling.md)
+
 ## 推荐内容
 
 - 表单扩展

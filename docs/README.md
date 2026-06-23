@@ -8,6 +8,9 @@
 - [记录规范](conventions.md)：统一笔记格式、状态、标签和维护规则。
 - [财务知识区](01_finance/README.md)：总账、应收、应付、出纳、固定资产、月结和报表。
 - [数据模型与 SQL](06_data-model-sql/README.md)：表、字段、取数口径、常用查询。
+- [BOS/插件/二开](05_development-bos/README.md)：苍穹开发者工作台、项目创建、单据和基础资料建模。
+- [接口与集成](07_integrations/README.md)：AI 文档分类、OpenAPI、外部系统集成。
+- [环境、发布和版本](08_environments-releases/README.md)：数据清理、水平分库、环境和补丁。
 - [运维与问题库](09_operations-issues/README.md)：问题现象、根因、处理方案。
 - [官方资料链接](90_references/official-links.md)：金蝶官方手册、社区和产品资料。
 - [模板](98_templates/README.md)：知识笔记、问题处理、实施记录和 SQL 记录模板。

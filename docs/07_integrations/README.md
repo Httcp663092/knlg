@@ -2,6 +2,10 @@
 
 这里用于沉淀金蝶与外部系统集成的资料。
 
+## 已整理内容
+
+- [AI 文档分类与结构化提取](ai-document-classification.md)
+
 ## 推荐内容
 
 - Web API

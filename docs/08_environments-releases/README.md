@@ -2,6 +2,11 @@
 
 这里用于沉淀金蝶环境、版本、补丁、发布和部署记录。
 
+## 已整理内容
+
+- [苍穹数据清理服务](cangqiong-data-cleaning.md)
+- [苍穹水平分库](cangqiong-horizontal-sharding.md)
+
 ## 推荐内容
 
 - 环境清单

@@ -5,6 +5,7 @@
 ## 入口
 
 - [官方资料链接](official-links.md)
+- [金蝶开发者官网资料索引](developer-kingdee-product-87.md)
 
 ## 记录规则
 
