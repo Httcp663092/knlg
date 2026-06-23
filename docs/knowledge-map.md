@@ -3,7 +3,7 @@
 <!-- NAV_START -->
 > **快捷目录**
 >
-> [首页](README.md) | [知识地图](knowledge-map.md) | [财务](01_finance/README.md) | [供应链](02_supply-chain/README.md) | [开发](05_development-bos/README.md) | [数据](06_data-model-sql/README.md) | [集成](07_integrations/README.md) | [运维](09_operations-issues/README.md) | [资料](90_references/README.md)
+> [首页](README.md) | [知识地图](knowledge-map.md) | [财务](01_finance/README.md) | [供应链](02_supply-chain/README.md) | [开发](05_development-bos/README.md) | [数据](06_data-model-sql/README.md) | [集成](07_integrations/README.md) | [运维](09_operations-issues/README.md) | [问题](10_common-questions/README.md) | [资料](90_references/README.md)
 >
 > 上一章：[金蝶个人知识库](README.md) | 下一章：[记录规范](conventions.md) | [本章目录](README.md)
 <!-- NAV_END -->
@@ -80,6 +80,8 @@
 - [苍穹数据清理服务](08_environments-releases/cangqiong-data-cleaning.md)
 - [苍穹水平分库](08_environments-releases/cangqiong-horizontal-sharding.md)
 - [运维与问题库](09_operations-issues/README.md)
+- [常见问题库](10_common-questions/README.md)
+- [财务高频问题](10_common-questions/finance-faq.md)
 
 ## 资料与模板
 

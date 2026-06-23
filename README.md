@@ -3,7 +3,7 @@
 <!-- NAV_START -->
 > **快捷目录**
 >
-> [首页](docs/README.md) | [知识地图](docs/knowledge-map.md) | [财务](docs/01_finance/README.md) | [供应链](docs/02_supply-chain/README.md) | [开发](docs/05_development-bos/README.md) | [数据](docs/06_data-model-sql/README.md) | [集成](docs/07_integrations/README.md) | [运维](docs/09_operations-issues/README.md) | [资料](docs/90_references/README.md)
+> [首页](docs/README.md) | [知识地图](docs/knowledge-map.md) | [财务](docs/01_finance/README.md) | [供应链](docs/02_supply-chain/README.md) | [开发](docs/05_development-bos/README.md) | [数据](docs/06_data-model-sql/README.md) | [集成](docs/07_integrations/README.md) | [运维](docs/09_operations-issues/README.md) | [问题](docs/10_common-questions/README.md) | [资料](docs/90_references/README.md)
 >
 > 上一章：无 | 下一章：[金蝶个人知识库](docs/README.md) | 本章目录：当前页
 <!-- NAV_END -->
@@ -20,7 +20,9 @@
 - [财务知识区](docs/01_finance/README.md)
 - [财务模块地图](docs/01_finance/finance-module-map.md)
 - [月结流程](docs/01_finance/month-end-close.md)
-- [常见问题](docs/01_finance/common-issues.md)
+- [常见问题库](docs/10_common-questions/README.md)
+- [财务高频问题](docs/10_common-questions/finance-faq.md)
+- [财务常见问题专项页](docs/01_finance/common-issues.md)
 - [官方资料链接](docs/90_references/official-links.md)
 - [笔记模板](docs/98_templates/README.md)
 
@@ -44,6 +46,7 @@ docs/
   07_integrations/             接口与集成
   08_environments-releases/    环境、发布和版本
   09_operations-issues/        运维与问题库
+  10_common-questions/         常见问题库
   90_references/               外部资料和官方链接
   98_templates/                笔记模板
   99_archive/                  归档
@@ -53,6 +56,7 @@ docs/
 
 - 临时想法先放入 `docs/00_inbox/`。
 - 业务知识沉淀到对应模块目录。
-- 具体问题沉淀到 `docs/09_operations-issues/`，稳定后反哺模块文档。
+- 高频短问题沉淀到 `docs/10_common-questions/`。
+- 具体问题处理过程沉淀到 `docs/09_operations-issues/`，稳定后反哺模块文档。
 - SQL、表结构、取数口径沉淀到 `docs/06_data-model-sql/`。
 - 每周整理一次 inbox，每月更新一次知识地图。
