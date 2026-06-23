@@ -13,20 +13,25 @@
 ## 已整理内容
 
 - [供应链核心操作教程](supply-chain-core-operation-guide.md)
+- [采购管理详细教程](purchase-management-guide.md)
+- [销售管理详细教程](sales-management-guide.md)
+- [库存管理详细教程](inventory-management-guide.md)
+- [存货核算详细教程](inventory-costing-guide.md)
 - [物料库存信息](material-inventory-info.md)
 
 ## 学习顺序
 
 1. [供应链核心操作教程](supply-chain-core-operation-guide.md)
-2. [物料库存信息](material-inventory-info.md)
+2. [采购管理详细教程](purchase-management-guide.md)
+3. [销售管理详细教程](sales-management-guide.md)
+4. [库存管理详细教程](inventory-management-guide.md)
+5. [存货核算详细教程](inventory-costing-guide.md)
+6. [物料库存信息](material-inventory-info.md)
 
 ## 后续继续加厚方向
 
-- 采购管理详细教程：采购申请、采购订单、采购入库、暂估、应付。
-- 销售管理详细教程：报价、订单、发货、出库、退货、信用。
-- 库存管理详细教程：即时库存、批号、库位、盘点、调拨。
-- 存货核算详细教程：计价方法、出库成本、凭证和对账。
 - 组织间结算、条码管理、供应商协同。
+- 采购价格、销售信用、批号保质期、盘点、暂估等专题继续独立加深。
 
 ## 和财务的关系
 

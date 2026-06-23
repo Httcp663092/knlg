@@ -42,8 +42,12 @@
 
 - [供应链知识区](02_supply-chain/README.md)
 - [供应链核心操作教程](02_supply-chain/supply-chain-core-operation-guide.md)
+- [采购管理详细教程](02_supply-chain/purchase-management-guide.md)
+- [销售管理详细教程](02_supply-chain/sales-management-guide.md)
+- [库存管理详细教程](02_supply-chain/inventory-management-guide.md)
+- [存货核算详细教程](02_supply-chain/inventory-costing-guide.md)
 - [物料库存信息](02_supply-chain/material-inventory-info.md)
-- 采购管理、销售管理、库存管理、组织间结算
+- 组织间结算、条码管理、供应商协同
 
 ## 生产制造
 

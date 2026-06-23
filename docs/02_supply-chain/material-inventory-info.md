@@ -5,7 +5,7 @@
 >
 > [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
-> 上一章：[供应链核心操作教程](supply-chain-core-operation-guide.md) | 下一章：[生产制造知识区](../03_manufacturing/README.md) | [本章目录](README.md)
+> 上一章：[存货核算详细教程](inventory-costing-guide.md) | 下一章：[生产制造知识区](../03_manufacturing/README.md) | [本章目录](README.md)
 <!-- NAV_END -->
 
 来源：金蝶开发者官网产品页中的“物料库存信息”。
