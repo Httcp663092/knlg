@@ -1,5 +1,13 @@
 # 财务实施检查清单
 
+<!-- NAV_START -->
+> **快捷目录**
+>
+> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](README.md) | [供应链](../02_supply-chain/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [资料](../90_references/README.md)
+>
+> 上一章：[财务实务手册](finance-practice-manual.md) | 下一章：[财务基础资料与初始化](master-data-and-initialization.md) | [本章目录](README.md)
+<!-- NAV_END -->
+
 这篇用于实施或整理金蝶财务模块时逐项确认。它适合项目调研、蓝图设计、上线前检查和后续补资料。
 
 ## 一、基础信息

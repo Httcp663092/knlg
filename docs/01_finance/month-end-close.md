@@ -1,5 +1,13 @@
 # 月结流程
 
+<!-- NAV_START -->
+> **快捷目录**
+>
+> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](README.md) | [供应链](../02_supply-chain/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [资料](../90_references/README.md)
+>
+> 上一章：[固定资产](fixed-assets.md) | 下一章：[月结作战手册](month-end-close-playbook.md) | [本章目录](README.md)
+<!-- NAV_END -->
+
 ## 适用范围
 
 适用于金蝶财务月末结账、跨模块检查、结账失败排查和月结 SOP 制定。

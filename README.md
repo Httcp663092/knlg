@@ -1,5 +1,13 @@
 # knlg
 
+<!-- NAV_START -->
+> **快捷目录**
+>
+> [首页](docs/README.md) | [知识地图](docs/knowledge-map.md) | [财务](docs/01_finance/README.md) | [供应链](docs/02_supply-chain/README.md) | [开发](docs/05_development-bos/README.md) | [数据](docs/06_data-model-sql/README.md) | [集成](docs/07_integrations/README.md) | [运维](docs/09_operations-issues/README.md) | [资料](docs/90_references/README.md)
+>
+> 上一章：无 | 下一章：[金蝶个人知识库](docs/README.md) | 本章目录：当前页
+<!-- NAV_END -->
+
 我的金蝶个人知识库，用来沉淀金蝶系统学习、实施、开发、运维、问题排查和业务理解。
 
 当前第一阶段先建设财务知识区，后续可以继续扩展供应链、生产制造、BOS 开发、集成接口、数据模型和环境发布。

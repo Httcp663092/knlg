@@ -1,5 +1,13 @@
 # 固定资产
 
+<!-- NAV_START -->
+> **快捷目录**
+>
+> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](README.md) | [供应链](../02_supply-chain/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [资料](../90_references/README.md)
+>
+> 上一章：[出纳与资金](cashier-and-funds.md) | 下一章：[月结流程](month-end-close.md) | [本章目录](README.md)
+<!-- NAV_END -->
+
 ## 适用范围
 
 适用于固定资产启用、资产卡片、资产入账、变更、处置、折旧、盘点和固定资产月结。

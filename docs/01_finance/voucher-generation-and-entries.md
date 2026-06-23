@@ -1,5 +1,13 @@
 # 凭证生成与常见分录
 
+<!-- NAV_START -->
+> **快捷目录**
+>
+> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](README.md) | [供应链](../02_supply-chain/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [资料](../90_references/README.md)
+>
+> 上一章：[总账](general-ledger.md) | 下一章：[应收款管理](accounts-receivable.md) | [本章目录](README.md)
+<!-- NAV_END -->
+
 这篇专门记录金蝶财务最核心的落点：业务单据如何变成凭证，以及凭证不对时怎么查。
 
 ## 核心结论

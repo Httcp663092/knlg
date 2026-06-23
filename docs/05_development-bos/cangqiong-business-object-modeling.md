@@ -1,5 +1,13 @@
 # 苍穹单据与基础资料建模
 
+<!-- NAV_START -->
+> **快捷目录**
+>
+> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](../02_supply-chain/README.md) | [开发](README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [资料](../90_references/README.md)
+>
+> 上一章：[苍穹开发者工作台与项目创建](cangqiong-developer-portal-project.md) | 下一章：[数据模型与 SQL](../06_data-model-sql/README.md) | [本章目录](README.md)
+<!-- NAV_END -->
+
 来源：金蝶开发者官网产品页中的“单据建模（开发平台）”和“基础资料建模”。
 
 ## 适用范围

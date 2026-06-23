@@ -1,5 +1,13 @@
 # 财务常见问题
 
+<!-- NAV_START -->
+> **快捷目录**
+>
+> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](README.md) | [供应链](../02_supply-chain/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [资料](../90_references/README.md)
+>
+> 上一章：[财务案例库](finance-case-library.md) | 下一章：[财务术语](terms.md) | [本章目录](README.md)
+<!-- NAV_END -->
+
 这里沉淀金蝶财务模块常见问题的排查思路。具体处理前仍要结合实际版本、参数、二开和客户环境验证。
 
 ## 凭证生成失败

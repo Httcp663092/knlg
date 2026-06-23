@@ -1,5 +1,13 @@
 # 金蝶个人知识库
 
+<!-- NAV_START -->
+> **快捷目录**
+>
+> [首页](README.md) | [知识地图](knowledge-map.md) | [财务](01_finance/README.md) | [供应链](02_supply-chain/README.md) | [开发](05_development-bos/README.md) | [数据](06_data-model-sql/README.md) | [集成](07_integrations/README.md) | [运维](09_operations-issues/README.md) | [资料](90_references/README.md)
+>
+> 上一章：[knlg](../README.md) | 下一章：[金蝶知识地图](knowledge-map.md) | 本章目录：当前页
+<!-- NAV_END -->
+
 这里是金蝶知识库的总入口。当前先以财务模块为主，逐步扩展到供应链、制造、实施、开发、接口、数据和运维。
 
 ## 核心入口
