@@ -3,10 +3,12 @@
 <!-- NAV_START -->
 > **快捷目录**
 >
-> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
+> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
 > 上一章：[销售管理详细教程](sales-management-guide.md) | 下一章：[存货核算详细教程](inventory-costing-guide.md) | [本章目录](README.md)
 <!-- NAV_END -->
+
+
 
 库存管理负责“东西在哪里、有多少、能不能用、怎么流转”。库存管理主要管数量和状态，存货核算主要管金额和成本。两者不能混淆。
 

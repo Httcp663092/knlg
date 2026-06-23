@@ -3,10 +3,12 @@
 <!-- NAV_START -->
 > **快捷目录**
 >
-> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
+> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
 > 上一章：[供应链知识区](README.md) | 下一章：[采购管理详细教程](purchase-management-guide.md) | [本章目录](README.md)
 <!-- NAV_END -->
+
+
 
 这篇用于建立金蝶供应链主流程。供应链不是只管采购、销售、库存单据，它会直接影响应收、应付、存货、成本和总账月结。学习供应链时要同时看“业务流、库存流、资金流、凭证流”。
 

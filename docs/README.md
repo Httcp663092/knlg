@@ -3,12 +3,14 @@
 <!-- NAV_START -->
 > **快捷目录**
 >
-> [首页](README.md) | [知识地图](knowledge-map.md) | [财务](01_finance/README.md) | [供应链](02_supply-chain/README.md) | [开发](05_development-bos/README.md) | [数据](06_data-model-sql/README.md) | [集成](07_integrations/README.md) | [运维](09_operations-issues/README.md) | [问题](10_common-questions/README.md) | [资料](90_references/README.md)
+> [首页](README.md) | [知识地图](knowledge-map.md) | [财务](01_finance/README.md) | [供应链](02_supply-chain/README.md) | [制造](03_manufacturing/README.md) | [实施](04_implementation/README.md) | [开发](05_development-bos/README.md) | [数据](06_data-model-sql/README.md) | [集成](07_integrations/README.md) | [运维](09_operations-issues/README.md) | [问题](10_common-questions/README.md) | [资料](90_references/README.md)
 >
 > 上一章：[knlg](../README.md) | 下一章：[金蝶知识地图](knowledge-map.md) | 本章目录：当前页
 <!-- NAV_END -->
 
-这里是金蝶知识库的总入口。当前先以财务模块为主，逐步扩展到供应链、制造、实施、开发、接口、数据和运维。
+
+
+这里是金蝶知识库的总入口。当前知识库按金蝶项目常见工作域组织：业务模块、实施交付、开发扩展、数据报表、接口集成、环境运维和问题库。
 
 ## 核心入口
 
@@ -35,16 +37,16 @@
 4. 涉及版本、补丁、环境、部署，放到 `08_environments-releases/`。
 5. 重要资料链接和出处，统一补到 `90_references/`。
 
-## 当前重点
+## 当前覆盖
 
-- 财务整体框架
-- 供应链采购、销售、库存主流程
-- 生产制造 BOM、MRP、生产订单和成本
-- 实施交付方法
-- BOS/苍穹二开方法
-- 数据模型和 SQL 排查
-- 接口集成和运维发布
-- 问题排查和知识沉淀
+- 财务：总账、应收、应付、出纳、固定资产、月结、报表、案例和常见问题。
+- 供应链：采购、销售、库存、存货核算、业务到财务衔接。
+- 生产制造：BOM、MRP、生产订单、委外和制造成本。
+- 实施交付：调研蓝图、主数据期初、权限内控、测试培训、上线验收。
+- BOS/苍穹开发：项目创建、建模、插件、单据转换、工作流和权限扩展。
+- 数据 SQL：数据模型阅读、财务对账、库存排查、报表指标口径。
+- 接口集成：外部系统集成、接口联调、日志、幂等、重试和对账。
+- 环境运维：环境发布、系统管理员日常、备份恢复、监控巡检、问题处理。
 
 ## 笔记状态
 

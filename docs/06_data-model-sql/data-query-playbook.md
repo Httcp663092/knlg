@@ -3,10 +3,12 @@
 <!-- NAV_START -->
 > **快捷目录**
 >
-> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](../02_supply-chain/README.md) | [开发](../05_development-bos/README.md) | [数据](README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
+> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](../02_supply-chain/README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
-> 上一章：[数据模型与 SQL](README.md) | 下一章：[财务数据模型](finance/README.md) | [本章目录](README.md)
+> 上一章：[数据模型与 SQL](README.md) | 下一章：[金蝶数据模型阅读方法](kingdee-data-model-reading-guide.md) | [本章目录](README.md)
 <!-- NAV_END -->
+
+
 
 这篇用于建立金蝶数据排查和 SQL 取数的基本方法。不同金蝶产品、版本、部署模式、数据库类型和二开都会影响表结构，生产环境绝不能凭经验直接写修改 SQL。
 

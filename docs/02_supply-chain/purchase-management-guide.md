@@ -3,10 +3,12 @@
 <!-- NAV_START -->
 > **快捷目录**
 >
-> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
+> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
 > 上一章：[供应链核心操作教程](supply-chain-core-operation-guide.md) | 下一章：[销售管理详细教程](sales-management-guide.md) | [本章目录](README.md)
 <!-- NAV_END -->
+
+
 
 采购管理的目标，是把企业的采购需求转成可执行、可收货、可对账、可付款、可追溯的业务闭环。金蝶采购不能只看采购订单，还要看供应商、价格、入库、应付、暂估、付款和总账。
 

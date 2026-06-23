@@ -3,10 +3,12 @@
 <!-- NAV_START -->
 > **快捷目录**
 >
-> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](../02_supply-chain/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](README.md) | [资料](../90_references/README.md)
+> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](../02_supply-chain/README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](README.md) | [资料](../90_references/README.md)
 >
-> 上一章：[常见问题库](README.md) | 下一章：[资料与参考](../90_references/README.md) | [本章目录](README.md)
+> 上一章：[全模块高频问题速查](all-module-faq.md) | 下一章：[资料与参考](../90_references/README.md) | [本章目录](README.md)
 <!-- NAV_END -->
+
+
 
 这篇用于快速处理金蝶财务日常高频问题。遇到具体客户环境时，仍要结合产品版本、组织、账簿、会计期间、权限、参数、二开和数据状态验证。
 

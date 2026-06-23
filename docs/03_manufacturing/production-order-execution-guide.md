@@ -3,10 +3,12 @@
 <!-- NAV_START -->
 > **快捷目录**
 >
-> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](../02_supply-chain/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
+> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](../02_supply-chain/README.md) | [制造](README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
 > 上一章：[MRP 与计划管理详细教程](mrp-planning-guide.md) | 下一章：[委外管理详细教程](outsourcing-management-guide.md) | [本章目录](README.md)
 <!-- NAV_END -->
+
+
 
 生产订单是车间执行生产任务的核心单据。金蝶官方生产订单说明里，生产订单由计划部门下达，要求生产车间执行，车间根据生产订单领料、组织生产、调度资源，并支持普通生产、返工、受托加工、联副产品、无 BOM、产品配置等业务。
 

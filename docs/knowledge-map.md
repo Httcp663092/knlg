@@ -3,10 +3,12 @@
 <!-- NAV_START -->
 > **快捷目录**
 >
-> [首页](README.md) | [知识地图](knowledge-map.md) | [财务](01_finance/README.md) | [供应链](02_supply-chain/README.md) | [开发](05_development-bos/README.md) | [数据](06_data-model-sql/README.md) | [集成](07_integrations/README.md) | [运维](09_operations-issues/README.md) | [问题](10_common-questions/README.md) | [资料](90_references/README.md)
+> [首页](README.md) | [知识地图](knowledge-map.md) | [财务](01_finance/README.md) | [供应链](02_supply-chain/README.md) | [制造](03_manufacturing/README.md) | [实施](04_implementation/README.md) | [开发](05_development-bos/README.md) | [数据](06_data-model-sql/README.md) | [集成](07_integrations/README.md) | [运维](09_operations-issues/README.md) | [问题](10_common-questions/README.md) | [资料](90_references/README.md)
 >
 > 上一章：[金蝶个人知识库](README.md) | 下一章：[记录规范](conventions.md) | [本章目录](README.md)
 <!-- NAV_END -->
+
+
 
 这份地图用于快速定位金蝶知识库中的模块、场景和专题。
 
@@ -64,11 +66,11 @@
 
 - [实施方法与交付](04_implementation/README.md)
 - [金蝶实施交付作战手册](04_implementation/implementation-delivery-playbook.md)
-- 调研
-- 蓝图
-- 初始化
-- 上线切换
-- 培训与验收
+- [项目调研与蓝图设计详细教程](04_implementation/project-research-and-blueprint-guide.md)
+- [主数据与初始化详细教程](04_implementation/master-data-and-initialization-guide.md)
+- [权限、角色与内控实施教程](04_implementation/permission-role-control-guide.md)
+- [测试、培训与上线演练教程](04_implementation/testing-training-drill-guide.md)
+- [上线切换、验收与运维移交教程](04_implementation/go-live-acceptance-handover-guide.md)
 
 ## 开发与数据
 
@@ -76,22 +78,33 @@
 - [苍穹开发者工作台与项目创建](05_development-bos/cangqiong-developer-portal-project.md)
 - [苍穹单据与基础资料建模](05_development-bos/cangqiong-business-object-modeling.md)
 - [BOS/苍穹开发实战教程](05_development-bos/bos-development-practice-guide.md)
+- [插件开发、调试与发布教程](05_development-bos/plugin-development-debugging-guide.md)
+- [单据转换、工作流与权限扩展教程](05_development-bos/workflow-bill-conversion-permission-guide.md)
 - [数据模型与 SQL](06_data-model-sql/README.md)
 - [数据模型与 SQL 查询作战手册](06_data-model-sql/data-query-playbook.md)
+- [金蝶数据模型阅读方法](06_data-model-sql/kingdee-data-model-reading-guide.md)
+- [财务对账与 SQL 排查教程](06_data-model-sql/finance-reconciliation-sql-guide.md)
+- [供应链与库存数据排查教程](06_data-model-sql/supply-chain-inventory-sql-guide.md)
+- [报表取数、指标口径与数据分析教程](06_data-model-sql/reporting-metrics-data-analysis-guide.md)
 - [财务数据模型](06_data-model-sql/finance/README.md)
 - [接口与集成](07_integrations/README.md)
 - [金蝶接口集成实施教程](07_integrations/integration-implementation-guide.md)
+- [外部系统集成场景教程](07_integrations/external-system-integration-scenarios.md)
+- [接口联调、监控、重试与对账教程](07_integrations/interface-debugging-monitoring-reconciliation.md)
 - [AI 文档分类与结构化提取](07_integrations/ai-document-classification.md)
 
 ## 环境与运维
 
 - [环境、发布和版本](08_environments-releases/README.md)
 - [环境、版本与发布运维手册](08_environments-releases/environment-release-ops-guide.md)
+- [系统管理员日常运维教程](08_environments-releases/system-admin-daily-ops-guide.md)
+- [备份、恢复、监控与性能巡检教程](08_environments-releases/backup-restore-monitoring-guide.md)
 - [苍穹数据清理服务](08_environments-releases/cangqiong-data-cleaning.md)
 - [苍穹水平分库](08_environments-releases/cangqiong-horizontal-sharding.md)
 - [运维与问题库](09_operations-issues/README.md)
 - [问题排查与运维处理手册](09_operations-issues/issue-triage-and-operations-playbook.md)
 - [常见问题库](10_common-questions/README.md)
+- [全模块高频问题速查](10_common-questions/all-module-faq.md)
 - [财务高频问题](10_common-questions/finance-faq.md)
 
 ## 资料与模板

@@ -3,14 +3,20 @@
 <!-- NAV_START -->
 > **快捷目录**
 >
-> [首页](../../README.md) | [知识地图](../../knowledge-map.md) | [财务](../../01_finance/README.md) | [供应链](../../02_supply-chain/README.md) | [开发](../../05_development-bos/README.md) | [数据](../README.md) | [集成](../../07_integrations/README.md) | [运维](../../09_operations-issues/README.md) | [问题](../../10_common-questions/README.md) | [资料](../../90_references/README.md)
+> [首页](../../README.md) | [知识地图](../../knowledge-map.md) | [财务](../../01_finance/README.md) | [供应链](../../02_supply-chain/README.md) | [制造](../../03_manufacturing/README.md) | [实施](../../04_implementation/README.md) | [开发](../../05_development-bos/README.md) | [数据](../README.md) | [集成](../../07_integrations/README.md) | [运维](../../09_operations-issues/README.md) | [问题](../../10_common-questions/README.md) | [资料](../../90_references/README.md)
 >
-> 上一章：[数据模型与 SQL 查询作战手册](../data-query-playbook.md) | 下一章：[接口与集成](../../07_integrations/README.md) | 本章目录：当前页
+> 上一章：[报表取数、指标口径与数据分析教程](../reporting-metrics-data-analysis-guide.md) | 下一章：[接口与集成](../../07_integrations/README.md) | 本章目录：当前页
 <!-- NAV_END -->
 
-这里先作为财务数据和 SQL 的索引，后续可以逐步补充具体表、字段和查询语句。
 
-## 后续补充方向
+
+这里作为财务数据和 SQL 的专题索引。财务取数不能只追求“查出来”，更要能说明口径、期间、账簿、组织、币别、凭证状态和业务来源。
+
+## 已整理内容
+
+- [财务对账与 SQL 排查教程](../finance-reconciliation-sql-guide.md)
+
+## 核心对象
 
 - 总账凭证相关表
 - 科目和核算维度

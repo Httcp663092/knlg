@@ -3,10 +3,12 @@
 <!-- NAV_START -->
 > **快捷目录**
 >
-> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](../02_supply-chain/README.md) | [开发](README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
+> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](../02_supply-chain/README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
-> 上一章：[苍穹单据与基础资料建模](cangqiong-business-object-modeling.md) | 下一章：[数据模型与 SQL](../06_data-model-sql/README.md) | [本章目录](README.md)
+> 上一章：[苍穹单据与基础资料建模](cangqiong-business-object-modeling.md) | 下一章：[插件开发、调试与发布教程](plugin-development-debugging-guide.md) | [本章目录](README.md)
 <!-- NAV_END -->
+
+
 
 这篇用于沉淀金蝶 BOS/苍穹二开的实战方法。目标不是只知道“能写插件”，而是知道什么时候该配置、什么时候该扩展、什么时候该写插件，以及如何保证二开不破坏业务和财务闭环。
 

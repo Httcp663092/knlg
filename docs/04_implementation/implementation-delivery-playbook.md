@@ -3,10 +3,12 @@
 <!-- NAV_START -->
 > **快捷目录**
 >
-> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](../02_supply-chain/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
+> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](../02_supply-chain/README.md) | [制造](../03_manufacturing/README.md) | [实施](README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
-> 上一章：[实施方法与交付](README.md) | 下一章：[BOS/插件/二开](../05_development-bos/README.md) | [本章目录](README.md)
+> 上一章：[实施方法与交付](README.md) | 下一章：[项目调研与蓝图设计详细教程](project-research-and-blueprint-guide.md) | [本章目录](README.md)
 <!-- NAV_END -->
+
+
 
 这篇用于把金蝶项目从“能开会”推进到“能上线、能验收、能运维”。实施不是简单配置系统，而是把客户业务、系统功能、数据口径、岗位职责和上线风险组织成一套可落地方案。
 
