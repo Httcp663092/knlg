@@ -10,6 +10,7 @@
 
 
 
+
 这里用于沉淀金蝶供应链模块知识。
 
 ## 已整理内容
@@ -20,6 +21,9 @@
 - [库存管理详细教程](inventory-management-guide.md)
 - [存货核算详细教程](inventory-costing-guide.md)
 - [物料库存信息](material-inventory-info.md)
+- [组织间结算详细教程](intercompany-settlement-guide.md)
+- [条码与移动仓库作业教程](barcode-mobile-warehouse-guide.md)
+- [供应商协同与采购门户教程](supplier-collaboration-guide.md)
 
 ## 学习顺序
 
@@ -29,10 +33,12 @@
 4. [库存管理详细教程](inventory-management-guide.md)
 5. [存货核算详细教程](inventory-costing-guide.md)
 6. [物料库存信息](material-inventory-info.md)
+7. [组织间结算详细教程](intercompany-settlement-guide.md)
+8. [条码与移动仓库作业教程](barcode-mobile-warehouse-guide.md)
+9. [供应商协同与采购门户教程](supplier-collaboration-guide.md)
 
 ## 后续继续加厚方向
 
-- 组织间结算、条码管理、供应商协同。
 - 采购价格、销售信用、批号保质期、盘点、暂估等专题继续独立加深。
 
 ## 和财务的关系

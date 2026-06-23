@@ -10,6 +10,7 @@
 
 
 
+
 这里沉淀金蝶财务模块知识。当前内容以金蝶云·星空公开产品手册和通用实施经验为基础，后续可以根据你的实际环境继续补充截图、菜单路径、参数差异和 SQL。
 
 ## 学习顺序
@@ -35,9 +36,11 @@
 19. [月结流程](month-end-close.md)
 20. [月结作战手册](month-end-close-playbook.md)
 21. [财务报表与对账](finance-reports.md)
-22. [财务案例库](finance-case-library.md)
-23. [财务常见问题](common-issues.md)
-24. [财务术语](terms.md)
+22. [税务发票管理教程](tax-invoice-management-guide.md)
+23. [电子会计档案与附件归档教程](electronic-accounting-archive-guide.md)
+24. [财务案例库](finance-case-library.md)
+25. [财务常见问题](common-issues.md)
+26. [财务术语](terms.md)
 
 ## 问题查询入口
 
@@ -80,3 +83,4 @@
 - 金蝶财务配置：组织、账簿、科目、核算维度、凭证模板、初始化、报表和权限。
 - 财务内控：职责分离、手工凭证治理、反审核反结账控制、月结证据包。
 - 日常操作手册：总账凭证、应收收款核销、应付付款核销、出纳、固定资产、报表查询和月结前检查。
+- 税务发票和电子档案：发票匹配、红冲、附件、凭证归档和审计追溯。

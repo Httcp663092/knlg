@@ -10,6 +10,7 @@
 
 
 
+
 这份地图用于快速定位金蝶知识库中的模块、场景和专题。
 
 ## 财务会计
@@ -36,6 +37,8 @@
 - [月结流程](01_finance/month-end-close.md)
 - [月结作战手册](01_finance/month-end-close-playbook.md)
 - [财务报表与对账](01_finance/finance-reports.md)
+- [税务发票管理教程](01_finance/tax-invoice-management-guide.md)
+- [电子会计档案与附件归档教程](01_finance/electronic-accounting-archive-guide.md)
 - [财务案例库](01_finance/finance-case-library.md)
 - [财务常见问题](01_finance/common-issues.md)
 - [财务术语](01_finance/terms.md)
@@ -49,7 +52,9 @@
 - [库存管理详细教程](02_supply-chain/inventory-management-guide.md)
 - [存货核算详细教程](02_supply-chain/inventory-costing-guide.md)
 - [物料库存信息](02_supply-chain/material-inventory-info.md)
-- 组织间结算、条码管理、供应商协同
+- [组织间结算详细教程](02_supply-chain/intercompany-settlement-guide.md)
+- [条码与移动仓库作业教程](02_supply-chain/barcode-mobile-warehouse-guide.md)
+- [供应商协同与采购门户教程](02_supply-chain/supplier-collaboration-guide.md)
 
 ## 生产制造
 
@@ -60,7 +65,9 @@
 - [生产订单执行详细教程](03_manufacturing/production-order-execution-guide.md)
 - [委外管理详细教程](03_manufacturing/outsourcing-management-guide.md)
 - [制造成本核算详细教程](03_manufacturing/manufacturing-costing-guide.md)
-- 车间管理、质量管理、设备管理
+- [车间执行与报工教程](03_manufacturing/shop-floor-execution-guide.md)
+- [质量管理详细教程](03_manufacturing/quality-management-guide.md)
+- [设备管理与维护教程](03_manufacturing/equipment-maintenance-guide.md)
 
 ## 实施交付
 
