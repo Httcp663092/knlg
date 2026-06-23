@@ -5,8 +5,9 @@
 >
 > [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](README.md) | [供应链](../02_supply-chain/README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
-> 上一章：[财务基础入门：结合金蝶理解](finance-basics-for-kingdee.md) | 下一章：[金蝶财务配置指南](kingdee-finance-configuration-guide.md) | [本章目录](README.md)
+> 上一章：[科目体系与核算维度设计教程](chart-of-accounts-dimensions-guide.md) | 下一章：[金蝶财务配置指南](kingdee-finance-configuration-guide.md) | [本章目录](README.md)
 <!-- NAV_END -->
+
 
 
 

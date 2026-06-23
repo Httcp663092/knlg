@@ -5,8 +5,9 @@
 >
 > [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](README.md) | [供应链](../02_supply-chain/README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
-> 上一章：[财务报表与对账](finance-reports.md) | 下一章：[电子会计档案与附件归档教程](electronic-accounting-archive-guide.md) | [本章目录](README.md)
+> 上一章：[三大报表与财务分析教程](financial-statement-analysis-guide.md) | 下一章：[电子会计档案与附件归档教程](electronic-accounting-archive-guide.md) | [本章目录](README.md)
 <!-- NAV_END -->
+
 
 
 税务发票管理连接业务、税务、应收应付、总账和档案。金蝶项目中，发票不是孤立单据：销售发票影响应收和收入确认，采购发票影响应付、进项税和暂估冲回；红字发票、折扣、跨期开票、发票匹配都会影响月结和对账。

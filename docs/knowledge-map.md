@@ -11,6 +11,7 @@
 
 
 
+
 这份地图用于快速定位金蝶知识库中的模块、场景和专题。
 
 ## 财务会计
@@ -18,8 +19,11 @@
 - [财务知识区](01_finance/README.md)
 - [财务模块地图](01_finance/finance-module-map.md)
 - [财务基础入门：结合金蝶理解](01_finance/finance-basics-for-kingdee.md)
+- [会计循环与金蝶系统落地教程](01_finance/accounting-cycle-kingdee-guide.md)
+- [科目体系与核算维度设计教程](01_finance/chart-of-accounts-dimensions-guide.md)
 - [财务理论到金蝶系统映射](01_finance/finance-theory-to-kingdee-system.md)
 - [金蝶财务配置指南](01_finance/kingdee-finance-configuration-guide.md)
+- [多组织、多账簿与集团核算教程](01_finance/multi-org-multi-book-accounting-guide.md)
 - [财务内控与审计检查清单](01_finance/finance-control-and-audit-checklist.md)
 - [金蝶财务日常操作手册](01_finance/finance-daily-operation-guide.md)
 - [财务实操场景：从业务单据到凭证报表](01_finance/finance-operation-scenarios.md)
@@ -32,11 +36,15 @@
 - [应收款管理](01_finance/accounts-receivable.md)
 - [应付款管理](01_finance/accounts-payable.md)
 - [应收应付对账实务](01_finance/ar-ap-reconciliation-playbook.md)
+- [财务全链路对账教程](01_finance/reconciliation-master-guide.md)
 - [出纳与资金](01_finance/cashier-and-funds.md)
 - [固定资产](01_finance/fixed-assets.md)
+- [预算、费用与控制教程](01_finance/budget-expense-control-guide.md)
 - [月结流程](01_finance/month-end-close.md)
 - [月结作战手册](01_finance/month-end-close-playbook.md)
 - [财务报表与对账](01_finance/finance-reports.md)
+- [现金流量表与现金流项目教程](01_finance/cash-flow-statement-guide.md)
+- [三大报表与财务分析教程](01_finance/financial-statement-analysis-guide.md)
 - [税务发票管理教程](01_finance/tax-invoice-management-guide.md)
 - [电子会计档案与附件归档教程](01_finance/electronic-accounting-archive-guide.md)
 - [财务案例库](01_finance/finance-case-library.md)
