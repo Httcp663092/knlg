@@ -12,6 +12,7 @@
 
 
 
+
 这里用于沉淀金蝶环境、版本、补丁、发布和部署记录。
 
 ## 已整理内容
@@ -19,6 +20,7 @@
 - [环境、版本与发布运维手册](environment-release-ops-guide.md)
 - [系统管理员日常运维教程](system-admin-daily-ops-guide.md)
 - [备份、恢复、监控与性能巡检教程](backup-restore-monitoring-guide.md)
+- [系统管理、安全权限与业务监控官方资料精读](security-monitoring-official-source-digest.md)
 - [苍穹数据清理服务](cangqiong-data-cleaning.md)
 - [苍穹水平分库](cangqiong-horizontal-sharding.md)
 

@@ -12,6 +12,7 @@
 
 
 
+
 这里用于沉淀金蝶 BOS、插件、表单扩展、服务插件、操作插件和二开相关内容。
 
 ## 已整理内容
@@ -21,6 +22,7 @@
 - [BOS/苍穹开发实战教程](bos-development-practice-guide.md)
 - [插件开发、调试与发布教程](plugin-development-debugging-guide.md)
 - [单据转换、工作流与权限扩展教程](workflow-bill-conversion-permission-guide.md)
+- [BOS、业务流程与低代码官方资料精读](bos-workflow-official-source-digest.md)
 
 ## 推荐内容
 

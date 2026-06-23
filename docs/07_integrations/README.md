@@ -12,6 +12,7 @@
 
 
 
+
 这里用于沉淀金蝶与外部系统集成的资料。
 
 ## 已整理内容
@@ -19,6 +20,7 @@
 - [金蝶接口集成实施教程](integration-implementation-guide.md)
 - [外部系统集成场景教程](external-system-integration-scenarios.md)
 - [接口联调、监控、重试与对账教程](interface-debugging-monitoring-reconciliation.md)
+- [WebAPI、集成平台与安全参数官方资料精读](webapi-integration-official-source-digest.md)
 - [AI 文档分类与结构化提取](ai-document-classification.md)
 
 ## 覆盖范围

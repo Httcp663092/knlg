@@ -12,6 +12,7 @@
 
 
 
+
 这里用于沉淀金蝶供应链模块知识。
 
 ## 已整理内容
@@ -25,6 +26,7 @@
 - [组织间结算详细教程](intercompany-settlement-guide.md)
 - [条码与移动仓库作业教程](barcode-mobile-warehouse-guide.md)
 - [供应商协同与采购门户教程](supplier-collaboration-guide.md)
+- [供应链官方资料精读：协同、主数据和监控](supply-chain-official-source-digest.md)
 
 ## 学习顺序
 
@@ -37,6 +39,7 @@
 7. [组织间结算详细教程](intercompany-settlement-guide.md)
 8. [条码与移动仓库作业教程](barcode-mobile-warehouse-guide.md)
 9. [供应商协同与采购门户教程](supplier-collaboration-guide.md)
+10. [供应链官方资料精读：协同、主数据和监控](supply-chain-official-source-digest.md)
 
 ## 后续继续加厚方向
 

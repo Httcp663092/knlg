@@ -12,6 +12,7 @@
 
 
 
+
 这份地图用于快速定位金蝶知识库中的模块、场景和专题。
 
 ## 财务会计
@@ -63,6 +64,7 @@
 - [组织间结算详细教程](02_supply-chain/intercompany-settlement-guide.md)
 - [条码与移动仓库作业教程](02_supply-chain/barcode-mobile-warehouse-guide.md)
 - [供应商协同与采购门户教程](02_supply-chain/supplier-collaboration-guide.md)
+- [供应链官方资料精读：协同、主数据和监控](02_supply-chain/supply-chain-official-source-digest.md)
 
 ## 生产制造
 
@@ -76,6 +78,7 @@
 - [车间执行与报工教程](03_manufacturing/shop-floor-execution-guide.md)
 - [质量管理详细教程](03_manufacturing/quality-management-guide.md)
 - [设备管理与维护教程](03_manufacturing/equipment-maintenance-guide.md)
+- [制造模块官方资料精读](03_manufacturing/manufacturing-official-source-digest.md)
 
 ## 实施交付
 
@@ -95,6 +98,7 @@
 - [BOS/苍穹开发实战教程](05_development-bos/bos-development-practice-guide.md)
 - [插件开发、调试与发布教程](05_development-bos/plugin-development-debugging-guide.md)
 - [单据转换、工作流与权限扩展教程](05_development-bos/workflow-bill-conversion-permission-guide.md)
+- [BOS、业务流程与低代码官方资料精读](05_development-bos/bos-workflow-official-source-digest.md)
 - [数据模型与 SQL](06_data-model-sql/README.md)
 - [数据模型与 SQL 查询作战手册](06_data-model-sql/data-query-playbook.md)
 - [金蝶数据模型阅读方法](06_data-model-sql/kingdee-data-model-reading-guide.md)
@@ -106,6 +110,7 @@
 - [金蝶接口集成实施教程](07_integrations/integration-implementation-guide.md)
 - [外部系统集成场景教程](07_integrations/external-system-integration-scenarios.md)
 - [接口联调、监控、重试与对账教程](07_integrations/interface-debugging-monitoring-reconciliation.md)
+- [WebAPI、集成平台与安全参数官方资料精读](07_integrations/webapi-integration-official-source-digest.md)
 - [AI 文档分类与结构化提取](07_integrations/ai-document-classification.md)
 
 ## 环境与运维
@@ -114,6 +119,7 @@
 - [环境、版本与发布运维手册](08_environments-releases/environment-release-ops-guide.md)
 - [系统管理员日常运维教程](08_environments-releases/system-admin-daily-ops-guide.md)
 - [备份、恢复、监控与性能巡检教程](08_environments-releases/backup-restore-monitoring-guide.md)
+- [系统管理、安全权限与业务监控官方资料精读](08_environments-releases/security-monitoring-official-source-digest.md)
 - [苍穹数据清理服务](08_environments-releases/cangqiong-data-cleaning.md)
 - [苍穹水平分库](08_environments-releases/cangqiong-horizontal-sharding.md)
 - [运维与问题库](09_operations-issues/README.md)
@@ -126,5 +132,6 @@
 
 - [官方资料链接](90_references/official-links.md)
 - [金蝶开发者官网资料索引](90_references/developer-kingdee-product-87.md)
+- [外部资料精读索引](90_references/external-source-digests.md)
 - [模板](98_templates/README.md)
 - [归档](99_archive/README.md)

@@ -5,8 +5,9 @@
 >
 > [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](../02_supply-chain/README.md) | [制造](README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
-> 上一章：[供应商协同与采购门户教程](../02_supply-chain/supplier-collaboration-guide.md) | 下一章：[生产制造核心教程](manufacturing-core-guide.md) | 本章目录：当前页
+> 上一章：[供应链官方资料精读：协同、主数据和监控](../02_supply-chain/supply-chain-official-source-digest.md) | 下一章：[生产制造核心教程](manufacturing-core-guide.md) | 本章目录：当前页
 <!-- NAV_END -->
+
 
 
 
@@ -25,6 +26,7 @@
 - [车间执行与报工教程](shop-floor-execution-guide.md)
 - [质量管理详细教程](quality-management-guide.md)
 - [设备管理与维护教程](equipment-maintenance-guide.md)
+- [制造模块官方资料精读](manufacturing-official-source-digest.md)
 
 ## 学习顺序
 
@@ -37,6 +39,7 @@
 7. [车间执行与报工教程](shop-floor-execution-guide.md)
 8. [质量管理详细教程](quality-management-guide.md)
 9. [设备管理与维护教程](equipment-maintenance-guide.md)
+10. [制造模块官方资料精读](manufacturing-official-source-digest.md)
 
 ## 后续继续加厚方向
 

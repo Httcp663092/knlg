@@ -12,12 +12,14 @@
 
 
 
+
 这里存放金蝶官方资料、社区文章、产品手册、外部教程和个人收藏链接。
 
 ## 入口
 
 - [官方资料链接](official-links.md)
 - [金蝶开发者官网资料索引](developer-kingdee-product-87.md)
+- [外部资料精读索引](external-source-digests.md)
 
 ## 记录规则
 
