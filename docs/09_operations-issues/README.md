@@ -3,7 +3,7 @@
 <!-- NAV_START -->
 > **快捷目录**
 >
-> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](../02_supply-chain/README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
+> [界面首页](../../index.html) | [文档首页](../README.md) | [知识地图](../knowledge-map.md) | [学习路径](../learning-paths.md) | [财务](../01_finance/README.md) | [供应链](../02_supply-chain/README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
 > 上一章：[苍穹水平分库](../08_environments-releases/cangqiong-horizontal-sharding.md) | 下一章：[问题排查与运维处理手册](issue-triage-and-operations-playbook.md) | 本章目录：当前页
 <!-- NAV_END -->
@@ -50,6 +50,18 @@
 ## 高频问题入口
 
 - [问题排查与运维处理手册](issue-triage-and-operations-playbook.md)
+- [全模块问题案例库](operations-case-library.md)
 - [常见问题库](../10_common-questions/README.md)
 - [财务高频问题](../10_common-questions/finance-faq.md)
 - [财务常见问题专项页](../01_finance/common-issues.md)
+
+## 当前已整理案例
+
+- 应收明细和总账客户余额不一致。
+- 采购入库已完成但暂估或存货凭证没有生成。
+- 库存数量正确但存货余额和总账不一致。
+- MRP 没有生成采购建议或生产建议。
+- WebAPI 调用成功但生成重复单据。
+- 用户能看到菜单但打开单据没有数据。
+- 补丁或二开发布后凭证模板异常。
+- 报表查询越来越慢。

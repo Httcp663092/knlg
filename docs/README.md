@@ -3,7 +3,7 @@
 <!-- NAV_START -->
 > **快捷目录**
 >
-> [首页](README.md) | [知识地图](knowledge-map.md) | [财务](01_finance/README.md) | [供应链](02_supply-chain/README.md) | [制造](03_manufacturing/README.md) | [实施](04_implementation/README.md) | [开发](05_development-bos/README.md) | [数据](06_data-model-sql/README.md) | [集成](07_integrations/README.md) | [运维](09_operations-issues/README.md) | [问题](10_common-questions/README.md) | [资料](90_references/README.md)
+> [界面首页](../index.html) | [文档首页](README.md) | [知识地图](knowledge-map.md) | [学习路径](learning-paths.md) | [财务](01_finance/README.md) | [供应链](02_supply-chain/README.md) | [制造](03_manufacturing/README.md) | [实施](04_implementation/README.md) | [开发](05_development-bos/README.md) | [数据](06_data-model-sql/README.md) | [集成](07_integrations/README.md) | [运维](09_operations-issues/README.md) | [问题](10_common-questions/README.md) | [资料](90_references/README.md)
 >
 > 上一章：[knlg](../README.md) | 下一章：[金蝶知识地图](knowledge-map.md) | 本章目录：当前页
 <!-- NAV_END -->
@@ -18,6 +18,7 @@
 ## 核心入口
 
 - [知识地图](knowledge-map.md)：从模块和场景角度查看全库。
+- [学习路径](learning-paths.md)：按财务、实施、供应链、制造、开发、数据、运维等角色安排学习和练习。
 - [记录规范](conventions.md)：统一笔记格式、状态、标签和维护规则。
 - [财务知识区](01_finance/README.md)：总账、应收、应付、出纳、固定资产、月结和报表。
 - [供应链知识区](02_supply-chain/README.md)：采购、销售、库存、存货核算和业财衔接。
@@ -28,6 +29,7 @@
 - [接口与集成](07_integrations/README.md)：AI 文档分类、OpenAPI、外部系统集成。
 - [环境、发布和版本](08_environments-releases/README.md)：数据清理、水平分库、环境和补丁。
 - [运维与问题库](09_operations-issues/README.md)：问题现象、根因、处理方案。
+- [全模块问题案例库](09_operations-issues/operations-case-library.md)：按完整处理过程沉淀财务、供应链、制造、接口、权限、性能等案例。
 - [常见问题库](10_common-questions/README.md)：高频问答、快速判断和排查入口。
 - [官方资料链接](90_references/official-links.md)：金蝶官方手册、社区和产品资料。
 - [模板](98_templates/README.md)：知识笔记、问题处理、实施记录和 SQL 记录模板。
@@ -39,6 +41,7 @@
 3. 涉及表结构、SQL、取数口径，放到 `06_data-model-sql/`。
 4. 涉及版本、补丁、环境、部署，放到 `08_environments-releases/`。
 5. 重要资料链接和出处，统一补到 `90_references/`。
+6. 新人学习、岗位培训和阶段计划，统一沉淀到 `learning-paths.md`。
 
 ## 当前覆盖
 
@@ -50,6 +53,8 @@
 - 数据 SQL：数据模型阅读、财务对账、库存排查、报表指标口径。
 - 接口集成：外部系统集成、接口联调、日志、幂等、重试和对账。
 - 环境运维：环境发布、系统管理员日常、备份恢复、监控巡检、问题处理。
+- 学习路径：财务新人、实施顾问、供应链顾问、制造顾问、BOS 开发、数据 SQL、接口运维的 30/60/90 天路线。
+- 问题案例：应收总账差异、存货对账、MRP、接口重复单、权限、发布后凭证异常、报表性能等全模块案例。
 
 ## 笔记状态
 

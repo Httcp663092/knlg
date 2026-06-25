@@ -3,7 +3,7 @@
 <!-- NAV_START -->
 > **快捷目录**
 >
-> [首页](docs/README.md) | [知识地图](docs/knowledge-map.md) | [财务](docs/01_finance/README.md) | [供应链](docs/02_supply-chain/README.md) | [制造](docs/03_manufacturing/README.md) | [实施](docs/04_implementation/README.md) | [开发](docs/05_development-bos/README.md) | [数据](docs/06_data-model-sql/README.md) | [集成](docs/07_integrations/README.md) | [运维](docs/09_operations-issues/README.md) | [问题](docs/10_common-questions/README.md) | [资料](docs/90_references/README.md)
+> [界面首页](index.html) | [文档首页](docs/README.md) | [知识地图](docs/knowledge-map.md) | [学习路径](docs/learning-paths.md) | [财务](docs/01_finance/README.md) | [供应链](docs/02_supply-chain/README.md) | [制造](docs/03_manufacturing/README.md) | [实施](docs/04_implementation/README.md) | [开发](docs/05_development-bos/README.md) | [数据](docs/06_data-model-sql/README.md) | [集成](docs/07_integrations/README.md) | [运维](docs/09_operations-issues/README.md) | [问题](docs/10_common-questions/README.md) | [资料](docs/90_references/README.md)
 >
 > 上一章：无 | 下一章：[金蝶个人知识库](docs/README.md) | 本章目录：当前页
 <!-- NAV_END -->
@@ -19,8 +19,10 @@
 
 ## 快速入口
 
+- [本地可视化首页](index.html)：适合本地直接打开，支持模块卡片、学习路线和搜索筛选。
 - [知识库首页](docs/README.md)
 - [知识地图](docs/knowledge-map.md)
+- [学习路径](docs/learning-paths.md)
 - [记录规范](docs/conventions.md)
 - [财务知识区](docs/01_finance/README.md)
 - [供应链知识区](docs/02_supply-chain/README.md)
@@ -35,6 +37,7 @@
 - [常见问题库](docs/10_common-questions/README.md)
 - [财务高频问题](docs/10_common-questions/finance-faq.md)
 - [财务常见问题专项页](docs/01_finance/common-issues.md)
+- [全模块问题案例库](docs/09_operations-issues/operations-case-library.md)
 - [官方资料链接](docs/90_references/official-links.md)
 - [笔记模板](docs/98_templates/README.md)
 
@@ -71,4 +74,5 @@ docs/
 - 高频短问题沉淀到 `docs/10_common-questions/`。
 - 具体问题处理过程沉淀到 `docs/09_operations-issues/`，稳定后反哺模块文档。
 - SQL、表结构、取数口径沉淀到 `docs/06_data-model-sql/`。
+- 角色学习、培训路线和新人上手路径沉淀到 `docs/learning-paths.md`。
 - 每周整理一次 inbox，每月更新一次知识地图。

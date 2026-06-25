@@ -3,9 +3,9 @@
 <!-- NAV_START -->
 > **快捷目录**
 >
-> [首页](README.md) | [知识地图](knowledge-map.md) | [财务](01_finance/README.md) | [供应链](02_supply-chain/README.md) | [制造](03_manufacturing/README.md) | [实施](04_implementation/README.md) | [开发](05_development-bos/README.md) | [数据](06_data-model-sql/README.md) | [集成](07_integrations/README.md) | [运维](09_operations-issues/README.md) | [问题](10_common-questions/README.md) | [资料](90_references/README.md)
+> [界面首页](../index.html) | [文档首页](README.md) | [知识地图](knowledge-map.md) | [学习路径](learning-paths.md) | [财务](01_finance/README.md) | [供应链](02_supply-chain/README.md) | [制造](03_manufacturing/README.md) | [实施](04_implementation/README.md) | [开发](05_development-bos/README.md) | [数据](06_data-model-sql/README.md) | [集成](07_integrations/README.md) | [运维](09_operations-issues/README.md) | [问题](10_common-questions/README.md) | [资料](90_references/README.md)
 >
-> 上一章：[金蝶个人知识库](README.md) | 下一章：[记录规范](conventions.md) | [本章目录](README.md)
+> 上一章：[金蝶个人知识库](README.md) | 下一章：[金蝶知识库学习路径](learning-paths.md) | [本章目录](README.md)
 <!-- NAV_END -->
 
 
@@ -14,6 +14,12 @@
 
 
 这份地图用于快速定位金蝶知识库中的模块、场景和专题。
+
+## 总入口和学习路径
+
+- [金蝶个人知识库](README.md)
+- [学习路径](learning-paths.md)
+- [记录规范](conventions.md)
 
 ## 财务会计
 
@@ -124,6 +130,7 @@
 - [苍穹水平分库](08_environments-releases/cangqiong-horizontal-sharding.md)
 - [运维与问题库](09_operations-issues/README.md)
 - [问题排查与运维处理手册](09_operations-issues/issue-triage-and-operations-playbook.md)
+- [全模块问题案例库](09_operations-issues/operations-case-library.md)
 - [常见问题库](10_common-questions/README.md)
 - [全模块高频问题速查](10_common-questions/all-module-faq.md)
 - [财务高频问题](10_common-questions/finance-faq.md)

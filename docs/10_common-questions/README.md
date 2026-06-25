@@ -3,9 +3,9 @@
 <!-- NAV_START -->
 > **快捷目录**
 >
-> [首页](../README.md) | [知识地图](../knowledge-map.md) | [财务](../01_finance/README.md) | [供应链](../02_supply-chain/README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](README.md) | [资料](../90_references/README.md)
+> [界面首页](../../index.html) | [文档首页](../README.md) | [知识地图](../knowledge-map.md) | [学习路径](../learning-paths.md) | [财务](../01_finance/README.md) | [供应链](../02_supply-chain/README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](README.md) | [资料](../90_references/README.md)
 >
-> 上一章：[问题排查与运维处理手册](../09_operations-issues/issue-triage-and-operations-playbook.md) | 下一章：[全模块高频问题速查](all-module-faq.md) | 本章目录：当前页
+> 上一章：[全模块问题案例库](../09_operations-issues/operations-case-library.md) | 下一章：[全模块高频问题速查](all-module-faq.md) | 本章目录：当前页
 <!-- NAV_END -->
 
 
@@ -27,6 +27,7 @@
 - [财务高频问题](finance-faq.md)
 - [财务常见问题专项页](../01_finance/common-issues.md)
 - [财务案例库](../01_finance/finance-case-library.md)
+- [全模块问题案例库](../09_operations-issues/operations-case-library.md)
 - [凭证生成与常见分录](../01_finance/voucher-generation-and-entries.md)
 - [月结作战手册](../01_finance/month-end-close-playbook.md)
 

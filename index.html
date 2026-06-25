@@ -1,0 +1,1054 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>金蝶个人知识库</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --panel-strong: #f0f5f4;
+      --text: #16212b;
+      --muted: #5d6b78;
+      --line: #d9e0e6;
+      --line-strong: #b7c5ce;
+      --accent: #236d63;
+      --accent-2: #365f91;
+      --accent-3: #a86420;
+      --danger: #9a3d33;
+      --shadow: 0 16px 38px rgba(22, 33, 43, 0.08);
+      --radius: 8px;
+      font-family: "Microsoft YaHei", "PingFang SC", "Segoe UI", Arial, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      letter-spacing: 0;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--accent);
+    }
+
+    .shell {
+      display: grid;
+      grid-template-columns: 260px minmax(0, 1fr);
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      padding: 24px 18px;
+      border-right: 1px solid var(--line);
+      background: #ffffff;
+      overflow: auto;
+    }
+
+    .brand {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      padding-bottom: 22px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand-mark {
+      display: grid;
+      place-items: center;
+      width: 42px;
+      height: 42px;
+      border: 1px solid var(--line-strong);
+      border-radius: var(--radius);
+      background: var(--panel-strong);
+      color: var(--accent);
+      font-weight: 800;
+    }
+
+    .brand h1 {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.25;
+    }
+
+    .brand p {
+      margin: 3px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .nav-section {
+      margin-top: 24px;
+    }
+
+    .nav-title {
+      margin: 0 0 10px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .nav-list {
+      display: grid;
+      gap: 6px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .nav-list a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 36px;
+      padding: 8px 10px;
+      border-radius: var(--radius);
+      color: #24313c;
+      font-size: 14px;
+    }
+
+    .nav-list a:hover {
+      background: #eef3f2;
+      color: var(--accent);
+    }
+
+    .nav-list span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .main {
+      min-width: 0;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 16px;
+      align-items: center;
+      padding: 18px 28px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(246, 247, 249, 0.94);
+      backdrop-filter: blur(14px);
+    }
+
+    .search-wrap {
+      position: relative;
+      max-width: 720px;
+    }
+
+    .search-wrap input {
+      width: 100%;
+      min-height: 44px;
+      padding: 0 16px 0 42px;
+      border: 1px solid var(--line-strong);
+      border-radius: var(--radius);
+      background: #ffffff;
+      color: var(--text);
+      font-size: 15px;
+      outline: none;
+    }
+
+    .search-wrap input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(35, 109, 99, 0.12);
+    }
+
+    .search-wrap svg {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      width: 18px;
+      height: 18px;
+      transform: translateY(-50%);
+      color: var(--muted);
+    }
+
+    .top-actions {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      white-space: nowrap;
+    }
+
+    .action-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      padding: 0 12px;
+      border: 1px solid var(--line-strong);
+      border-radius: var(--radius);
+      background: #ffffff;
+      color: #273642;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .action-link.primary {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: #ffffff;
+    }
+
+    .content {
+      padding: 28px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+      gap: 22px;
+      align-items: stretch;
+      margin-bottom: 24px;
+    }
+
+    .intro {
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #ffffff;
+      box-shadow: var(--shadow);
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .intro h2 {
+      max-width: 780px;
+      margin: 0;
+      font-size: clamp(28px, 4vw, 46px);
+      line-height: 1.12;
+      font-weight: 850;
+    }
+
+    .intro p {
+      max-width: 760px;
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    .quick-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 24px;
+    }
+
+    .quick-row a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 38px;
+      padding: 0 12px;
+      border: 1px solid var(--line-strong);
+      border-radius: var(--radius);
+      background: #fafbfc;
+      color: #263743;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .quick-row a:hover {
+      border-color: var(--accent);
+      background: #edf5f2;
+    }
+
+    .flow-panel {
+      display: grid;
+      gap: 14px;
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #ffffff;
+      box-shadow: var(--shadow);
+    }
+
+    .flow-title {
+      margin: 0;
+      font-size: 15px;
+      font-weight: 800;
+    }
+
+    .flow {
+      display: grid;
+      gap: 10px;
+    }
+
+    .flow-step {
+      display: grid;
+      grid-template-columns: 34px minmax(0, 1fr);
+      gap: 10px;
+      align-items: start;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fafafa;
+    }
+
+    .flow-step strong {
+      display: block;
+      margin-bottom: 4px;
+      font-size: 14px;
+    }
+
+    .flow-step span {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .flow-index {
+      display: grid;
+      place-items: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: #e5efec;
+      color: var(--accent);
+      font-weight: 800;
+      font-size: 13px;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+
+    .stat {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #ffffff;
+    }
+
+    .stat strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 24px;
+      color: var(--accent-2);
+    }
+
+    .stat span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .section {
+      margin-top: 30px;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: end;
+      margin-bottom: 14px;
+    }
+
+    .section-head h2 {
+      margin: 0;
+      font-size: 22px;
+    }
+
+    .section-head p {
+      max-width: 680px;
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .filter {
+      min-height: 34px;
+      padding: 0 10px;
+      border: 1px solid var(--line-strong);
+      border-radius: var(--radius);
+      background: #ffffff;
+      color: #324250;
+      font: inherit;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .filter.active {
+      border-color: var(--accent);
+      background: #e7f1ee;
+      color: var(--accent);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      min-height: 238px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #ffffff;
+      transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      border-color: var(--line-strong);
+      box-shadow: var(--shadow);
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: start;
+      margin-bottom: 10px;
+    }
+
+    .module-icon {
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+      width: 38px;
+      height: 38px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #f6faf8;
+      color: var(--accent);
+    }
+
+    .module-icon svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 0 8px;
+      border: 1px solid #e4d2bd;
+      border-radius: 999px;
+      background: #fff6eb;
+      color: var(--accent-3);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 18px;
+    }
+
+    .card p {
+      margin: 0 0 14px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .card-links {
+      display: grid;
+      gap: 7px;
+      margin-top: auto;
+    }
+
+    .card-links a {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: center;
+      padding: 8px 0;
+      border-top: 1px solid #eef1f3;
+      color: #263743;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .card-links a::after {
+      content: ">";
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .routes {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .route {
+      display: grid;
+      gap: 12px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #ffffff;
+    }
+
+    .route h3 {
+      margin: 0;
+      font-size: 17px;
+    }
+
+    .route p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .route ol {
+      display: grid;
+      gap: 8px;
+      margin: 0;
+      padding-left: 20px;
+      color: #314250;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .table-panel {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #ffffff;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 13px 14px;
+      border-bottom: 1px solid #edf1f4;
+      text-align: left;
+      vertical-align: top;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    th {
+      background: #f2f6f5;
+      color: #263743;
+      font-size: 13px;
+    }
+
+    tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .empty {
+      display: none;
+      padding: 20px;
+      border: 1px dashed var(--line-strong);
+      border-radius: var(--radius);
+      background: #ffffff;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .footer {
+      margin-top: 34px;
+      padding: 22px 0 8px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    @media (max-width: 1180px) {
+      .hero,
+      .grid,
+      .stats {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .hero {
+        align-items: start;
+      }
+    }
+
+    @media (max-width: 860px) {
+      .shell {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        position: static;
+        height: auto;
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .nav-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .topbar {
+        grid-template-columns: 1fr;
+        padding: 16px;
+      }
+
+      .top-actions {
+        overflow: auto;
+        padding-bottom: 4px;
+      }
+
+      .content {
+        padding: 18px;
+      }
+
+      .hero,
+      .grid,
+      .routes,
+      .stats {
+        grid-template-columns: 1fr;
+      }
+
+      .intro {
+        padding: 22px;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .nav-list {
+        grid-template-columns: 1fr;
+      }
+
+      .section-head {
+        display: block;
+      }
+
+      .filters {
+        margin-top: 12px;
+      }
+
+      th,
+      td {
+        padding: 11px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar" aria-label="知识库导航">
+      <div class="brand">
+        <div class="brand-mark">K</div>
+        <div>
+          <h1>金蝶个人知识库</h1>
+          <p>财务、供应链、制造、实施、开发、运维</p>
+        </div>
+      </div>
+
+      <nav class="nav-section">
+        <p class="nav-title">核心入口</p>
+        <ul class="nav-list">
+          <li><a href="docs/README.md">文档首页 <span>Home</span></a></li>
+          <li><a href="docs/knowledge-map.md">知识地图 <span>Map</span></a></li>
+          <li><a href="docs/learning-paths.md">学习路径 <span>Route</span></a></li>
+          <li><a href="docs/conventions.md">记录规范 <span>Rules</span></a></li>
+        </ul>
+      </nav>
+
+      <nav class="nav-section">
+        <p class="nav-title">模块</p>
+        <ul class="nav-list">
+          <li><a href="docs/01_finance/README.md">财务知识区 <span>01</span></a></li>
+          <li><a href="docs/02_supply-chain/README.md">供应链 <span>02</span></a></li>
+          <li><a href="docs/03_manufacturing/README.md">生产制造 <span>03</span></a></li>
+          <li><a href="docs/04_implementation/README.md">实施交付 <span>04</span></a></li>
+          <li><a href="docs/05_development-bos/README.md">BOS 开发 <span>05</span></a></li>
+          <li><a href="docs/06_data-model-sql/README.md">数据 SQL <span>06</span></a></li>
+          <li><a href="docs/07_integrations/README.md">接口集成 <span>07</span></a></li>
+          <li><a href="docs/09_operations-issues/README.md">运维问题 <span>09</span></a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <label class="search-wrap" for="kbSearch">
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none">
+            <path d="m21 21-4.2-4.2m1.2-5.3a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <input id="kbSearch" type="search" placeholder="搜索模块、问题、教程、角色，例如：月结、凭证、MRP、接口、权限">
+        </label>
+        <div class="top-actions" aria-label="快捷操作">
+          <a class="action-link primary" href="docs/learning-paths.md">学习路径</a>
+          <a class="action-link" href="docs/09_operations-issues/operations-case-library.md">案例库</a>
+          <a class="action-link" href="docs/90_references/official-links.md">官方资料</a>
+        </div>
+      </header>
+
+      <div class="content">
+        <section class="hero" aria-labelledby="heroTitle">
+          <div class="intro">
+            <p class="eyebrow">Kingdee Personal Knowledge Base</p>
+            <h2 id="heroTitle">从财务实操出发，把金蝶项目知识整理成能查、能学、能落地的系统。</h2>
+            <p>这里不是单纯收藏链接，而是围绕真实项目工作：财务核算、供应链、制造、实施交付、BOS 开发、SQL 报表、接口、运维问题和案例复盘。先按角色学习，再按模块查细节，最后把问题沉淀回知识库。</p>
+            <div class="quick-row">
+              <a href="docs/01_finance/general-ledger.md">总账教程</a>
+              <a href="docs/01_finance/month-end-close-playbook.md">月结作战</a>
+              <a href="docs/06_data-model-sql/finance-reconciliation-sql-guide.md">财务对账 SQL</a>
+              <a href="docs/10_common-questions/finance-faq.md">财务 FAQ</a>
+            </div>
+          </div>
+
+          <div class="flow-panel" aria-label="知识使用流程">
+            <h2 class="flow-title">建议使用顺序</h2>
+            <div class="flow">
+              <div class="flow-step">
+                <div class="flow-index">1</div>
+                <div><strong>按角色进入</strong><span>从财务、实施、供应链、制造、开发、数据、运维路线选择学习路径。</span></div>
+              </div>
+              <div class="flow-step">
+                <div class="flow-index">2</div>
+                <div><strong>按模块深读</strong><span>进入对应目录，看流程、配置、操作、案例、报表和排查方法。</span></div>
+              </div>
+              <div class="flow-step">
+                <div class="flow-index">3</div>
+                <div><strong>按问题复盘</strong><span>把故障按现象、影响、排查、根因、处理、预防沉淀为可复用案例。</span></div>
+              </div>
+              <div class="flow-step">
+                <div class="flow-index">4</div>
+                <div><strong>持续反哺</strong><span>把 FAQ、SQL、交付物和官方资料精读同步回模块正文。</span></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="stats" aria-label="知识库概览">
+          <div class="stat"><strong>12</strong><span>核心知识区域</span></div>
+          <div class="stat"><strong>90+</strong><span>模块教程与专题页</span></div>
+          <div class="stat"><strong>8</strong><span>角色学习路线</span></div>
+          <div class="stat"><strong>持续</strong><span>问题案例和官方资料沉淀</span></div>
+        </section>
+
+        <section class="section" id="modules">
+          <div class="section-head">
+            <div>
+              <h2>模块入口</h2>
+              <p>常用模块按工作场景组织，搜索框会同时过滤卡片标题、说明、关键词和链接。</p>
+            </div>
+            <div class="filters" aria-label="模块筛选">
+              <button class="filter active" data-filter="all" type="button">全部</button>
+              <button class="filter" data-filter="finance" type="button">财务</button>
+              <button class="filter" data-filter="business" type="button">业务</button>
+              <button class="filter" data-filter="tech" type="button">技术</button>
+              <button class="filter" data-filter="ops" type="button">问题</button>
+            </div>
+          </div>
+
+          <div class="grid" id="cardGrid">
+            <article class="card" data-group="finance" data-keywords="财务 总账 凭证 应收 应付 出纳 固定资产 月结 报表 现金流 对账">
+              <div class="card-top">
+                <div class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M5 4h14v16H5V4Zm3 4h8M8 12h8M8 16h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+                <span class="tag">核心</span>
+              </div>
+              <h3>财务知识区</h3>
+              <p>总账、凭证、应收应付、资金、固定资产、预算、月结、报表、税务和财务案例。</p>
+              <div class="card-links">
+                <a href="docs/01_finance/README.md">进入财务目录</a>
+                <a href="docs/01_finance/general-ledger.md">总账详细教程</a>
+                <a href="docs/01_finance/reconciliation-master-guide.md">全链路对账</a>
+              </div>
+            </article>
+
+            <article class="card" data-group="business" data-keywords="供应链 采购 销售 库存 存货核算 仓库 条码 组织间结算">
+              <div class="card-top">
+                <div class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M4 7h16v10H4V7Zm3-3h10l3 3M8 17v3m8-3v3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <span class="tag">业务</span>
+              </div>
+              <h3>供应链与库存</h3>
+              <p>采购到付款、销售到收款、库存出入库、存货核算、条码仓库和业财衔接。</p>
+              <div class="card-links">
+                <a href="docs/02_supply-chain/README.md">进入供应链目录</a>
+                <a href="docs/02_supply-chain/inventory-costing-guide.md">存货核算教程</a>
+                <a href="docs/02_supply-chain/supply-chain-official-source-digest.md">官方资料精读</a>
+              </div>
+            </article>
+
+            <article class="card" data-group="business" data-keywords="制造 BOM MRP 生产订单 委外 报工 质量 设备 制造成本">
+              <div class="card-top">
+                <div class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M4 20V9l5 3V9l5 3V5h6v15H4Zm4-4h2m4 0h2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <span class="tag">制造</span>
+              </div>
+              <h3>生产制造</h3>
+              <p>BOM、MRP、生产订单、领料、报工、完工、委外、质量、设备和制造成本。</p>
+              <div class="card-links">
+                <a href="docs/03_manufacturing/README.md">进入制造目录</a>
+                <a href="docs/03_manufacturing/mrp-planning-guide.md">MRP 计划教程</a>
+                <a href="docs/03_manufacturing/manufacturing-costing-guide.md">制造成本核算</a>
+              </div>
+            </article>
+
+            <article class="card" data-group="business" data-keywords="实施 交付 调研 蓝图 主数据 初始化 权限 测试 培训 上线 验收">
+              <div class="card-top">
+                <div class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M5 5h14M5 12h14M5 19h14M8 5v14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+                <span class="tag">交付</span>
+              </div>
+              <h3>实施交付</h3>
+              <p>项目启动、调研、蓝图、配置、数据、权限、测试、培训、上线和验收交接。</p>
+              <div class="card-links">
+                <a href="docs/04_implementation/README.md">进入实施目录</a>
+                <a href="docs/04_implementation/implementation-delivery-playbook.md">交付作战手册</a>
+                <a href="docs/04_implementation/go-live-acceptance-handover-guide.md">上线验收移交</a>
+              </div>
+            </article>
+
+            <article class="card" data-group="tech" data-keywords="BOS 苍穹 插件 二开 单据转换 工作流 权限 表单 扩展">
+              <div class="card-top">
+                <div class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M8 4h8l4 4v12H4V4h4Zm0 8h8M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <span class="tag">开发</span>
+              </div>
+              <h3>BOS 与苍穹开发</h3>
+              <p>对象建模、表单扩展、单据转换、插件开发、发布调试、工作流和权限扩展。</p>
+              <div class="card-links">
+                <a href="docs/05_development-bos/README.md">进入开发目录</a>
+                <a href="docs/05_development-bos/plugin-development-debugging-guide.md">插件开发调试</a>
+                <a href="docs/05_development-bos/workflow-bill-conversion-permission-guide.md">转换与权限</a>
+              </div>
+            </article>
+
+            <article class="card" data-group="tech" data-keywords="数据 SQL 报表 口径 对账 查询 表结构 底表 取数">
+              <div class="card-top">
+                <div class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M5 6c0-1.7 3.1-3 7-3s7 1.3 7 3-3.1 3-7 3-7-1.3-7-3Zm0 0v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+                <span class="tag">数据</span>
+              </div>
+              <h3>数据模型与 SQL</h3>
+              <p>从业务对象追到数据表，沉淀财务对账、库存排查、报表口径和取数方法。</p>
+              <div class="card-links">
+                <a href="docs/06_data-model-sql/README.md">进入数据目录</a>
+                <a href="docs/06_data-model-sql/finance-reconciliation-sql-guide.md">财务对账 SQL</a>
+                <a href="docs/06_data-model-sql/reporting-metrics-data-analysis-guide.md">报表指标口径</a>
+              </div>
+            </article>
+
+            <article class="card" data-group="tech" data-keywords="接口 WebAPI 集成 外部系统 幂等 重试 对账 日志 AI 文档">
+              <div class="card-top">
+                <div class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M9 7H7a5 5 0 0 0 0 10h2m6-10h2a5 5 0 0 1 0 10h-2M8 12h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+                <span class="tag">集成</span>
+              </div>
+              <h3>接口与集成</h3>
+              <p>外部系统集成、WebAPI、字段映射、幂等控制、失败重试、监控和接口对账。</p>
+              <div class="card-links">
+                <a href="docs/07_integrations/README.md">进入集成目录</a>
+                <a href="docs/07_integrations/interface-debugging-monitoring-reconciliation.md">联调监控对账</a>
+                <a href="docs/07_integrations/webapi-integration-official-source-digest.md">WebAPI 精读</a>
+              </div>
+            </article>
+
+            <article class="card" data-group="ops" data-keywords="运维 问题 案例 故障 权限 性能 发布 补丁 备份 恢复">
+              <div class="card-top">
+                <div class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3v3m0 12v3m9-9h-3M6 12H3m15.4-6.4-2.1 2.1M7.7 16.3l-2.1 2.1m0-12.8 2.1 2.1m8.6 8.6 2.1 2.1M9 12a3 3 0 1 0 6 0 3 3 0 0 0-6 0Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+                <span class="tag">问题</span>
+              </div>
+              <h3>运维与问题案例</h3>
+              <p>记录生产问题的完整处理过程，覆盖权限、性能、接口、发布、凭证、库存和月结。</p>
+              <div class="card-links">
+                <a href="docs/09_operations-issues/README.md">进入运维目录</a>
+                <a href="docs/09_operations-issues/operations-case-library.md">全模块案例库</a>
+                <a href="docs/10_common-questions/all-module-faq.md">全模块 FAQ</a>
+              </div>
+            </article>
+
+            <article class="card" data-group="ops" data-keywords="官方资料 链接 精读 金蝶开发者 产品手册 资料 模板">
+              <div class="card-top">
+                <div class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M6 4h12v16H6V4Zm3 4h6M9 12h6M9 16h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+                <span class="tag">资料</span>
+              </div>
+              <h3>资料与模板</h3>
+              <p>官方链接、开发者资料精读、外部资料索引、知识笔记模板和问题处理模板。</p>
+              <div class="card-links">
+                <a href="docs/90_references/README.md">进入资料目录</a>
+                <a href="docs/90_references/external-source-digests.md">外部资料精读索引</a>
+                <a href="docs/98_templates/README.md">模板库</a>
+              </div>
+            </article>
+          </div>
+          <div class="empty" id="emptyState">没有匹配结果。可以换一个关键词，例如“凭证”“月结”“库存”“接口”“权限”。</div>
+        </section>
+
+        <section class="section" id="routes">
+          <div class="section-head">
+            <div>
+              <h2>推荐学习路线</h2>
+              <p>不确定从哪里开始时，先按岗位走一遍，再回到模块目录补细节。</p>
+            </div>
+          </div>
+          <div class="routes">
+            <a class="route" href="docs/learning-paths.md">
+              <h3>财务新人到金蝶财务主办</h3>
+              <p>从会计循环、科目维度、凭证、往来、资金、资产、月结和报表开始，建立完整财务闭环。</p>
+              <ol>
+                <li>读财务基础和系统映射</li>
+                <li>练采购到付款、销售到收款</li>
+                <li>做月结证据包和对账表</li>
+              </ol>
+            </a>
+            <a class="route" href="docs/learning-paths.md">
+              <h3>实施顾问从调研到验收</h3>
+              <p>把需求拆成流程、配置、数据、权限、接口、报表、测试和交付物，形成项目推进能力。</p>
+              <ol>
+                <li>调研现状和痛点</li>
+                <li>落蓝图、配置和测试</li>
+                <li>完成上线、验收和移交</li>
+              </ol>
+            </a>
+            <a class="route" href="docs/learning-paths.md">
+              <h3>数据、SQL 与报表排查</h3>
+              <p>从业务对象追到数据表，写清取数口径，减少“金额不一致但说不清原因”的情况。</p>
+              <ol>
+                <li>先确认组织、期间和状态</li>
+                <li>再查标准报表和明细账</li>
+                <li>最后用 SQL 定位差异</li>
+              </ol>
+            </a>
+            <a class="route" href="docs/learning-paths.md">
+              <h3>接口、运维与问题处理</h3>
+              <p>按影响范围、复现路径、日志证据、根因处理和预防机制记录问题，让经验可复用。</p>
+              <ol>
+                <li>保留报错原文和日志</li>
+                <li>拆分配置、数据、权限、二开、环境</li>
+                <li>沉淀案例并反哺模块文档</li>
+              </ol>
+            </a>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-head">
+            <div>
+              <h2>常用定位表</h2>
+              <p>遇到问题时，先按这个表进入对应区域，少走几步弯路。</p>
+            </div>
+          </div>
+          <div class="table-panel">
+            <table>
+              <thead>
+                <tr>
+                  <th>你现在遇到的事</th>
+                  <th>先看哪里</th>
+                  <th>继续追踪</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>凭证生成失败、总账和业务账不一致、月结卡住</td>
+                  <td><a href="docs/01_finance/README.md">财务知识区</a></td>
+                  <td><a href="docs/09_operations-issues/operations-case-library.md">全模块问题案例库</a></td>
+                </tr>
+                <tr>
+                  <td>采购、销售、库存、存货核算和总账金额不一致</td>
+                  <td><a href="docs/02_supply-chain/README.md">供应链知识区</a></td>
+                  <td><a href="docs/06_data-model-sql/supply-chain-inventory-sql-guide.md">库存 SQL 排查</a></td>
+                </tr>
+                <tr>
+                  <td>MRP 不出计划、BOM 带不出子项、完工成本异常</td>
+                  <td><a href="docs/03_manufacturing/README.md">生产制造知识区</a></td>
+                  <td><a href="docs/03_manufacturing/manufacturing-costing-guide.md">制造成本核算</a></td>
+                </tr>
+                <tr>
+                  <td>接口重复单、字段映射错、外部系统和金蝶对不上</td>
+                  <td><a href="docs/07_integrations/README.md">接口与集成</a></td>
+                  <td><a href="docs/07_integrations/interface-debugging-monitoring-reconciliation.md">联调监控对账</a></td>
+                </tr>
+                <tr>
+                  <td>用户能进菜单但看不到数据，或者按钮不能点</td>
+                  <td><a href="docs/04_implementation/permission-role-control-guide.md">权限、角色与内控</a></td>
+                  <td><a href="docs/08_environments-releases/system-admin-daily-ops-guide.md">系统管理员日常运维</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <footer class="footer">
+          <p>本首页是纯静态入口，可以直接双击打开，也可以随仓库推送到 GitHub。具体菜单、字段、参数和表结构仍以你的金蝶版本、授权模块、补丁和客户化配置为准。</p>
+        </footer>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    const searchInput = document.querySelector("#kbSearch");
+    const filters = Array.from(document.querySelectorAll(".filter"));
+    const cards = Array.from(document.querySelectorAll(".card"));
+    const emptyState = document.querySelector("#emptyState");
+    let activeFilter = "all";
+
+    function normalize(value) {
+      return value.trim().toLowerCase();
+    }
+
+    function filterCards() {
+      const query = normalize(searchInput.value);
+      let visibleCount = 0;
+
+      cards.forEach((card) => {
+        const groupMatch = activeFilter === "all" || card.dataset.group === activeFilter;
+        const text = normalize(`${card.innerText} ${card.dataset.keywords || ""}`);
+        const queryMatch = !query || text.includes(query);
+        const show = groupMatch && queryMatch;
+        card.style.display = show ? "" : "none";
+        if (show) visibleCount += 1;
+      });
+
+      emptyState.style.display = visibleCount ? "none" : "block";
+    }
+
+    filters.forEach((button) => {
+      button.addEventListener("click", () => {
+        activeFilter = button.dataset.filter;
+        filters.forEach((item) => item.classList.toggle("active", item === button));
+        filterCards();
+      });
+    });
+
+    searchInput.addEventListener("input", filterCards);
+</script>
+</body>
+</html>
