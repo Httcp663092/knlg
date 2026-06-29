@@ -97,6 +97,7 @@
 - [总账](01_finance/general-ledger.md)
 - [凭证生成与常见分录](01_finance/voucher-generation-and-entries.md)
 - [应收款管理](01_finance/accounts-receivable.md)
+- [应收账龄、催收与坏账准备学习手册](01_finance/ar-aging-collection-bad-debt-guide.md)
 - [应付款管理](01_finance/accounts-payable.md)
 - [出纳与资金](01_finance/cashier-and-funds.md)
 - [固定资产](01_finance/fixed-assets.md)
@@ -121,9 +122,10 @@
 3. 做一笔应付付款核销，检查供应商往来余额变化。
 4. 从一张采购入库单追到应付单、付款单、核销记录和凭证。
 5. 从一张销售出库单追到应收单、收款单、成本凭证和客户余额。
-6. 做一笔员工借款、费用报销、付款和还款，检查员工往来余额。
-7. 完成一次固定资产新增、计提折旧、生成凭证。
-8. 模拟月结：凭证生成、凭证检查、过账、结转损益、报表取数。
+6. 输出一次应收账龄和催收清单，检查未核销收款、逾期客户和坏账准备口径。
+7. 做一笔员工借款、费用报销、付款和还款，检查员工往来余额。
+8. 完成一次固定资产新增、计提折旧、生成凭证。
+9. 模拟月结：凭证生成、凭证检查、过账、结转损益、报表取数。
 
 验收标准：
 
@@ -187,6 +189,7 @@
 - [价格、信用、批号、盘点与暂估专题](02_supply-chain/price-credit-batch-counting-estimate-guide.md)
 - [采购管理详细教程](02_supply-chain/purchase-management-guide.md)
 - [销售管理详细教程](02_supply-chain/sales-management-guide.md)
+- [销售退货、红冲、退款与折让专题](02_supply-chain/sales-return-red-invoice-refund-guide.md)
 - [库存管理详细教程](02_supply-chain/inventory-management-guide.md)
 - [存货核算详细教程](02_supply-chain/inventory-costing-guide.md)
 - [组织间结算详细教程](02_supply-chain/intercompany-settlement-guide.md)
@@ -207,7 +210,8 @@
 2. 做一次销售出库到应收收款，检查库存减少、成本结转、收入确认。
 3. 画出采购到付款、销售到收款的单据流，标出哪一步影响库存、哪一步影响应收应付。
 4. 测试一次采购价目表、销售价目表、信用控制、批号出库、盘点差异和暂估冲回。
-5. 模拟负库存、无成本、暂估未冲回、红字出库，记录系统表现和处理方法。
+5. 模拟销售退货、红字应收、红字发票、客户退款和成本冲回，记录对库存、应收、税额和毛利的影响。
+6. 模拟负库存、无成本、暂估未冲回、红字出库，记录系统表现和处理方法。
 
 验收标准：
 

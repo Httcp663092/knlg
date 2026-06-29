@@ -5,7 +5,7 @@
 >
 > [界面首页](../../index.html) | [文档首页](../README.md) | [知识地图](../knowledge-map.md) | [学习路径](../learning-paths.md) | [财务](README.md) | [供应链](../02_supply-chain/README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
-> 上一章：[凭证生成与常见分录](voucher-generation-and-entries.md) | 下一章：[应付款管理](accounts-payable.md) | [本章目录](README.md)
+> 上一章：[凭证生成与常见分录](voucher-generation-and-entries.md) | 下一章：[应收账龄、催收与坏账准备学习手册](ar-aging-collection-bad-debt-guide.md) | [本章目录](README.md)
 <!-- NAV_END -->
 
 
@@ -112,6 +112,8 @@
 ## 应收账龄管理
 
 账龄分析不是简单按凭证日期算，它通常和应收单日期、到期日、收款条件、核销状态有关。
+
+账龄、催收和坏账准备的完整学习路线可以继续看 [应收账龄、催收与坏账准备学习手册](ar-aging-collection-bad-debt-guide.md)。
 
 | 账龄异常 | 排查 |
 | --- | --- |

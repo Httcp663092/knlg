@@ -22,6 +22,7 @@
 - [价格、信用、批号、盘点与暂估专题](price-credit-batch-counting-estimate-guide.md)
 - [采购管理详细教程](purchase-management-guide.md)
 - [销售管理详细教程](sales-management-guide.md)
+- [销售退货、红冲、退款与折让专题](sales-return-red-invoice-refund-guide.md)
 - [库存管理详细教程](inventory-management-guide.md)
 - [存货核算详细教程](inventory-costing-guide.md)
 - [物料库存信息](material-inventory-info.md)
@@ -37,17 +38,18 @@
 3. [价格、信用、批号、盘点与暂估专题](price-credit-batch-counting-estimate-guide.md)
 4. [采购管理详细教程](purchase-management-guide.md)
 5. [销售管理详细教程](sales-management-guide.md)
-6. [库存管理详细教程](inventory-management-guide.md)
-7. [存货核算详细教程](inventory-costing-guide.md)
-8. [物料库存信息](material-inventory-info.md)
-9. [组织间结算详细教程](intercompany-settlement-guide.md)
-10. [条码与移动仓库作业教程](barcode-mobile-warehouse-guide.md)
-11. [供应商协同与采购门户教程](supplier-collaboration-guide.md)
-12. [供应链官方资料精读：协同、主数据和监控](supply-chain-official-source-digest.md)
+6. [销售退货、红冲、退款与折让专题](sales-return-red-invoice-refund-guide.md)
+7. [库存管理详细教程](inventory-management-guide.md)
+8. [存货核算详细教程](inventory-costing-guide.md)
+9. [物料库存信息](material-inventory-info.md)
+10. [组织间结算详细教程](intercompany-settlement-guide.md)
+11. [条码与移动仓库作业教程](barcode-mobile-warehouse-guide.md)
+12. [供应商协同与采购门户教程](supplier-collaboration-guide.md)
+13. [供应链官方资料精读：协同、主数据和监控](supply-chain-official-source-digest.md)
 
 ## 后续继续加厚方向
 
-- 供应链成本差异、退货红冲、寄售/VMI、委外采购协同、客户退货质检等专题继续独立加深。
+- 供应链成本差异、寄售/VMI、委外采购协同、客户退货质检等专题继续独立加深。
 
 ## 和财务的关系
 
