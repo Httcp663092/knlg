@@ -45,16 +45,17 @@
 22. [出纳与资金](cashier-and-funds.md)
 23. [固定资产](fixed-assets.md)
 24. [预算、费用与控制教程](budget-expense-control-guide.md)
-25. [月结流程](month-end-close.md)
-26. [月结作战手册](month-end-close-playbook.md)
-27. [财务报表与对账](finance-reports.md)
-28. [现金流量表与现金流项目教程](cash-flow-statement-guide.md)
-29. [三大报表与财务分析教程](financial-statement-analysis-guide.md)
-30. [税务发票管理教程](tax-invoice-management-guide.md)
-31. [电子会计档案与附件归档教程](electronic-accounting-archive-guide.md)
-32. [财务案例库](finance-case-library.md)
-33. [财务常见问题](common-issues.md)
-34. [财务术语](terms.md)
+25. [费用报销、借款还款与付款学习手册](expense-reimbursement-funds-learning-guide.md)
+26. [月结流程](month-end-close.md)
+27. [月结作战手册](month-end-close-playbook.md)
+28. [财务报表与对账](finance-reports.md)
+29. [现金流量表与现金流项目教程](cash-flow-statement-guide.md)
+30. [三大报表与财务分析教程](financial-statement-analysis-guide.md)
+31. [税务发票管理教程](tax-invoice-management-guide.md)
+32. [电子会计档案与附件归档教程](electronic-accounting-archive-guide.md)
+33. [财务案例库](finance-case-library.md)
+34. [财务常见问题](common-issues.md)
+35. [财务术语](terms.md)
 
 ## 问题查询入口
 
@@ -98,5 +99,6 @@
 - 财务内控：职责分离、手工凭证治理、反审核反结账控制、月结证据包。
 - 日常操作手册：总账凭证、应收收款核销、应付付款核销、出纳、固定资产、报表查询和月结前检查。
 - 通俗学习手册：从采购、销售、库存等业务单据追到应收、应付、存货核算、凭证和总账。
+- 费用报销：员工借款、费用报销、预算控制、付款、凭证和附件归档。
 - 税务发票和电子档案：发票匹配、红冲、附件、凭证归档和审计追溯。
 - 深度财务知识：会计循环、科目和核算维度、现金流量表、财务分析、预算控制、多组织多账簿、全链路对账。

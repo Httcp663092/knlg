@@ -27,6 +27,7 @@
 - [金蝶云产品手册：应收款管理](https://help.open.kingdee.com/dokuwiki_std/doku.php?id=%E5%BA%94%E6%94%B6%E6%AC%BE%E7%AE%A1%E7%90%86)
 - [金蝶云产品手册：应收款管理使用流程](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E5%BA%94%E6%94%B6%E6%AC%BE%E7%AE%A1%E7%90%86%E4%BD%BF%E7%94%A8%E6%B5%81%E7%A8%8B)
 - [金蝶云产品手册：应付款管理使用流程](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E5%BA%94%E4%BB%98%E6%AC%BE%E7%AE%A1%E7%90%86%E4%BD%BF%E7%94%A8%E6%B5%81%E7%A8%8B)
+- [金蝶云产品手册：费用报销](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E8%B4%B9%E7%94%A8%E6%8A%A5%E9%94%80)
 - [金蝶云产品手册：固定资产使用流程](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E5%9B%BA%E5%AE%9A%E8%B5%84%E4%BA%A7%E4%BD%BF%E7%94%A8%E6%B5%81%E7%A8%8B)
 - [金蝶云社区：金蝶云·星空系统结账手册](https://vip.kingdee.com/article/372379712616026112)
 
@@ -34,9 +35,14 @@
 
 - [金蝶云产品手册：采购管理](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86)
 - [金蝶云产品手册：采购申请单](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E9%87%87%E8%B4%AD%E7%94%B3%E8%AF%B7%E5%8D%95)
+- [金蝶云产品手册：采购价目表](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E9%87%87%E8%B4%AD%E4%BB%B7%E7%9B%AE%E8%A1%A8)
 - [金蝶云产品手册：销售管理](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E9%94%80%E5%94%AE%E7%AE%A1%E7%90%86)
+- [金蝶云产品手册：销售价目表](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E9%94%80%E5%94%AE%E4%BB%B7%E7%9B%AE%E8%A1%A8)
+- [金蝶云产品手册：信用管理](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E4%BF%A1%E7%94%A8%E7%AE%A1%E7%90%86)
 - [金蝶云产品手册：库存管理](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86)
 - [金蝶云产品手册：存货核算](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E5%AD%98%E8%B4%A7%E6%A0%B8%E7%AE%97)
+- [金蝶云产品手册：盘点](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E7%9B%98%E7%82%B9)
+- [金蝶云产品手册：暂估应付](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E6%9A%82%E4%BC%B0%E5%BA%94%E4%BB%98)
 - [金蝶云产品手册：供应商协同](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E4%BE%9B%E5%BA%94%E5%95%86%E5%8D%8F%E5%90%8C)
 - [金蝶云产品手册：供应商](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E4%BE%9B%E5%BA%94%E5%95%86)
 - [金蝶云产品手册：基础资料控制策略](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E5%9F%BA%E7%A1%80%E8%B5%84%E6%96%99%E6%8E%A7%E5%88%B6%E7%AD%96%E7%95%A5)

@@ -17,7 +17,9 @@
 | --- | --- | --- |
 | [供应链官方资料精读：协同、主数据和监控](../02_supply-chain/supply-chain-official-source-digest.md) | 供应商协同、采购申请状态、基础资料控制、业务监控 | 金蝶云产品手册 |
 | [供应链单据流通俗学习手册](../02_supply-chain/supply-chain-document-flow-learning-guide.md) | 采购到付款、销售到收款、库存管理、存货核算、业财对账 | 金蝶云产品手册、项目实践 |
+| [价格、信用、批号、盘点与暂估专题](../02_supply-chain/price-credit-batch-counting-estimate-guide.md) | 采购价格、销售价格、信用控制、批号保质期、盘点、暂估应付 | 金蝶云产品手册、项目实践 |
 | [从业务单据到财务凭证：通俗学习手册](../01_finance/business-document-to-voucher-learning-guide.md) | 业务单据、应收应付、收付款、存货核算、凭证生成、总账追溯 | 金蝶云产品手册、项目实践 |
+| [费用报销、借款还款与付款学习手册](../01_finance/expense-reimbursement-funds-learning-guide.md) | 员工借款、费用报销、预算控制、付款、凭证、附件归档 | 金蝶云产品手册、项目实践 |
 | [制造模块官方资料精读](../03_manufacturing/manufacturing-official-source-digest.md) | 计划管理、排产、质量、技术文档、MES | 金蝶云产品手册、金蝶官网 |
 | [BOS、业务流程与低代码官方资料精读](../05_development-bos/bos-workflow-official-source-digest.md) | 单据建模、基础资料、业务流程、工作流、BOS 参数 | 金蝶开发者官网、金蝶云产品手册 |
 | [插件治理、排障与上线回归手册](../05_development-bos/plugin-governance-and-troubleshooting-guide.md) | 插件类型选择、操作服务插件、幂等、日志、发布回归、BOM 字段带入案例 | 金蝶 SDK、金蝶开发者官网、项目实践 |
