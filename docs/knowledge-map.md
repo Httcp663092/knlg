@@ -39,6 +39,7 @@
 - [财务实施检查清单](01_finance/finance-implementation-checklist.md)
 - [财务基础资料与初始化](01_finance/master-data-and-initialization.md)
 - [总账](01_finance/general-ledger.md)
+- [金蝶云星瀚总账培训 PPT](resources/training/金蝶云星瀚总账培训.pptx)
 - [凭证生成与常见分录](01_finance/voucher-generation-and-entries.md)
 - [应收款管理](01_finance/accounts-receivable.md)
 - [应付款管理](01_finance/accounts-payable.md)
