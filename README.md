@@ -29,6 +29,7 @@
 - [生产制造知识区](docs/03_manufacturing/README.md)
 - [实施方法与交付](docs/04_implementation/README.md)
 - [BOS/插件/二开](docs/05_development-bos/README.md)
+- [插件治理、排障与上线回归手册](docs/05_development-bos/plugin-governance-and-troubleshooting-guide.md)
 - [数据模型与 SQL](docs/06_data-model-sql/README.md)
 - [接口与集成](docs/07_integrations/README.md)
 - [环境、发布和版本](docs/08_environments-releases/README.md)

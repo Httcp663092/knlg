@@ -64,11 +64,14 @@
 - [金蝶云产品手册：业务监控](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E4%B8%9A%E5%8A%A1%E7%9B%91%E6%8E%A7)
 - [金蝶云产品手册：业务监控平台](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E4%B8%9A%E5%8A%A1%E7%9B%91%E6%8E%A7%E5%B9%B3%E5%8F%B0)
 - [金蝶开发者官网：OpenAPI新特性汇总](https://developer.kingdee.com/article/313236926680225536)
+- [金蝶 K3Cloud SDK：DynamicForm.PlugIn 命名空间层级](https://open.kingdee.com/k3cloud/SDK/Kingdee.BOS.Core~Kingdee.BOS.Core.DynamicForm.PlugIn_namespace_hierarchy.html)
+- [金蝶 K3Cloud SDK：AbstractOperationServicePlugIn](https://open.kingdee.com/k3cloud/SDK/Kingdee.BOS.Core~Kingdee.BOS.Core.DynamicForm.PlugIn.AbstractOperationServicePlugIn.html)
 
 ## 金蝶开发者官网
 
 - [金蝶开发者官网：金蝶 AI 苍穹产品页](https://developer.kingdee.com/?productId=87&productLineId=29&lang=zh-CN)
 - [2.项目创建](https://developer.kingdee.com/knowledge/590541050947648512?productId=87&productLineId=29&lang=zh-CN)
+- [如何构建静态资源制品包](https://developer.kingdee.com/knowledge/754252810438519296?productId=87&productLineId=29&lang=zh-CN)
 - [文档分类（大模型）使用手册](https://developer.kingdee.com/knowledge/436898093733304320?productId=87&productLineId=29&lang=zh-CN)
 - [数据清理服务使用指南](https://developer.kingdee.com/knowledge/577876642866010368?productId=87&productLineId=29&lang=zh-CN)
 - [物料库存信息](https://developer.kingdee.com/knowledge/235705120162166784?productId=87&productLineId=29&lang=zh-CN)

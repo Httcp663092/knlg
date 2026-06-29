@@ -104,6 +104,7 @@
 - [苍穹单据与基础资料建模](05_development-bos/cangqiong-business-object-modeling.md)
 - [BOS/苍穹开发实战教程](05_development-bos/bos-development-practice-guide.md)
 - [插件开发、调试与发布教程](05_development-bos/plugin-development-debugging-guide.md)
+- [插件治理、排障与上线回归手册](05_development-bos/plugin-governance-and-troubleshooting-guide.md)
 - [单据转换、工作流与权限扩展教程](05_development-bos/workflow-bill-conversion-permission-guide.md)
 - [BOS、业务流程与低代码官方资料精读](05_development-bos/bos-workflow-official-source-digest.md)
 - [数据模型与 SQL](06_data-model-sql/README.md)

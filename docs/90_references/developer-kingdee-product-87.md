@@ -34,6 +34,7 @@
 | 文档分类（大模型）使用手册 | [AI 文档分类与结构化提取](../07_integrations/ai-document-classification.md) | 组合识别器、大模型分类、结构化提取 |
 | 数据清理服务使用指南 | [苍穹数据清理服务](../08_environments-releases/cangqiong-data-cleaning.md) | 数据归档、数据清理、清理规则、调度计划 |
 | 苍穹水平分库 | [苍穹水平分库](../08_environments-releases/cangqiong-horizontal-sharding.md) | 水平分库、分片、海量单据 |
+| K3Cloud SDK 插件层级与操作服务插件 | [插件治理、排障与上线回归手册](../05_development-bos/plugin-governance-and-troubleshooting-guide.md) | 表单、列表、操作服务、报表插件入口，插件治理、幂等、日志、排障和上线回归 |
 
 ## 后续可继续整理
 
@@ -44,6 +45,7 @@
 - 协同开发平台。
 - 部署运维专题。
 - 金蝶 ChatBI。
+- 更多 SDK 插件类、事件和示例代码。
 
 ## 使用原则
 

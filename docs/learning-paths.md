@@ -254,6 +254,7 @@
 - [苍穹单据与基础资料建模](05_development-bos/cangqiong-business-object-modeling.md)
 - [BOS/苍穹开发实战教程](05_development-bos/bos-development-practice-guide.md)
 - [插件开发、调试与发布教程](05_development-bos/plugin-development-debugging-guide.md)
+- [插件治理、排障与上线回归手册](05_development-bos/plugin-governance-and-troubleshooting-guide.md)
 - [单据转换、工作流与权限扩展教程](05_development-bos/workflow-bill-conversion-permission-guide.md)
 - [BOS、业务流程与低代码官方资料精读](05_development-bos/bos-workflow-official-source-digest.md)
 
@@ -263,7 +264,7 @@
 2. 再会改界面：布局、字段属性、操作按钮、列表过滤、默认值。
 3. 再会做流转：单据转换、源单关联、字段携带、数量反写。
 4. 再会加控制：校验规则、保存插件、提交审核控制、权限控制。
-5. 最后会发布和排查：打包、部署、日志、性能、回滚、回归测试。
+5. 最后会治理和排查：幂等、事务、日志、性能、发布、回滚、回归测试。
 
 必须养成的习惯：
 
