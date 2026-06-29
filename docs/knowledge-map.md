@@ -34,6 +34,7 @@
 - [财务内控与审计检查清单](01_finance/finance-control-and-audit-checklist.md)
 - [金蝶财务日常操作手册](01_finance/finance-daily-operation-guide.md)
 - [财务实操场景：从业务单据到凭证报表](01_finance/finance-operation-scenarios.md)
+- [从业务单据到财务凭证：通俗学习手册](01_finance/business-document-to-voucher-learning-guide.md)
 - [金蝶财务项目案例集](01_finance/kingdee-finance-project-cases.md)
 - [财务实务手册](01_finance/finance-practice-manual.md)
 - [财务实施检查清单](01_finance/finance-implementation-checklist.md)
@@ -63,6 +64,7 @@
 
 - [供应链知识区](02_supply-chain/README.md)
 - [供应链核心操作教程](02_supply-chain/supply-chain-core-operation-guide.md)
+- [供应链单据流通俗学习手册](02_supply-chain/supply-chain-document-flow-learning-guide.md)
 - [采购管理详细教程](02_supply-chain/purchase-management-guide.md)
 - [销售管理详细教程](02_supply-chain/sales-management-guide.md)
 - [库存管理详细教程](02_supply-chain/inventory-management-guide.md)

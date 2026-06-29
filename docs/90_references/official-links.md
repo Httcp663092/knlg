@@ -34,6 +34,9 @@
 
 - [金蝶云产品手册：采购管理](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E9%87%87%E8%B4%AD%E7%AE%A1%E7%90%86)
 - [金蝶云产品手册：采购申请单](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E9%87%87%E8%B4%AD%E7%94%B3%E8%AF%B7%E5%8D%95)
+- [金蝶云产品手册：销售管理](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E9%94%80%E5%94%AE%E7%AE%A1%E7%90%86)
+- [金蝶云产品手册：库存管理](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E5%BA%93%E5%AD%98%E7%AE%A1%E7%90%86)
+- [金蝶云产品手册：存货核算](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E5%AD%98%E8%B4%A7%E6%A0%B8%E7%AE%97)
 - [金蝶云产品手册：供应商协同](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E4%BE%9B%E5%BA%94%E5%95%86%E5%8D%8F%E5%90%8C)
 - [金蝶云产品手册：供应商](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E4%BE%9B%E5%BA%94%E5%95%86)
 - [金蝶云产品手册：基础资料控制策略](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E5%9F%BA%E7%A1%80%E8%B5%84%E6%96%99%E6%8E%A7%E5%88%B6%E7%AD%96%E7%95%A5)

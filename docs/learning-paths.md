@@ -93,6 +93,7 @@
 先读：
 
 - [金蝶财务日常操作手册](01_finance/finance-daily-operation-guide.md)
+- [从业务单据到财务凭证：通俗学习手册](01_finance/business-document-to-voucher-learning-guide.md)
 - [总账](01_finance/general-ledger.md)
 - [凭证生成与常见分录](01_finance/voucher-generation-and-entries.md)
 - [应收款管理](01_finance/accounts-receivable.md)
@@ -117,8 +118,10 @@
 1. 做一张手工凭证并审核、过账、反过账、反审核，记录每一步影响。
 2. 做一笔应收收款核销，检查客户往来余额变化。
 3. 做一笔应付付款核销，检查供应商往来余额变化。
-4. 完成一次固定资产新增、计提折旧、生成凭证。
-5. 模拟月结：凭证生成、凭证检查、过账、结转损益、报表取数。
+4. 从一张采购入库单追到应付单、付款单、核销记录和凭证。
+5. 从一张销售出库单追到应收单、收款单、成本凭证和客户余额。
+6. 完成一次固定资产新增、计提折旧、生成凭证。
+7. 模拟月结：凭证生成、凭证检查、过账、结转损益、报表取数。
 
 验收标准：
 
@@ -178,6 +181,7 @@
 
 - [供应链知识区](02_supply-chain/README.md)
 - [供应链核心操作教程](02_supply-chain/supply-chain-core-operation-guide.md)
+- [供应链单据流通俗学习手册](02_supply-chain/supply-chain-document-flow-learning-guide.md)
 - [采购管理详细教程](02_supply-chain/purchase-management-guide.md)
 - [销售管理详细教程](02_supply-chain/sales-management-guide.md)
 - [库存管理详细教程](02_supply-chain/inventory-management-guide.md)
@@ -198,7 +202,8 @@
 
 1. 做一次采购入库到应付付款，检查库存账、应付账和总账。
 2. 做一次销售出库到应收收款，检查库存减少、成本结转、收入确认。
-3. 模拟负库存、无成本、暂估未冲回、红字出库，记录系统表现和处理方法。
+3. 画出采购到付款、销售到收款的单据流，标出哪一步影响库存、哪一步影响应收应付。
+4. 模拟负库存、无成本、暂估未冲回、红字出库，记录系统表现和处理方法。
 
 验收标准：
 
