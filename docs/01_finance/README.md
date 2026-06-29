@@ -44,19 +44,20 @@
 21. [应收应付对账实务](ar-ap-reconciliation-playbook.md)
 22. [财务全链路对账教程](reconciliation-master-guide.md)
 23. [出纳与资金](cashier-and-funds.md)
-24. [固定资产](fixed-assets.md)
-25. [预算、费用与控制教程](budget-expense-control-guide.md)
-26. [费用报销、借款还款与付款学习手册](expense-reimbursement-funds-learning-guide.md)
-27. [月结流程](month-end-close.md)
-28. [月结作战手册](month-end-close-playbook.md)
-29. [财务报表与对账](finance-reports.md)
-30. [现金流量表与现金流项目教程](cash-flow-statement-guide.md)
-31. [三大报表与财务分析教程](financial-statement-analysis-guide.md)
-32. [税务发票管理教程](tax-invoice-management-guide.md)
-33. [电子会计档案与附件归档教程](electronic-accounting-archive-guide.md)
-34. [财务案例库](finance-case-library.md)
-35. [财务常见问题](common-issues.md)
-36. [财务术语](terms.md)
+24. [银企直连、票据与资金计划专题](bank-enterprise-bills-funds-guide.md)
+25. [固定资产](fixed-assets.md)
+26. [预算、费用与控制教程](budget-expense-control-guide.md)
+27. [费用报销、借款还款与付款学习手册](expense-reimbursement-funds-learning-guide.md)
+28. [月结流程](month-end-close.md)
+29. [月结作战手册](month-end-close-playbook.md)
+30. [财务报表与对账](finance-reports.md)
+31. [现金流量表与现金流项目教程](cash-flow-statement-guide.md)
+32. [三大报表与财务分析教程](financial-statement-analysis-guide.md)
+33. [税务发票管理教程](tax-invoice-management-guide.md)
+34. [电子会计档案与附件归档教程](electronic-accounting-archive-guide.md)
+35. [财务案例库](finance-case-library.md)
+36. [财务常见问题](common-issues.md)
+37. [财务术语](terms.md)
 
 ## 问题查询入口
 
@@ -73,7 +74,7 @@
 | 总账 | 凭证、账簿、科目、核算维度 | 凭证、账表、结账结果 | 总账会计、主管会计 |
 | 应收款 | 应收单、其他应收单、收款单、收款退款单 | 客户往来、收款核销、账龄 | 应收会计 |
 | 应付款 | 应付单、其他应付单、付款单、付款退款单 | 供应商往来、付款核销 | 应付会计 |
-| 出纳 | 现金、银行、收付款流水 | 银行日记账、资金流水、对账结果 | 出纳 |
+| 出纳 / 资金 | 现金、银行、收付款流水、票据、资金计划 | 银行日记账、资金流水、对账结果、票据台账、资金预测 | 出纳、资金会计 |
 | 固定资产 | 资产卡片、变更、处置、折旧 | 折旧凭证、资产台账 | 资产会计 |
 | 报表 | 科目余额、明细账、往来账、财务报表 | 资产负债表、利润表、现金流量表 | 财务经理 |
 
@@ -92,6 +93,7 @@
 - 凭证模板、凭证生成、凭证生成情况查询和常见分录示例。
 - 应收应付和总账的对账方法、差异定位路径。
 - 应收账龄、催收和坏账准备：把客户欠款从未收金额延伸到逾期风险、催收闭环和坏账准备证据包。
+- 资金管理：银企直连、付款状态、银行对账、应收应付票据和资金计划。
 - 月结从 D-5 到 D+3 的工作安排、检查表和失败排查。
 - 财务案例库：把典型报错和差异按“现象、排查、根因、处理”沉淀。
 - 财务理论与金蝶系统对象的对应关系：会计要素、科目、账簿、核算维度、凭证和报表。

@@ -19,6 +19,7 @@
 
 - [金蝶个人知识库](README.md)
 - [学习路径](learning-paths.md)
+- [知识库缺口与补充路线图](knowledge-gap-roadmap.md)
 - [记录规范](conventions.md)
 
 ## 财务会计
@@ -48,6 +49,7 @@
 - [应收应付对账实务](01_finance/ar-ap-reconciliation-playbook.md)
 - [财务全链路对账教程](01_finance/reconciliation-master-guide.md)
 - [出纳与资金](01_finance/cashier-and-funds.md)
+- [银企直连、票据与资金计划专题](01_finance/bank-enterprise-bills-funds-guide.md)
 - [固定资产](01_finance/fixed-assets.md)
 - [预算、费用与控制教程](01_finance/budget-expense-control-guide.md)
 - [费用报销、借款还款与付款学习手册](01_finance/expense-reimbursement-funds-learning-guide.md)
@@ -73,6 +75,7 @@
 - [销售退货、红冲、退款与折让专题](02_supply-chain/sales-return-red-invoice-refund-guide.md)
 - [库存管理详细教程](02_supply-chain/inventory-management-guide.md)
 - [存货核算详细教程](02_supply-chain/inventory-costing-guide.md)
+- [存货成本差异、异常成本与库存关账专题](02_supply-chain/inventory-cost-variance-close-guide.md)
 - [物料库存信息](02_supply-chain/material-inventory-info.md)
 - [组织间结算详细教程](02_supply-chain/intercompany-settlement-guide.md)
 - [条码与移动仓库作业教程](02_supply-chain/barcode-mobile-warehouse-guide.md)

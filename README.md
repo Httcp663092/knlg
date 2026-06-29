@@ -23,15 +23,18 @@
 - [知识库首页](docs/README.md)
 - [知识地图](docs/knowledge-map.md)
 - [学习路径](docs/learning-paths.md)
+- [知识库缺口与补充路线图](docs/knowledge-gap-roadmap.md)
 - [记录规范](docs/conventions.md)
 - [财务知识区](docs/01_finance/README.md)
 - [从业务单据到财务凭证：通俗学习手册](docs/01_finance/business-document-to-voucher-learning-guide.md)
 - [应收账龄、催收与坏账准备学习手册](docs/01_finance/ar-aging-collection-bad-debt-guide.md)
+- [银企直连、票据与资金计划专题](docs/01_finance/bank-enterprise-bills-funds-guide.md)
 - [费用报销、借款还款与付款学习手册](docs/01_finance/expense-reimbursement-funds-learning-guide.md)
 - [供应链知识区](docs/02_supply-chain/README.md)
 - [供应链单据流通俗学习手册](docs/02_supply-chain/supply-chain-document-flow-learning-guide.md)
 - [价格、信用、批号、盘点与暂估专题](docs/02_supply-chain/price-credit-batch-counting-estimate-guide.md)
 - [销售退货、红冲、退款与折让专题](docs/02_supply-chain/sales-return-red-invoice-refund-guide.md)
+- [存货成本差异、异常成本与库存关账专题](docs/02_supply-chain/inventory-cost-variance-close-guide.md)
 - [生产制造知识区](docs/03_manufacturing/README.md)
 - [实施方法与交付](docs/04_implementation/README.md)
 - [BOS/插件/二开](docs/05_development-bos/README.md)
@@ -82,4 +85,5 @@ docs/
 - 具体问题处理过程沉淀到 `docs/09_operations-issues/`，稳定后反哺模块文档。
 - SQL、表结构、取数口径沉淀到 `docs/06_data-model-sql/`。
 - 角色学习、培训路线和新人上手路径沉淀到 `docs/learning-paths.md`。
+- 后续补充优先级和缺口判断沉淀到 `docs/knowledge-gap-roadmap.md`。
 - 每周整理一次 inbox，每月更新一次知识地图。

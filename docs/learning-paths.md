@@ -5,7 +5,7 @@
 >
 > [界面首页](../index.html) | [文档首页](README.md) | [知识地图](knowledge-map.md) | [学习路径](learning-paths.md) | [财务](01_finance/README.md) | [供应链](02_supply-chain/README.md) | [制造](03_manufacturing/README.md) | [实施](04_implementation/README.md) | [开发](05_development-bos/README.md) | [数据](06_data-model-sql/README.md) | [集成](07_integrations/README.md) | [运维](09_operations-issues/README.md) | [问题](10_common-questions/README.md) | [资料](90_references/README.md)
 >
-> 上一章：[金蝶知识地图](knowledge-map.md) | 下一章：[记录规范](conventions.md) | [本章目录](README.md)
+> 上一章：[金蝶知识地图](knowledge-map.md) | 下一章：[知识库缺口与补充路线图](knowledge-gap-roadmap.md) | [本章目录](README.md)
 <!-- NAV_END -->
 
 
@@ -100,6 +100,7 @@
 - [应收账龄、催收与坏账准备学习手册](01_finance/ar-aging-collection-bad-debt-guide.md)
 - [应付款管理](01_finance/accounts-payable.md)
 - [出纳与资金](01_finance/cashier-and-funds.md)
+- [银企直连、票据与资金计划专题](01_finance/bank-enterprise-bills-funds-guide.md)
 - [固定资产](01_finance/fixed-assets.md)
 - [费用报销、借款还款与付款学习手册](01_finance/expense-reimbursement-funds-learning-guide.md)
 - [月结流程](01_finance/month-end-close.md)
@@ -123,9 +124,10 @@
 4. 从一张采购入库单追到应付单、付款单、核销记录和凭证。
 5. 从一张销售出库单追到应收单、收款单、成本凭证和客户余额。
 6. 输出一次应收账龄和催收清单，检查未核销收款、逾期客户和坏账准备口径。
-7. 做一笔员工借款、费用报销、付款和还款，检查员工往来余额。
-8. 完成一次固定资产新增、计提折旧、生成凭证。
-9. 模拟月结：凭证生成、凭证检查、过账、结转损益、报表取数。
+7. 做一笔银企付款、银行回写和银行对账，区分付款单审核成功和银行支付成功。
+8. 做一笔员工借款、费用报销、付款和还款，检查员工往来余额。
+9. 完成一次固定资产新增、计提折旧、生成凭证。
+10. 模拟月结：凭证生成、凭证检查、过账、结转损益、报表取数。
 
 验收标准：
 
@@ -192,6 +194,7 @@
 - [销售退货、红冲、退款与折让专题](02_supply-chain/sales-return-red-invoice-refund-guide.md)
 - [库存管理详细教程](02_supply-chain/inventory-management-guide.md)
 - [存货核算详细教程](02_supply-chain/inventory-costing-guide.md)
+- [存货成本差异、异常成本与库存关账专题](02_supply-chain/inventory-cost-variance-close-guide.md)
 - [组织间结算详细教程](02_supply-chain/intercompany-settlement-guide.md)
 - [供应链官方资料精读：协同、主数据和监控](02_supply-chain/supply-chain-official-source-digest.md)
 
@@ -211,7 +214,8 @@
 3. 画出采购到付款、销售到收款的单据流，标出哪一步影响库存、哪一步影响应收应付。
 4. 测试一次采购价目表、销售价目表、信用控制、批号出库、盘点差异和暂估冲回。
 5. 模拟销售退货、红字应收、红字发票、客户退款和成本冲回，记录对库存、应收、税额和毛利的影响。
-6. 模拟负库存、无成本、暂估未冲回、红字出库，记录系统表现和处理方法。
+6. 做一次存货月结：清负库存、核算出库成本、处理暂估价差、生成凭证并和总账对账。
+7. 模拟负库存、无成本、暂估未冲回、红字出库，记录系统表现和处理方法。
 
 验收标准：
 

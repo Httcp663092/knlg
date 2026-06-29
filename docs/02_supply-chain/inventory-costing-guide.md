@@ -5,7 +5,7 @@
 >
 > [界面首页](../../index.html) | [文档首页](../README.md) | [知识地图](../knowledge-map.md) | [学习路径](../learning-paths.md) | [财务](../01_finance/README.md) | [供应链](README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
-> 上一章：[库存管理详细教程](inventory-management-guide.md) | 下一章：[物料库存信息](material-inventory-info.md) | [本章目录](README.md)
+> 上一章：[库存管理详细教程](inventory-management-guide.md) | 下一章：[存货成本差异、异常成本与库存关账专题](inventory-cost-variance-close-guide.md) | [本章目录](README.md)
 <!-- NAV_END -->
 
 
@@ -208,6 +208,8 @@
 | 总账金额 | 存货核算 = 总账存货科目 |
 | 销售成本 | 销售出库成本 = 主营业务成本 |
 | 生产成本 | 生产订单成本 = 生产成本科目 |
+
+存货成本差异、异常成本、暂估价差和库存关账的完整排查可以继续看 [存货成本差异、异常成本与库存关账专题](inventory-cost-variance-close-guide.md)。
 
 ### 差异分类
 
