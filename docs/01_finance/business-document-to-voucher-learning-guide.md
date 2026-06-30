@@ -5,7 +5,7 @@
 >
 > [界面首页](../../index.html) | [文档首页](../README.md) | [知识地图](../knowledge-map.md) | [学习路径](../learning-paths.md) | [财务](README.md) | [供应链](../02_supply-chain/README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
-> 上一章：[财务实操场景：从业务单据到凭证报表](finance-operation-scenarios.md) | 下一章：[金蝶财务项目案例集](kingdee-finance-project-cases.md) | [本章目录](README.md)
+> 上一章：[财务实操场景：从业务单据到凭证报表](finance-operation-scenarios.md) | 下一章：[收入确认、合同履约与开票回款跨期专题](revenue-recognition-contract-invoice-guide.md) | [本章目录](README.md)
 <!-- NAV_END -->
 
 很多人学金蝶财务会卡在一个地方：凭证能看懂一点，业务单据也能看懂一点，但不知道它们中间怎么连起来。其实可以用一句话理解：

@@ -18,9 +18,12 @@
 | [供应链官方资料精读：协同、主数据和监控](../02_supply-chain/supply-chain-official-source-digest.md) | 供应商协同、采购申请状态、基础资料控制、业务监控 | 金蝶云产品手册 |
 | [供应链单据流通俗学习手册](../02_supply-chain/supply-chain-document-flow-learning-guide.md) | 采购到付款、销售到收款、库存管理、存货核算、业财对账 | 金蝶云产品手册、项目实践 |
 | [价格、信用、批号、盘点与暂估专题](../02_supply-chain/price-credit-batch-counting-estimate-guide.md) | 采购价格、销售价格、信用控制、批号保质期、盘点、暂估应付 | 金蝶云产品手册、项目实践 |
+| [采购结算、到票、暂估冲回与采购价差专题](../02_supply-chain/purchase-settlement-invoice-variance-guide.md) | 采购结算、采购发票、暂估冲回、采购价差、费用分摊、供应商对账 | 金蝶云产品手册、项目实践 |
 | [销售退货、红冲、退款与折让专题](../02_supply-chain/sales-return-red-invoice-refund-guide.md) | 销售退货、红字应收、红字发票、客户退款、销售折让、成本冲回 | 金蝶云产品手册、项目实践 |
+| [寄售、VMI 与客户寄售库存专题](../02_supply-chain/consignment-vmi-inventory-guide.md) | 供应商寄售、客户寄售、VMI、库存所有权、消耗结算、寄售对账 | 金蝶云产品手册、项目实践 |
 | [存货成本差异、异常成本与库存关账专题](../02_supply-chain/inventory-cost-variance-close-guide.md) | 存货核算、出库成本、成本调整、暂估价差、存货对账、库存关账 | 金蝶云产品手册、项目实践 |
 | [从业务单据到财务凭证：通俗学习手册](../01_finance/business-document-to-voucher-learning-guide.md) | 业务单据、应收应付、收付款、存货核算、凭证生成、总账追溯 | 金蝶云产品手册、项目实践 |
+| [收入确认、合同履约与开票回款跨期专题](../01_finance/revenue-recognition-contract-invoice-guide.md) | 收入确认、合同履约、销售出库、应收、发票、收款、收入成本跨期 | 金蝶云产品手册、项目实践 |
 | [费用报销、借款还款与付款学习手册](../01_finance/expense-reimbursement-funds-learning-guide.md) | 员工借款、费用报销、预算控制、付款、凭证、附件归档 | 金蝶云产品手册、项目实践 |
 | [应收账龄、催收与坏账准备学习手册](../01_finance/ar-aging-collection-bad-debt-guide.md) | 应收账龄、收款条件、催收闭环、信用控制、坏账准备和月末证据包 | 金蝶云产品手册、项目实践 |
 | [银企直连、票据与资金计划专题](../01_finance/bank-enterprise-bills-funds-guide.md) | 银企直连、网上银行、银行对账、应收票据、应付票据、资金计划 | 金蝶云产品手册、项目实践 |

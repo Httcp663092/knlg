@@ -23,13 +23,16 @@
 - [记录规范](conventions.md)：统一笔记格式、状态、标签和维护规则。
 - [财务知识区](01_finance/README.md)：总账、应收、应付、出纳、固定资产、月结和报表。
 - [从业务单据到财务凭证：通俗学习手册](01_finance/business-document-to-voucher-learning-guide.md)：把采购、销售、库存和收付款讲成能追溯到凭证的学习主线。
+- [收入确认、合同履约与开票回款跨期专题](01_finance/revenue-recognition-contract-invoice-guide.md)：讲清销售出库、签收、应收、开票、收款、成本和收入确认口径。
 - [应收账龄、催收与坏账准备学习手册](01_finance/ar-aging-collection-bad-debt-guide.md)：把客户欠款从应收余额延伸到账龄、催收、信用风险和坏账准备。
 - [银企直连、票据与资金计划专题](01_finance/bank-enterprise-bills-funds-guide.md)：把付款状态、银行回写、票据流转、银行对账和资金预测串起来。
 - [费用报销、借款还款与付款学习手册](01_finance/expense-reimbursement-funds-learning-guide.md)：把员工借款、报销、预算、付款、凭证和附件归档串成闭环。
 - [供应链知识区](02_supply-chain/README.md)：采购、销售、库存、存货核算和业财衔接。
 - [供应链单据流通俗学习手册](02_supply-chain/supply-chain-document-flow-learning-guide.md)：用单据流讲采购到付款、销售到收款、库存和存货核算。
 - [价格、信用、批号、盘点与暂估专题](02_supply-chain/price-credit-batch-counting-estimate-guide.md)：补供应链价格、信用、批号保质期、盘点和暂估控制点。
+- [采购结算、到票、暂估冲回与采购价差专题](02_supply-chain/purchase-settlement-invoice-variance-guide.md)：补采购入库、发票匹配、暂估冲回、价差和费用分摊。
 - [销售退货、红冲、退款与折让专题](02_supply-chain/sales-return-red-invoice-refund-guide.md)：把退货入库、红字应收、红字发票、退款核销和成本冲回串成闭环。
+- [寄售、VMI 与客户寄售库存专题](02_supply-chain/consignment-vmi-inventory-guide.md)：补特殊库存的所有权、消耗结算、应收应付和库存对账。
 - [存货成本差异、异常成本与库存关账专题](02_supply-chain/inventory-cost-variance-close-guide.md)：补存货金额、出库成本、暂估价差、成本调整和库存关账排查。
 - [生产制造知识区](03_manufacturing/README.md)：BOM、计划、生产订单、领料、完工和制造成本。
 - [实施方法与交付](04_implementation/README.md)：调研、蓝图、数据迁移、测试、上线和验收。
@@ -55,8 +58,8 @@
 
 ## 当前覆盖
 
-- 财务：会计循环、科目维度、总账、应收、应收账龄催收、坏账准备、应付、出纳、银企票据资金计划、固定资产、预算、费用报销、月结、业务单据到凭证、现金流、报表分析、税务发票、电子档案、案例和常见问题。
-- 供应链：采购、销售、销售退货红冲退款、库存、存货核算、存货成本差异、库存关账、单据流学习、价格信用、批号盘点、暂估、组织间结算、条码仓库、供应商协同、业务到财务衔接。
+- 财务：会计循环、科目维度、总账、收入确认、应收、应收账龄催收、坏账准备、应付、出纳、银企票据资金计划、固定资产、预算、费用报销、月结、业务单据到凭证、现金流、报表分析、税务发票、电子档案、案例和常见问题。
+- 供应链：采购、采购结算、销售、销售退货红冲退款、库存、寄售/VMI、存货核算、存货成本差异、库存关账、单据流学习、价格信用、批号盘点、暂估、组织间结算、条码仓库、供应商协同、业务到财务衔接。
 - 生产制造：BOM、MRP、生产订单、委外、车间报工、质量、设备和制造成本。
 - 实施交付：调研蓝图、主数据期初、权限内控、测试培训、上线验收。
 - BOS/苍穹开发：项目创建、建模、插件、插件治理、单据转换、工作流和权限扩展。

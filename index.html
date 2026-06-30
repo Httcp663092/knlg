@@ -715,7 +715,7 @@
           <svg aria-hidden="true" viewBox="0 0 24 24" fill="none">
             <path d="m21 21-4.2-4.2m1.2-5.3a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
           </svg>
-          <input id="kbSearch" type="search" placeholder="搜索模块、问题、教程、角色，例如：月结、凭证、费用报销、暂估、信用、票据、成本差异">
+          <input id="kbSearch" type="search" placeholder="搜索模块、问题、教程、角色，例如：月结、凭证、费用报销、暂估、信用、票据、收入确认">
         </label>
         <div class="top-actions" aria-label="快捷操作">
           <a class="action-link primary" href="docs/learning-paths.md">学习路径</a>
@@ -734,12 +734,15 @@
             <div class="quick-row">
               <a href="docs/01_finance/general-ledger.md">总账教程</a>
               <a href="docs/01_finance/business-document-to-voucher-learning-guide.md">业务到凭证</a>
+              <a href="docs/01_finance/revenue-recognition-contract-invoice-guide.md">收入确认</a>
               <a href="docs/01_finance/ar-aging-collection-bad-debt-guide.md">账龄催收</a>
               <a href="docs/01_finance/bank-enterprise-bills-funds-guide.md">银企票据</a>
               <a href="docs/01_finance/expense-reimbursement-funds-learning-guide.md">费用报销</a>
               <a href="docs/01_finance/month-end-close-playbook.md">月结作战</a>
               <a href="docs/02_supply-chain/supply-chain-document-flow-learning-guide.md">供应链单据流</a>
+              <a href="docs/02_supply-chain/purchase-settlement-invoice-variance-guide.md">采购结算</a>
               <a href="docs/02_supply-chain/sales-return-red-invoice-refund-guide.md">退货红冲</a>
+              <a href="docs/02_supply-chain/consignment-vmi-inventory-guide.md">寄售VMI</a>
               <a href="docs/02_supply-chain/inventory-cost-variance-close-guide.md">成本关账</a>
             </div>
           </div>
@@ -790,33 +793,36 @@
           </div>
 
           <div class="grid" id="cardGrid">
-            <article class="card" data-group="finance" data-keywords="财务 总账 凭证 应收 应付 出纳 固定资产 月结 报表 现金流 对账 业务单据 单据流 费用报销 借款 付款 账龄 催收 坏账 收款条件 信用 银企 票据 资金计划 网上银行 银行对账">
+            <article class="card" data-group="finance" data-keywords="财务 总账 凭证 应收 应付 出纳 固定资产 月结 报表 现金流 对账 业务单据 单据流 费用报销 借款 付款 账龄 催收 坏账 收款条件 信用 银企 票据 资金计划 网上银行 银行对账 收入确认 合同履约 开票 回款 跨期">
               <div class="card-top">
                 <div class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M5 4h14v16H5V4Zm3 4h8M8 12h8M8 16h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
                 <span class="tag">核心</span>
               </div>
               <h3>财务知识区</h3>
-              <p>总账、凭证、应收应付、账龄催收、坏账准备、银企票据、业务单据到凭证、费用报销、资金、固定资产、预算、月结和财务案例。</p>
+              <p>总账、凭证、收入确认、应收应付、账龄催收、坏账准备、银企票据、业务单据到凭证、费用报销、资金、固定资产、预算、月结和财务案例。</p>
               <div class="card-links">
                 <a href="docs/01_finance/README.md">进入财务目录</a>
                 <a href="docs/01_finance/business-document-to-voucher-learning-guide.md">业务到凭证</a>
+                <a href="docs/01_finance/revenue-recognition-contract-invoice-guide.md">收入确认跨期</a>
                 <a href="docs/01_finance/ar-aging-collection-bad-debt-guide.md">账龄催收坏账</a>
                 <a href="docs/01_finance/bank-enterprise-bills-funds-guide.md">银企票据资金</a>
                 <a href="docs/01_finance/expense-reimbursement-funds-learning-guide.md">费用报销</a>
               </div>
             </article>
 
-            <article class="card" data-group="business" data-keywords="供应链 采购 销售 库存 存货核算 仓库 条码 组织间结算 单据流 采购到付款 销售到收款 价格 信用 批号 盘点 暂估 退货 红冲 退款 折让 红字发票 成本差异 异常成本 库存关账 出库成本">
+            <article class="card" data-group="business" data-keywords="供应链 采购 销售 库存 存货核算 仓库 条码 组织间结算 单据流 采购到付款 销售到收款 价格 信用 批号 盘点 暂估 退货 红冲 退款 折让 红字发票 成本差异 异常成本 库存关账 出库成本 采购结算 到票 价差 寄售 VMI 客户寄售">
               <div class="card-top">
                 <div class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M4 7h16v10H4V7Zm3-3h10l3 3M8 17v3m8-3v3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
                 <span class="tag">业务</span>
               </div>
               <h3>供应链与库存</h3>
-              <p>采购到付款、销售到收款、退货红冲退款、库存出入库、存货核算、成本差异、库存关账、价格信用、批号盘点、暂估和业财衔接。</p>
+              <p>采购到付款、采购结算、销售到收款、退货红冲退款、寄售VMI、库存出入库、存货核算、成本差异、库存关账、价格信用、批号盘点、暂估和业财衔接。</p>
               <div class="card-links">
                 <a href="docs/02_supply-chain/README.md">进入供应链目录</a>
                 <a href="docs/02_supply-chain/supply-chain-document-flow-learning-guide.md">单据流学习</a>
+                <a href="docs/02_supply-chain/purchase-settlement-invoice-variance-guide.md">采购结算价差</a>
                 <a href="docs/02_supply-chain/sales-return-red-invoice-refund-guide.md">退货红冲退款</a>
+                <a href="docs/02_supply-chain/consignment-vmi-inventory-guide.md">寄售VMI</a>
                 <a href="docs/02_supply-chain/inventory-cost-variance-close-guide.md">成本差异关账</a>
                 <a href="docs/02_supply-chain/price-credit-batch-counting-estimate-guide.md">价格信用暂估</a>
               </div>
@@ -992,6 +998,16 @@
                   <td>凭证生成失败、总账和业务账不一致、月结卡住</td>
                   <td><a href="docs/01_finance/README.md">财务知识区</a></td>
                   <td><a href="docs/09_operations-issues/operations-case-library.md">全模块问题案例库</a></td>
+                </tr>
+                <tr>
+                  <td>销售出库、开票、收款和收入确认跨期，说不清收入口径</td>
+                  <td><a href="docs/01_finance/revenue-recognition-contract-invoice-guide.md">收入确认专题</a></td>
+                  <td><a href="docs/01_finance/tax-invoice-management-guide.md">税务发票管理</a></td>
+                </tr>
+                <tr>
+                  <td>采购入库、发票到票、暂估冲回、采购价差和供应商对账不一致</td>
+                  <td><a href="docs/02_supply-chain/purchase-settlement-invoice-variance-guide.md">采购结算价差</a></td>
+                  <td><a href="docs/02_supply-chain/inventory-cost-variance-close-guide.md">成本差异与库存关账</a></td>
                 </tr>
                 <tr>
                   <td>采购、销售、库存、存货核算和总账金额不一致</td>

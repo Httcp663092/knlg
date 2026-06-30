@@ -94,6 +94,7 @@
 
 - [金蝶财务日常操作手册](01_finance/finance-daily-operation-guide.md)
 - [从业务单据到财务凭证：通俗学习手册](01_finance/business-document-to-voucher-learning-guide.md)
+- [收入确认、合同履约与开票回款跨期专题](01_finance/revenue-recognition-contract-invoice-guide.md)
 - [总账](01_finance/general-ledger.md)
 - [凭证生成与常见分录](01_finance/voucher-generation-and-entries.md)
 - [应收款管理](01_finance/accounts-receivable.md)
@@ -123,11 +124,12 @@
 3. 做一笔应付付款核销，检查供应商往来余额变化。
 4. 从一张采购入库单追到应付单、付款单、核销记录和凭证。
 5. 从一张销售出库单追到应收单、收款单、成本凭证和客户余额。
-6. 输出一次应收账龄和催收清单，检查未核销收款、逾期客户和坏账准备口径。
-7. 做一笔银企付款、银行回写和银行对账，区分付款单审核成功和银行支付成功。
-8. 做一笔员工借款、费用报销、付款和还款，检查员工往来余额。
-9. 完成一次固定资产新增、计提折旧、生成凭证。
-10. 模拟月结：凭证生成、凭证检查、过账、结转损益、报表取数。
+6. 做一次收入确认跨期练习，区分出库、签收、开票、收款和收入确认。
+7. 输出一次应收账龄和催收清单，检查未核销收款、逾期客户和坏账准备口径。
+8. 做一笔银企付款、银行回写和银行对账，区分付款单审核成功和银行支付成功。
+9. 做一笔员工借款、费用报销、付款和还款，检查员工往来余额。
+10. 完成一次固定资产新增、计提折旧、生成凭证。
+11. 模拟月结：凭证生成、凭证检查、过账、结转损益、报表取数。
 
 验收标准：
 
@@ -190,9 +192,11 @@
 - [供应链单据流通俗学习手册](02_supply-chain/supply-chain-document-flow-learning-guide.md)
 - [价格、信用、批号、盘点与暂估专题](02_supply-chain/price-credit-batch-counting-estimate-guide.md)
 - [采购管理详细教程](02_supply-chain/purchase-management-guide.md)
+- [采购结算、到票、暂估冲回与采购价差专题](02_supply-chain/purchase-settlement-invoice-variance-guide.md)
 - [销售管理详细教程](02_supply-chain/sales-management-guide.md)
 - [销售退货、红冲、退款与折让专题](02_supply-chain/sales-return-red-invoice-refund-guide.md)
 - [库存管理详细教程](02_supply-chain/inventory-management-guide.md)
+- [寄售、VMI 与客户寄售库存专题](02_supply-chain/consignment-vmi-inventory-guide.md)
 - [存货核算详细教程](02_supply-chain/inventory-costing-guide.md)
 - [存货成本差异、异常成本与库存关账专题](02_supply-chain/inventory-cost-variance-close-guide.md)
 - [组织间结算详细教程](02_supply-chain/intercompany-settlement-guide.md)
@@ -213,9 +217,11 @@
 2. 做一次销售出库到应收收款，检查库存减少、成本结转、收入确认。
 3. 画出采购到付款、销售到收款的单据流，标出哪一步影响库存、哪一步影响应收应付。
 4. 测试一次采购价目表、销售价目表、信用控制、批号出库、盘点差异和暂估冲回。
-5. 模拟销售退货、红字应收、红字发票、客户退款和成本冲回，记录对库存、应收、税额和毛利的影响。
-6. 做一次存货月结：清负库存、核算出库成本、处理暂估价差、生成凭证并和总账对账。
-7. 模拟负库存、无成本、暂估未冲回、红字出库，记录系统表现和处理方法。
+5. 做一次采购结算：入库暂估、发票到票、暂估冲回、价差调整和供应商对账。
+6. 模拟销售退货、红字应收、红字发票、客户退款和成本冲回，记录对库存、应收、税额和毛利的影响。
+7. 做一次寄售/VMI 练习，区分库存地点、所有权、消耗结算和应收应付时点。
+8. 做一次存货月结：清负库存、核算出库成本、处理暂估价差、生成凭证并和总账对账。
+9. 模拟负库存、无成本、暂估未冲回、红字出库，记录系统表现和处理方法。
 
 验收标准：
 
