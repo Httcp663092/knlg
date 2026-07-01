@@ -29,6 +29,7 @@
 - [银企直连、票据与资金计划专题](01_finance/bank-enterprise-bills-funds-guide.md)：把付款状态、银行回写、票据流转、银行对账和资金预测串起来。
 - [费用报销、借款还款与付款学习手册](01_finance/expense-reimbursement-funds-learning-guide.md)：把员工借款、报销、预算、付款、凭证和附件归档串成闭环。
 - [集团合并报表、内部交易抵消与内部往来对账专题](01_finance/consolidated-reporting-elimination-guide.md)：把个别报表上报、内部往来、内部交易、权益抵消和工作底稿串成合并闭环。
+- [发票税务申报勾稽、红字和未开票收入专题](01_finance/tax-declaration-invoice-reconciliation-guide.md)：把销项、进项、红字、未开票收入、已开票未收入和总账税金科目串成月末申报证据包。
 - [供应链知识区](02_supply-chain/README.md)：采购、销售、库存、存货核算和业财衔接。
 - [供应链单据流通俗学习手册](02_supply-chain/supply-chain-document-flow-learning-guide.md)：用单据流讲采购到付款、销售到收款、库存和存货核算。
 - [价格、信用、批号、盘点与暂估专题](02_supply-chain/price-credit-batch-counting-estimate-guide.md)：补供应链价格、信用、批号保质期、盘点和暂估控制点。
@@ -36,6 +37,7 @@
 - [销售退货、红冲、退款与折让专题](02_supply-chain/sales-return-red-invoice-refund-guide.md)：把退货入库、红字应收、红字发票、退款核销和成本冲回串成闭环。
 - [客户退货质检、RMA、返修与报废专题](02_supply-chain/customer-return-quality-rma-guide.md)：把退货授权、待检库存、质量判定、返修、报废、换货和客户对账串成闭环。
 - [客户索赔、售后备件、保内保外维修专题](02_supply-chain/after-sales-claims-spare-parts-guide.md)：把售后申请、备件出库、保内保外、赔偿、索赔、维修收入和售后成本串成闭环。
+- [渠道售后、服务站库存与经销商代修专题](02_supply-chain/channel-after-sales-service-station-guide.md)：把服务站库存、经销商代修、旧件返还、保内保外、服务费和渠道对账串成闭环。
 - [寄售、VMI 与客户寄售库存专题](02_supply-chain/consignment-vmi-inventory-guide.md)：补特殊库存的所有权、消耗结算、应收应付和库存对账。
 - [存货成本差异、异常成本与库存关账专题](02_supply-chain/inventory-cost-variance-close-guide.md)：补存货金额、出库成本、暂估价差、成本调整和库存关账排查。
 - [生产制造知识区](03_manufacturing/README.md)：BOM、计划、生产订单、领料、完工和制造成本。
@@ -49,6 +51,7 @@
 - [插件治理、排障与上线回归手册](05_development-bos/plugin-governance-and-troubleshooting-guide.md)：插件类型选择、事件时机、幂等、日志、发布回归和生产故障定位。
 - [权限审计、关键岗位内控与越权操作追溯专题](04_implementation/permission-audit-sod-control-guide.md)：沉淀高危权限、职责分离、临时授权、敏感操作和审计证据包。
 - [接口与集成](07_integrations/README.md)：AI 文档分类、OpenAPI、外部系统集成。
+- [WMS 出入库对账、接口补偿与库存一致性专题](07_integrations/wms-inventory-reconciliation-compensation-guide.md)：补 WMS 收发货回写、幂等、防重复、异常补偿和库存一致性对账。
 - [环境、发布和版本](08_environments-releases/README.md)：数据清理、水平分库、环境和补丁。
 - [运维与问题库](09_operations-issues/README.md)：问题现象、根因、处理方案。
 - [全模块问题案例库](09_operations-issues/operations-case-library.md)：按完整处理过程沉淀财务、供应链、制造、接口、权限、性能等案例。
@@ -67,13 +70,13 @@
 
 ## 当前覆盖
 
-- 财务：会计循环、科目维度、总账、收入确认、应收、应收账龄催收、坏账准备、应付、出纳、银企票据资金计划、固定资产、预算、费用报销、月结、业务单据到凭证、现金流、报表分析、合并报表、税务发票、电子档案、案例和常见问题。
-- 供应链：采购、采购结算、销售、销售退货红冲退款、客户退货质检/RMA、售后索赔备件、库存、寄售/VMI、存货核算、存货成本差异、库存关账、单据流学习、价格信用、批号盘点、暂估、组织间结算、条码仓库、供应商协同、业务到财务衔接。
+- 财务：会计循环、科目维度、总账、收入确认、应收、应收账龄催收、坏账准备、应付、出纳、银企票据资金计划、固定资产、预算、费用报销、月结、业务单据到凭证、现金流、报表分析、合并报表、税务发票、税务申报勾稽、电子档案、案例和常见问题。
+- 供应链：采购、采购结算、销售、销售退货红冲退款、客户退货质检/RMA、售后索赔备件、渠道售后、服务站库存、经销商代修、库存、寄售/VMI、存货核算、存货成本差异、库存关账、单据流学习、价格信用、批号盘点、暂估、组织间结算、条码仓库、供应商协同、业务到财务衔接。
 - 生产制造：BOM、MRP、生产订单、委外、委外加工费结算、车间报工、MES 报工回写、设备采集、车间看板、质量、设备和制造成本。
 - 实施交付：调研蓝图、主数据期初、权限内控、权限审计、测试培训、上线验收。
 - BOS/苍穹开发：项目创建、建模、插件、插件治理、单据转换、工作流和权限扩展。
 - 数据 SQL：数据模型阅读、核心表字典、常用查询包、已验证 SQL 示例、财务对账、库存排查、报表指标口径。
-- 接口集成：外部系统集成、接口联调、日志、幂等、重试和对账。
+- 接口集成：外部系统集成、接口联调、WMS 出入库回写、日志、幂等、重试、补偿和对账。
 - 环境运维：环境发布、系统管理员日常、备份恢复、监控巡检、问题处理。
 - 学习路径：财务新人、实施顾问、供应链顾问、制造顾问、BOS 开发、数据 SQL、接口运维的 30/60/90 天路线。
 - 问题案例：应收总账差异、存货对账、MRP、接口重复单、权限、发布后凭证异常、报表性能等全模块案例。

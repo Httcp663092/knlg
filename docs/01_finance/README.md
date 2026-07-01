@@ -56,10 +56,11 @@
 33. [现金流量表与现金流项目教程](cash-flow-statement-guide.md)
 34. [三大报表与财务分析教程](financial-statement-analysis-guide.md)
 35. [税务发票管理教程](tax-invoice-management-guide.md)
-36. [电子会计档案与附件归档教程](electronic-accounting-archive-guide.md)
-37. [财务案例库](finance-case-library.md)
-38. [财务常见问题](common-issues.md)
-39. [财务术语](terms.md)
+36. [发票税务申报勾稽、红字和未开票收入专题](tax-declaration-invoice-reconciliation-guide.md)
+37. [电子会计档案与附件归档教程](electronic-accounting-archive-guide.md)
+38. [财务案例库](finance-case-library.md)
+39. [财务常见问题](common-issues.md)
+40. [财务术语](terms.md)
 
 ## 问题查询入口
 
@@ -108,5 +109,5 @@
 - 通俗学习手册：从采购、销售、库存等业务单据追到应收、应付、存货核算、凭证和总账。
 - 收入确认：把合同履约、销售出库、应收、开票、收款、成本结转和跨期差异串成闭环。
 - 费用报销：员工借款、费用报销、预算控制、付款、凭证和附件归档。
-- 税务发票和电子档案：发票匹配、红冲、附件、凭证归档和审计追溯。
+- 税务发票和电子档案：发票匹配、红冲、申报勾稽、未开票收入、附件、凭证归档和审计追溯。
 - 深度财务知识：会计循环、科目和核算维度、现金流量表、财务分析、预算控制、多组织多账簿、合并报表和全链路对账。

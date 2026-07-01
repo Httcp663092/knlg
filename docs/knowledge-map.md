@@ -62,6 +62,7 @@
 - [现金流量表与现金流项目教程](01_finance/cash-flow-statement-guide.md)
 - [三大报表与财务分析教程](01_finance/financial-statement-analysis-guide.md)
 - [税务发票管理教程](01_finance/tax-invoice-management-guide.md)
+- [发票税务申报勾稽、红字和未开票收入专题](01_finance/tax-declaration-invoice-reconciliation-guide.md)
 - [电子会计档案与附件归档教程](01_finance/electronic-accounting-archive-guide.md)
 - [财务案例库](01_finance/finance-case-library.md)
 - [财务常见问题](01_finance/common-issues.md)
@@ -79,6 +80,7 @@
 - [销售退货、红冲、退款与折让专题](02_supply-chain/sales-return-red-invoice-refund-guide.md)
 - [客户退货质检、RMA、返修与报废专题](02_supply-chain/customer-return-quality-rma-guide.md)
 - [客户索赔、售后备件、保内保外维修专题](02_supply-chain/after-sales-claims-spare-parts-guide.md)
+- [渠道售后、服务站库存与经销商代修专题](02_supply-chain/channel-after-sales-service-station-guide.md)
 - [库存管理详细教程](02_supply-chain/inventory-management-guide.md)
 - [寄售、VMI 与客户寄售库存专题](02_supply-chain/consignment-vmi-inventory-guide.md)
 - [存货核算详细教程](02_supply-chain/inventory-costing-guide.md)
@@ -139,6 +141,7 @@
 - [金蝶接口集成实施教程](07_integrations/integration-implementation-guide.md)
 - [外部系统集成场景教程](07_integrations/external-system-integration-scenarios.md)
 - [接口联调、监控、重试与对账教程](07_integrations/interface-debugging-monitoring-reconciliation.md)
+- [WMS 出入库对账、接口补偿与库存一致性专题](07_integrations/wms-inventory-reconciliation-compensation-guide.md)
 - [WebAPI、集成平台与安全参数官方资料精读](07_integrations/webapi-integration-official-source-digest.md)
 - [AI 文档分类与结构化提取](07_integrations/ai-document-classification.md)
 

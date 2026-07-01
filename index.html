@@ -715,7 +715,7 @@
           <svg aria-hidden="true" viewBox="0 0 24 24" fill="none">
             <path d="m21 21-4.2-4.2m1.2-5.3a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
           </svg>
-          <input id="kbSearch" type="search" placeholder="搜索模块、问题、教程、角色，例如：月结、凭证、费用报销、暂估、退货质检、委外、合并报表">
+          <input id="kbSearch" type="search" placeholder="搜索模块、问题、教程、角色，例如：月结、凭证、税务申报、服务站、WMS、委外、合并报表">
         </label>
         <div class="top-actions" aria-label="快捷操作">
           <a class="action-link primary" href="docs/learning-paths.md">学习路径</a>
@@ -739,14 +739,17 @@
               <a href="docs/01_finance/bank-enterprise-bills-funds-guide.md">银企票据</a>
               <a href="docs/01_finance/expense-reimbursement-funds-learning-guide.md">费用报销</a>
               <a href="docs/01_finance/consolidated-reporting-elimination-guide.md">合并报表</a>
+              <a href="docs/01_finance/tax-declaration-invoice-reconciliation-guide.md">税务申报</a>
               <a href="docs/01_finance/month-end-close-playbook.md">月结作战</a>
               <a href="docs/02_supply-chain/supply-chain-document-flow-learning-guide.md">供应链单据流</a>
               <a href="docs/02_supply-chain/purchase-settlement-invoice-variance-guide.md">采购结算</a>
               <a href="docs/02_supply-chain/sales-return-red-invoice-refund-guide.md">退货红冲</a>
               <a href="docs/02_supply-chain/customer-return-quality-rma-guide.md">退货质检</a>
               <a href="docs/02_supply-chain/after-sales-claims-spare-parts-guide.md">售后索赔</a>
+              <a href="docs/02_supply-chain/channel-after-sales-service-station-guide.md">渠道售后</a>
               <a href="docs/03_manufacturing/outsourcing-cost-settlement-collaboration-guide.md">委外协同</a>
               <a href="docs/03_manufacturing/mes-shop-floor-dashboard-data-collection-guide.md">MES看板</a>
+              <a href="docs/07_integrations/wms-inventory-reconciliation-compensation-guide.md">WMS对账</a>
               <a href="docs/02_supply-chain/consignment-vmi-inventory-guide.md">寄售VMI</a>
               <a href="docs/02_supply-chain/inventory-cost-variance-close-guide.md">成本关账</a>
               <a href="docs/06_data-model-sql/core-table-dictionary-and-sql-pack.md">SQL查询包</a>
@@ -802,13 +805,13 @@
           </div>
 
           <div class="grid" id="cardGrid">
-            <article class="card" data-group="finance" data-keywords="财务 总账 凭证 应收 应付 出纳 固定资产 月结 报表 现金流 对账 业务单据 单据流 费用报销 借款 付款 账龄 催收 坏账 收款条件 信用 银企 票据 资金计划 网上银行 银行对账 收入确认 合同履约 开票 回款 跨期 合并报表 内部往来 内部交易 抵消 权益抵消 工作底稿">
+            <article class="card" data-group="finance" data-keywords="财务 总账 凭证 应收 应付 出纳 固定资产 月结 报表 现金流 对账 业务单据 单据流 费用报销 借款 付款 账龄 催收 坏账 收款条件 信用 银企 票据 资金计划 网上银行 银行对账 收入确认 合同履约 开票 回款 跨期 合并报表 内部往来 内部交易 抵消 权益抵消 工作底稿 税务申报 销项 进项 红字 未开票 已开票未收入 税金">
               <div class="card-top">
                 <div class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M5 4h14v16H5V4Zm3 4h8M8 12h8M8 16h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
                 <span class="tag">核心</span>
               </div>
               <h3>财务知识区</h3>
-              <p>总账、凭证、收入确认、应收应付、账龄催收、坏账准备、银企票据、业务单据到凭证、费用报销、资金、固定资产、预算、合并报表、月结和财务案例。</p>
+              <p>总账、凭证、收入确认、应收应付、账龄催收、坏账准备、银企票据、业务单据到凭证、费用报销、税务申报、资金、固定资产、预算、合并报表、月结和财务案例。</p>
               <div class="card-links">
                 <a href="docs/01_finance/README.md">进入财务目录</a>
                 <a href="docs/01_finance/business-document-to-voucher-learning-guide.md">业务到凭证</a>
@@ -817,16 +820,17 @@
                 <a href="docs/01_finance/bank-enterprise-bills-funds-guide.md">银企票据资金</a>
                 <a href="docs/01_finance/expense-reimbursement-funds-learning-guide.md">费用报销</a>
                 <a href="docs/01_finance/consolidated-reporting-elimination-guide.md">合并报表抵消</a>
+                <a href="docs/01_finance/tax-declaration-invoice-reconciliation-guide.md">税务申报勾稽</a>
               </div>
             </article>
 
-            <article class="card" data-group="business" data-keywords="供应链 采购 销售 库存 存货核算 仓库 条码 组织间结算 单据流 采购到付款 销售到收款 价格 信用 批号 盘点 暂估 退货 红冲 退款 折让 红字发票 成本差异 异常成本 库存关账 出库成本 采购结算 到票 价差 寄售 VMI 客户寄售 退货质检 RMA 返修 报废 换货 售后 售后索赔 备件 保内 保外 维修 收费维修 供应商索赔">
+            <article class="card" data-group="business" data-keywords="供应链 采购 销售 库存 存货核算 仓库 条码 组织间结算 单据流 采购到付款 销售到收款 价格 信用 批号 盘点 暂估 退货 红冲 退款 折让 红字发票 成本差异 异常成本 库存关账 出库成本 采购结算 到票 价差 寄售 VMI 客户寄售 退货质检 RMA 返修 报废 换货 售后 售后索赔 备件 保内 保外 维修 收费维修 供应商索赔 渠道售后 服务站 经销商代修 旧件返还 服务费">
               <div class="card-top">
                 <div class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M4 7h16v10H4V7Zm3-3h10l3 3M8 17v3m8-3v3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
                 <span class="tag">业务</span>
               </div>
               <h3>供应链与库存</h3>
-              <p>采购到付款、采购结算、销售到收款、退货红冲退款、退货质检RMA、售后索赔备件、寄售VMI、库存出入库、存货核算、成本差异、库存关账、价格信用、批号盘点、暂估和业财衔接。</p>
+              <p>采购到付款、采购结算、销售到收款、退货红冲退款、退货质检RMA、售后索赔备件、渠道售后、服务站库存、寄售VMI、库存出入库、存货核算、成本差异、库存关账、价格信用、批号盘点、暂估和业财衔接。</p>
               <div class="card-links">
                 <a href="docs/02_supply-chain/README.md">进入供应链目录</a>
                 <a href="docs/02_supply-chain/supply-chain-document-flow-learning-guide.md">单据流学习</a>
@@ -834,6 +838,7 @@
                 <a href="docs/02_supply-chain/sales-return-red-invoice-refund-guide.md">退货红冲退款</a>
                 <a href="docs/02_supply-chain/customer-return-quality-rma-guide.md">退货质检RMA</a>
                 <a href="docs/02_supply-chain/after-sales-claims-spare-parts-guide.md">售后索赔备件</a>
+                <a href="docs/02_supply-chain/channel-after-sales-service-station-guide.md">渠道售后服务站</a>
                 <a href="docs/02_supply-chain/consignment-vmi-inventory-guide.md">寄售VMI</a>
                 <a href="docs/02_supply-chain/inventory-cost-variance-close-guide.md">成本差异关账</a>
                 <a href="docs/02_supply-chain/price-credit-batch-counting-estimate-guide.md">价格信用暂估</a>
@@ -901,16 +906,17 @@
               </div>
             </article>
 
-            <article class="card" data-group="tech" data-keywords="接口 WebAPI 集成 外部系统 幂等 重试 对账 日志 AI 文档">
+            <article class="card" data-group="tech" data-keywords="接口 WebAPI 集成 外部系统 幂等 重试 对账 日志 AI 文档 WMS 仓储 出入库 回写 补偿 库存一致性 批号 序列号 库存状态">
               <div class="card-top">
                 <div class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M9 7H7a5 5 0 0 0 0 10h2m6-10h2a5 5 0 0 1 0 10h-2M8 12h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
                 <span class="tag">集成</span>
               </div>
               <h3>接口与集成</h3>
-              <p>外部系统集成、WebAPI、字段映射、幂等控制、失败重试、监控和接口对账。</p>
+              <p>外部系统集成、WebAPI、字段映射、WMS 出入库回写、幂等控制、失败重试、接口补偿、监控和接口对账。</p>
               <div class="card-links">
                 <a href="docs/07_integrations/README.md">进入集成目录</a>
                 <a href="docs/07_integrations/interface-debugging-monitoring-reconciliation.md">联调监控对账</a>
+                <a href="docs/07_integrations/wms-inventory-reconciliation-compensation-guide.md">WMS库存一致性</a>
                 <a href="docs/07_integrations/webapi-integration-official-source-digest.md">WebAPI 精读</a>
               </div>
             </article>
@@ -1021,6 +1027,11 @@
                 <tr>
                   <td>销售出库、开票、收款和收入确认跨期，说不清收入口径</td>
                   <td><a href="docs/01_finance/revenue-recognition-contract-invoice-guide.md">收入确认专题</a></td>
+                  <td><a href="docs/01_finance/tax-declaration-invoice-reconciliation-guide.md">税务申报勾稽</a></td>
+                </tr>
+                <tr>
+                  <td>销项、进项、红字、未开票收入和总账税金科目对不上</td>
+                  <td><a href="docs/01_finance/tax-declaration-invoice-reconciliation-guide.md">税务申报勾稽</a></td>
                   <td><a href="docs/01_finance/tax-invoice-management-guide.md">税务发票管理</a></td>
                 </tr>
                 <tr>
@@ -1042,6 +1053,11 @@
                   <td>客户索赔、免费备件、保外收费维修、供应商扣款或售后成本说不清</td>
                   <td><a href="docs/02_supply-chain/after-sales-claims-spare-parts-guide.md">售后索赔备件</a></td>
                   <td><a href="docs/02_supply-chain/customer-return-quality-rma-guide.md">退货质检RMA</a></td>
+                </tr>
+                <tr>
+                  <td>服务站库存、经销商代修、旧件返还、服务费结算和保内保外口径对不上</td>
+                  <td><a href="docs/02_supply-chain/channel-after-sales-service-station-guide.md">渠道售后服务站</a></td>
+                  <td><a href="docs/02_supply-chain/after-sales-claims-spare-parts-guide.md">售后索赔备件</a></td>
                 </tr>
                 <tr>
                   <td>采购、销售、库存、存货核算和总账金额不一致</td>
@@ -1067,6 +1083,11 @@
                   <td>接口重复单、字段映射错、外部系统和金蝶对不上</td>
                   <td><a href="docs/07_integrations/README.md">接口与集成</a></td>
                   <td><a href="docs/07_integrations/interface-debugging-monitoring-reconciliation.md">联调监控对账</a></td>
+                </tr>
+                <tr>
+                  <td>WMS 已收货、已发货或已盘点，但金蝶库存、批号、库存状态或出入库单不一致</td>
+                  <td><a href="docs/07_integrations/wms-inventory-reconciliation-compensation-guide.md">WMS库存一致性</a></td>
+                  <td><a href="docs/02_supply-chain/inventory-management-guide.md">库存管理</a></td>
                 </tr>
                 <tr>
                   <td>已经有单号或报表差异，需要查单据状态、凭证、库存、成本或接口日志</td>

@@ -97,6 +97,7 @@
 - [金蝶财务日常操作手册](01_finance/finance-daily-operation-guide.md)
 - [从业务单据到财务凭证：通俗学习手册](01_finance/business-document-to-voucher-learning-guide.md)
 - [收入确认、合同履约与开票回款跨期专题](01_finance/revenue-recognition-contract-invoice-guide.md)
+- [发票税务申报勾稽、红字和未开票收入专题](01_finance/tax-declaration-invoice-reconciliation-guide.md)
 - [总账](01_finance/general-ledger.md)
 - [凭证生成与常见分录](01_finance/voucher-generation-and-entries.md)
 - [应收款管理](01_finance/accounts-receivable.md)
@@ -130,8 +131,9 @@
 7. 输出一次应收账龄和催收清单，检查未核销收款、逾期客户和坏账准备口径。
 8. 做一笔银企付款、银行回写和银行对账，区分付款单审核成功和银行支付成功。
 9. 做一笔员工借款、费用报销、付款和还款，检查员工往来余额。
-10. 完成一次固定资产新增、计提折旧、生成凭证。
-11. 模拟月结：凭证生成、凭证检查、过账、结转损益、报表取数。
+10. 做一次税务申报勾稽，核对销项、进项、红字、未开票收入和总账税金科目。
+11. 完成一次固定资产新增、计提折旧、生成凭证。
+12. 模拟月结：凭证生成、凭证检查、过账、结转损益、报表取数。
 
 验收标准：
 
@@ -202,6 +204,7 @@
 - [销售退货、红冲、退款与折让专题](02_supply-chain/sales-return-red-invoice-refund-guide.md)
 - [客户退货质检、RMA、返修与报废专题](02_supply-chain/customer-return-quality-rma-guide.md)
 - [客户索赔、售后备件、保内保外维修专题](02_supply-chain/after-sales-claims-spare-parts-guide.md)
+- [渠道售后、服务站库存与经销商代修专题](02_supply-chain/channel-after-sales-service-station-guide.md)
 - [库存管理详细教程](02_supply-chain/inventory-management-guide.md)
 - [寄售、VMI 与客户寄售库存专题](02_supply-chain/consignment-vmi-inventory-guide.md)
 - [存货核算详细教程](02_supply-chain/inventory-costing-guide.md)
@@ -228,9 +231,10 @@
 6. 模拟销售退货、红字应收、红字发票、客户退款和成本冲回，记录对库存、应收、税额和毛利的影响。
 7. 模拟客户退货质检：退回待检、判定返修或报废、换货、红字应收、退款和客户对账。
 8. 模拟一次售后备件出库、保外维修收费、客户赔偿和供应商索赔，检查收入、成本和往来。
-9. 做一次寄售/VMI 练习，区分库存地点、所有权、消耗结算和应收应付时点。
-10. 做一次存货月结：清负库存、核算出库成本、处理暂估价差、生成凭证并和总账对账。
-11. 模拟负库存、无成本、暂估未冲回、红字出库，记录系统表现和处理方法。
+9. 模拟渠道售后：服务站备件补货、经销商代修、旧件返还、服务费结算和保内保外判断。
+10. 做一次寄售/VMI 练习，区分库存地点、所有权、消耗结算和应收应付时点。
+11. 做一次存货月结：清负库存、核算出库成本、处理暂估价差、生成凭证并和总账对账。
+12. 模拟负库存、无成本、暂估未冲回、红字出库，记录系统表现和处理方法。
 
 验收标准：
 
@@ -372,6 +376,7 @@
 - [金蝶接口集成实施教程](07_integrations/integration-implementation-guide.md)
 - [外部系统集成场景教程](07_integrations/external-system-integration-scenarios.md)
 - [接口联调、监控、重试与对账教程](07_integrations/interface-debugging-monitoring-reconciliation.md)
+- [WMS 出入库对账、接口补偿与库存一致性专题](07_integrations/wms-inventory-reconciliation-compensation-guide.md)
 - [WebAPI、集成平台与安全参数官方资料精读](07_integrations/webapi-integration-official-source-digest.md)
 - [环境、发布和版本](08_environments-releases/README.md)
 - [系统管理员日常运维教程](08_environments-releases/system-admin-daily-ops-guide.md)
