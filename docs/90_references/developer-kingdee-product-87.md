@@ -33,8 +33,10 @@
 | 物料库存信息 | [物料库存信息](../02_supply-chain/material-inventory-info.md) | 库存单位、批号、序列号、保质期 |
 | 文档分类（大模型）使用手册 | [AI 文档分类与结构化提取](../07_integrations/ai-document-classification.md) | 组合识别器、大模型分类、结构化提取 |
 | 数据清理服务使用指南 | [苍穹数据清理服务](../08_environments-releases/cangqiong-data-cleaning.md) | 数据归档、数据清理、清理规则、调度计划 |
+| 数据清理服务使用指南和运行治理经验 | [数据清理归档、接口报文留存与审计追溯专题](../08_environments-releases/data-archive-log-retention-audit-guide.md) | 历史数据清理、附件归档、接口报文留存、操作日志审计、追溯证据 |
 | 苍穹水平分库 | [苍穹水平分库](../08_environments-releases/cangqiong-horizontal-sharding.md) | 水平分库、分片、海量单据 |
 | K3Cloud SDK 插件层级与操作服务插件 | [插件治理、排障与上线回归手册](../05_development-bos/plugin-governance-and-troubleshooting-guide.md) | 表单、列表、操作服务、报表插件入口，插件治理、幂等、日志、排障和上线回归 |
+| K3Cloud SDK 插件层级与操作服务插件 | [BOS 插件源码级案例：保存校验、操作服务、单据转换与列表过滤](../05_development-bos/plugin-code-cases-save-operation-conversion-guide.md) | 保存校验、审核后操作服务、单据转换字段补齐、列表过滤、插件回归 |
 
 ## 后续可继续整理
 

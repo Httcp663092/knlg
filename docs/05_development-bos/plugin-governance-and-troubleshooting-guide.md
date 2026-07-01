@@ -5,7 +5,7 @@
 >
 > [界面首页](../../index.html) | [文档首页](../README.md) | [知识地图](../knowledge-map.md) | [学习路径](../learning-paths.md) | [财务](../01_finance/README.md) | [供应链](../02_supply-chain/README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
-> 上一章：[插件开发、调试与发布教程](plugin-development-debugging-guide.md) | 下一章：[单据转换、工作流与权限扩展教程](workflow-bill-conversion-permission-guide.md) | [本章目录](README.md)
+> 上一章：[插件开发、调试与发布教程](plugin-development-debugging-guide.md) | 下一章：[BOS 插件源码级案例：保存校验、操作服务、单据转换与列表过滤](plugin-code-cases-save-operation-conversion-guide.md) | [本章目录](README.md)
 <!-- NAV_END -->
 
 插件是金蝶 BOS/苍穹二开里最灵活、也最容易失控的一层。一个保存插件可能影响单据状态，一个审核后插件可能影响库存、接口、凭证和月结，一个字段写回可能让报表、下推和对账都出现隐性差异。
@@ -458,6 +458,7 @@ NullPointerException
 
 - 插件基础看 [插件开发、调试与发布教程](plugin-development-debugging-guide.md)。
 - 单据生命周期和二开边界看 [BOS/苍穹开发实战教程](bos-development-practice-guide.md)。
+- 保存校验、操作服务、单据转换和列表过滤的源码级结构看 [BOS 插件源码级案例：保存校验、操作服务、单据转换与列表过滤](plugin-code-cases-save-operation-conversion-guide.md)。
 - 下推、工作流、权限看 [单据转换、工作流与权限扩展教程](workflow-bill-conversion-permission-guide.md)。
 - 接口幂等和对账看 [接口联调、监控、重试与对账教程](../07_integrations/interface-debugging-monitoring-reconciliation.md)。
 - 生产问题沉淀看 [全模块问题案例库](../09_operations-issues/operations-case-library.md)。

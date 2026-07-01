@@ -51,6 +51,7 @@
 
 - [问题排查与运维处理手册](issue-triage-and-operations-playbook.md)
 - [全模块问题案例库](operations-case-library.md)
+- [数据清理归档、接口报文留存与审计追溯专题](../08_environments-releases/data-archive-log-retention-audit-guide.md)
 - [权限审计、关键岗位内控与越权操作追溯专题](../04_implementation/permission-audit-sod-control-guide.md)
 - [常见问题库](../10_common-questions/README.md)
 - [财务高频问题](../10_common-questions/finance-faq.md)
@@ -66,3 +67,4 @@
 - 用户能看到菜单但打开单据没有数据。
 - 补丁或二开发布后凭证模板异常。
 - 报表查询越来越慢。
+- 清理归档后历史单据、附件、接口报文或操作日志追不回。

@@ -715,7 +715,7 @@
           <svg aria-hidden="true" viewBox="0 0 24 24" fill="none">
             <path d="m21 21-4.2-4.2m1.2-5.3a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
           </svg>
-          <input id="kbSearch" type="search" placeholder="搜索模块、问题、教程、角色，例如：月结、预算占用、事业部利润、PLM、WMS、服务站">
+          <input id="kbSearch" type="search" placeholder="搜索模块、问题、教程、角色，例如：月结、经营月报、插件案例、归档审计、PLM、WMS">
         </label>
         <div class="top-actions" aria-label="快捷操作">
           <a class="action-link primary" href="docs/learning-paths.md">学习路径</a>
@@ -740,6 +740,7 @@
               <a href="docs/01_finance/expense-reimbursement-funds-learning-guide.md">费用报销</a>
               <a href="docs/01_finance/consolidated-reporting-elimination-guide.md">合并报表</a>
               <a href="docs/01_finance/group-management-profit-transfer-pricing-guide.md">经营分析</a>
+              <a href="docs/01_finance/management-analysis-monthly-report-sample-guide.md">经营月报</a>
               <a href="docs/01_finance/budget-execution-control-analysis-guide.md">预算执行</a>
               <a href="docs/01_finance/tax-declaration-invoice-reconciliation-guide.md">税务申报</a>
               <a href="docs/01_finance/month-end-close-playbook.md">月结作战</a>
@@ -757,6 +758,8 @@
               <a href="docs/02_supply-chain/inventory-cost-variance-close-guide.md">成本关账</a>
               <a href="docs/06_data-model-sql/core-table-dictionary-and-sql-pack.md">SQL查询包</a>
               <a href="docs/06_data-model-sql/real-environment-verified-sql-library.md">SQL示例库</a>
+              <a href="docs/05_development-bos/plugin-code-cases-save-operation-conversion-guide.md">插件案例</a>
+              <a href="docs/08_environments-releases/data-archive-log-retention-audit-guide.md">归档审计</a>
               <a href="docs/04_implementation/permission-audit-sod-control-guide.md">权限审计</a>
               <a href="docs/00_inbox/real-environment-content-intake.md">内容收集</a>
             </div>
@@ -808,13 +811,13 @@
           </div>
 
           <div class="grid" id="cardGrid">
-            <article class="card" data-group="finance" data-keywords="财务 总账 凭证 应收 应付 出纳 固定资产 月结 报表 现金流 对账 业务单据 单据流 费用报销 借款 付款 账龄 催收 坏账 收款条件 信用 银企 票据 资金计划 网上银行 银行对账 收入确认 合同履约 开票 回款 跨期 合并报表 内部往来 内部交易 抵消 权益抵消 工作底稿 集团管理分析 事业部利润 产品线毛利 客户贡献 内部转移定价 费用分摊 预算执行 预算占用 预算释放 超预算 税务申报 销项 进项 红字 未开票 已开票未收入 税金">
+            <article class="card" data-group="finance" data-keywords="财务 总账 凭证 应收 应付 出纳 固定资产 月结 报表 现金流 对账 业务单据 单据流 费用报销 借款 付款 账龄 催收 坏账 收款条件 信用 银企 票据 资金计划 网上银行 银行对账 收入确认 合同履约 开票 回款 跨期 合并报表 内部往来 内部交易 抵消 权益抵消 工作底稿 集团管理分析 事业部利润 产品线毛利 客户贡献 内部转移定价 费用分摊 经营分析月报 经营月报 管理月报 预算执行 预算占用 预算释放 超预算 税务申报 销项 进项 红字 未开票 已开票未收入 税金">
               <div class="card-top">
                 <div class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M5 4h14v16H5V4Zm3 4h8M8 12h8M8 16h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
                 <span class="tag">核心</span>
               </div>
               <h3>财务知识区</h3>
-              <p>总账、凭证、收入确认、应收应付、账龄催收、坏账准备、银企票据、业务单据到凭证、预算执行、费用报销、集团经营分析、税务申报、资金、固定资产、合并报表、月结和财务案例。</p>
+              <p>总账、凭证、收入确认、应收应付、账龄催收、坏账准备、银企票据、业务单据到凭证、预算执行、费用报销、集团经营分析、经营月报、税务申报、资金、固定资产、合并报表、月结和财务案例。</p>
               <div class="card-links">
                 <a href="docs/01_finance/README.md">进入财务目录</a>
                 <a href="docs/01_finance/business-document-to-voucher-learning-guide.md">业务到凭证</a>
@@ -824,6 +827,7 @@
                 <a href="docs/01_finance/expense-reimbursement-funds-learning-guide.md">费用报销</a>
                 <a href="docs/01_finance/consolidated-reporting-elimination-guide.md">合并报表抵消</a>
                 <a href="docs/01_finance/group-management-profit-transfer-pricing-guide.md">集团经营分析</a>
+                <a href="docs/01_finance/management-analysis-monthly-report-sample-guide.md">经营分析月报</a>
                 <a href="docs/01_finance/budget-execution-control-analysis-guide.md">预算执行控制</a>
                 <a href="docs/01_finance/tax-declaration-invoice-reconciliation-guide.md">税务申报勾稽</a>
               </div>
@@ -882,17 +886,18 @@
               </div>
             </article>
 
-            <article class="card" data-group="tech" data-keywords="BOS 苍穹 插件 二开 单据转换 工作流 权限 表单 扩展 幂等 日志 回归 排障">
+            <article class="card" data-group="tech" data-keywords="BOS 苍穹 插件 二开 源码级案例 保存校验 操作服务 审核后日志 单据转换 列表过滤 工作流 权限 表单 扩展 幂等 日志 回归 排障">
               <div class="card-top">
                 <div class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M8 4h8l4 4v12H4V4h4Zm0 8h8M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
                 <span class="tag">开发</span>
               </div>
               <h3>BOS 与苍穹开发</h3>
-              <p>对象建模、表单扩展、单据转换、插件开发、插件治理、发布调试、工作流和权限扩展。</p>
+              <p>对象建模、表单扩展、单据转换、插件开发、源码级插件案例、插件治理、发布调试、工作流和权限扩展。</p>
               <div class="card-links">
                 <a href="docs/05_development-bos/README.md">进入开发目录</a>
                 <a href="docs/05_development-bos/plugin-development-debugging-guide.md">插件开发调试</a>
                 <a href="docs/05_development-bos/plugin-governance-and-troubleshooting-guide.md">插件治理排障</a>
+                <a href="docs/05_development-bos/plugin-code-cases-save-operation-conversion-guide.md">源码级插件案例</a>
               </div>
             </article>
 
@@ -928,22 +933,23 @@
               </div>
             </article>
 
-            <article class="card" data-group="ops" data-keywords="运维 问题 案例 故障 权限 权限审计 离职账号 临时权限 高危权限 操作日志 性能 发布 补丁 备份 恢复">
+            <article class="card" data-group="ops" data-keywords="运维 问题 案例 故障 权限 权限审计 离职账号 临时权限 高危权限 操作日志 性能 发布 补丁 备份 恢复 数据清理 归档 附件归档 接口报文 日志留存 审计追溯">
               <div class="card-top">
                 <div class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3v3m0 12v3m9-9h-3M6 12H3m15.4-6.4-2.1 2.1M7.7 16.3l-2.1 2.1m0-12.8 2.1 2.1m8.6 8.6 2.1 2.1M9 12a3 3 0 1 0 6 0 3 3 0 0 0-6 0Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
                 <span class="tag">问题</span>
               </div>
               <h3>运维与问题案例</h3>
-              <p>记录生产问题的完整处理过程，覆盖权限、性能、接口、发布、凭证、库存和月结。</p>
+              <p>记录生产问题的完整处理过程，覆盖权限、性能、接口、发布、归档审计、凭证、库存和月结。</p>
               <div class="card-links">
                 <a href="docs/09_operations-issues/README.md">进入运维目录</a>
+                <a href="docs/08_environments-releases/data-archive-log-retention-audit-guide.md">归档审计专题</a>
                 <a href="docs/04_implementation/permission-audit-sod-control-guide.md">权限审计追溯</a>
                 <a href="docs/09_operations-issues/operations-case-library.md">全模块案例库</a>
                 <a href="docs/10_common-questions/all-module-faq.md">全模块 FAQ</a>
               </div>
             </article>
 
-            <article class="card" data-group="ops" data-keywords="官方资料 链接 精读 金蝶开发者 产品手册 资料 模板 缺口 路线图 补充计划 真实环境 内容收集 截图 报错 SQL 单据证据 菜单路径">
+            <article class="card" data-group="ops" data-keywords="官方资料 链接 精读 金蝶开发者 产品手册 资料 模板 缺口 路线图 补充计划 真实环境 内容收集 截图 报错 SQL 单据证据 菜单路径 插件案例 数据归档 审计追溯">
               <div class="card-top">
                 <div class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M6 4h12v16H6V4Zm3 4h6M9 12h6M9 16h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
                 <span class="tag">资料</span>
@@ -1052,6 +1058,11 @@
                   <td><a href="docs/01_finance/consolidated-reporting-elimination-guide.md">合并报表抵消</a></td>
                 </tr>
                 <tr>
+                  <td>经营月报很多表但管理层看不懂，预算偏差和异常事项说不清</td>
+                  <td><a href="docs/01_finance/management-analysis-monthly-report-sample-guide.md">经营分析月报</a></td>
+                  <td><a href="docs/01_finance/group-management-profit-transfer-pricing-guide.md">集团经营分析</a></td>
+                </tr>
+                <tr>
                   <td>预算还有但费用申请、报销、采购或付款提示超预算</td>
                   <td><a href="docs/01_finance/budget-execution-control-analysis-guide.md">预算执行控制</a></td>
                   <td><a href="docs/01_finance/expense-reimbursement-funds-learning-guide.md">费用报销</a></td>
@@ -1102,6 +1113,11 @@
                   <td><a href="docs/07_integrations/interface-debugging-monitoring-reconciliation.md">联调监控对账</a></td>
                 </tr>
                 <tr>
+                  <td>保存校验、审核后处理、下推补字段或列表过滤异常</td>
+                  <td><a href="docs/05_development-bos/plugin-code-cases-save-operation-conversion-guide.md">源码级插件案例</a></td>
+                  <td><a href="docs/05_development-bos/plugin-governance-and-troubleshooting-guide.md">插件治理排障</a></td>
+                </tr>
+                <tr>
                   <td>WMS 已收货、已发货或已盘点，但金蝶库存、批号、库存状态或出入库单不一致</td>
                   <td><a href="docs/07_integrations/wms-inventory-reconciliation-compensation-guide.md">WMS库存一致性</a></td>
                   <td><a href="docs/02_supply-chain/inventory-management-guide.md">库存管理</a></td>
@@ -1125,6 +1141,11 @@
                   <td>离职账号未禁用、临时权限未收回、高危权限过宽、反审核反结账缺少追溯</td>
                   <td><a href="docs/04_implementation/permission-audit-sod-control-guide.md">权限审计追溯</a></td>
                   <td><a href="docs/10_common-questions/all-module-faq.md">全模块 FAQ</a></td>
+                </tr>
+                <tr>
+                  <td>清理后查不到历史单据、附件、接口报文或操作日志</td>
+                  <td><a href="docs/08_environments-releases/data-archive-log-retention-audit-guide.md">归档审计专题</a></td>
+                  <td><a href="docs/08_environments-releases/cangqiong-data-cleaning.md">数据清理服务</a></td>
                 </tr>
               </tbody>
             </table>

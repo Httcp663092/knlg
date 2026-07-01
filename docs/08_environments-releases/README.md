@@ -23,6 +23,7 @@
 - [备份、恢复、监控与性能巡检教程](backup-restore-monitoring-guide.md)
 - [系统管理、安全权限与业务监控官方资料精读](security-monitoring-official-source-digest.md)
 - [苍穹数据清理服务](cangqiong-data-cleaning.md)
+- [数据清理归档、接口报文留存与审计追溯专题](data-archive-log-retention-audit-guide.md)
 - [苍穹水平分库](cangqiong-horizontal-sharding.md)
 
 ## 维护重点
@@ -35,6 +36,7 @@
 - 数据中心、备份和恢复。
 - 日志、监控、告警和性能。
 - 数据清理、归档、水平分库等容量治理能力。
+- 接口报文留存、附件归档、操作日志审计和追溯证据包。
 
 ## 财务相关关注点
 

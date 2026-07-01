@@ -30,8 +30,10 @@
 | [制造模块官方资料精读](../03_manufacturing/manufacturing-official-source-digest.md) | 计划管理、排产、质量、技术文档、MES | 金蝶云产品手册、金蝶官网 |
 | [BOS、业务流程与低代码官方资料精读](../05_development-bos/bos-workflow-official-source-digest.md) | 单据建模、基础资料、业务流程、工作流、BOS 参数 | 金蝶开发者官网、金蝶云产品手册 |
 | [插件治理、排障与上线回归手册](../05_development-bos/plugin-governance-and-troubleshooting-guide.md) | 插件类型选择、操作服务插件、幂等、日志、发布回归、BOM 字段带入案例 | 金蝶 SDK、金蝶开发者官网、项目实践 |
+| [BOS 插件源码级案例：保存校验、操作服务、单据转换与列表过滤](../05_development-bos/plugin-code-cases-save-operation-conversion-guide.md) | 保存前校验、审核后日志、单据转换补字段、列表过滤和插件回归矩阵 | 金蝶 SDK、金蝶开发者官网、项目实践 |
 | [WebAPI、集成平台与安全参数官方资料精读](../07_integrations/webapi-integration-official-source-digest.md) | WebAPI、OpenAPI、接口认证、集成平台、安全参数 | 金蝶开发者官网、金蝶云产品手册 |
 | [系统管理、安全权限与业务监控官方资料精读](../08_environments-releases/security-monitoring-official-source-digest.md) | 用户、角色、功能授权、数据权限、移动安全、业务监控 | 金蝶云产品手册 |
+| [数据清理归档、接口报文留存与审计追溯专题](../08_environments-releases/data-archive-log-retention-audit-guide.md) | 数据清理、附件归档、接口报文留存、操作日志审计和追溯证据包 | 金蝶开发者官网、项目实践 |
 
 ## 使用方法
 

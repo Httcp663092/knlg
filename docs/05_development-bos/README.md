@@ -22,6 +22,7 @@
 - [BOS/苍穹开发实战教程](bos-development-practice-guide.md)
 - [插件开发、调试与发布教程](plugin-development-debugging-guide.md)
 - [插件治理、排障与上线回归手册](plugin-governance-and-troubleshooting-guide.md)
+- [BOS 插件源码级案例：保存校验、操作服务、单据转换与列表过滤](plugin-code-cases-save-operation-conversion-guide.md)
 - [单据转换、工作流与权限扩展教程](workflow-bill-conversion-permission-guide.md)
 - [BOS、业务流程与低代码官方资料精读](bos-workflow-official-source-digest.md)
 
@@ -32,6 +33,7 @@
 - 操作插件：保存、提交、审核、反审核控制。
 - 服务插件：后台业务逻辑和批处理。
 - 列表插件：批量操作和过滤。
+- 源码级案例：保存前校验、审核后日志、单据转换字段补齐和列表过滤。
 - 插件治理：幂等、事务、日志、性能、发布回滚和生产排障。
 - 动态表单：向导、查询、临时处理界面。
 - 权限与菜单：菜单、按钮、数据权限和字段权限。

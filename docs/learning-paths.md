@@ -66,6 +66,7 @@
 - [多组织、多账簿与集团核算教程](01_finance/multi-org-multi-book-accounting-guide.md)
 - [集团合并报表、内部交易抵消与内部往来对账专题](01_finance/consolidated-reporting-elimination-guide.md)
 - [集团管理分析、事业部利润与内部转移定价专题](01_finance/group-management-profit-transfer-pricing-guide.md)
+- [经营分析月报样例：事业部利润、产品毛利、客户贡献与预算执行](01_finance/management-analysis-monthly-report-sample-guide.md)
 
 要形成的配置理解：
 
@@ -85,6 +86,7 @@
 4. 做一张初始化检查表，包含科目余额、客户余额、供应商余额、固定资产卡片和银行余额。
 5. 设计一个两家公司集团样例，列出合并范围、内部往来科目、内部客户供应商和抵消事项。
 6. 设计一张事业部利润表样例，列出收入、成本、内部交易、直接费用、分摊费用和管理利润。
+7. 编一页经营分析月报摘要，至少包含事业部利润、产品毛利、客户贡献、预算偏差和异常事项。
 
 验收标准：
 
@@ -136,8 +138,9 @@
 9. 做一笔员工借款、费用报销、付款和还款，检查员工往来余额。
 10. 做一次预算执行测试：申请占用、报销消耗、差额释放、超预算审批和预算调整。
 11. 做一次税务申报勾稽，核对销项、进项、红字、未开票收入和总账税金科目。
-12. 完成一次固定资产新增、计提折旧、生成凭证。
-13. 模拟月结：凭证生成、凭证检查、过账、结转损益、报表取数。
+12. 把预算执行差异写入经营月报，说明是收入不足、成本超支、费用超预算还是资本占用过高。
+13. 完成一次固定资产新增、计提折旧、生成凭证。
+14. 模拟月结：凭证生成、凭证检查、过账、结转损益、报表取数。
 
 验收标准：
 
@@ -307,6 +310,7 @@
 - [BOS/苍穹开发实战教程](05_development-bos/bos-development-practice-guide.md)
 - [插件开发、调试与发布教程](05_development-bos/plugin-development-debugging-guide.md)
 - [插件治理、排障与上线回归手册](05_development-bos/plugin-governance-and-troubleshooting-guide.md)
+- [BOS 插件源码级案例：保存校验、操作服务、单据转换与列表过滤](05_development-bos/plugin-code-cases-save-operation-conversion-guide.md)
 - [单据转换、工作流与权限扩展教程](05_development-bos/workflow-bill-conversion-permission-guide.md)
 - [BOS、业务流程与低代码官方资料精读](05_development-bos/bos-workflow-official-source-digest.md)
 
@@ -316,13 +320,15 @@
 2. 再会改界面：布局、字段属性、操作按钮、列表过滤、默认值。
 3. 再会做流转：单据转换、源单关联、字段携带、数量反写。
 4. 再会加控制：校验规则、保存插件、提交审核控制、权限控制。
-5. 最后会治理和排查：幂等、事务、日志、性能、发布、回滚、回归测试。
+5. 再会看案例：保存前校验、审核后日志、下推字段补齐、列表按用户过滤。
+6. 最后会治理和排查：幂等、事务、日志、性能、发布、回滚、回归测试。
 
 必须养成的习惯：
 
 - 涉及金额、税额、数量、库存、凭证的二开，必须先确认业务规则和财务影响。
 - 新增字段要检查列表、查询、打印、接口、凭证模板、报表和权限。
 - 插件报错要保留完整堆栈、单据编号、用户、组织、时间、操作按钮。
+- 源码级案例要先改成当前版本可编译代码，再谈生产发布；不要把结构示例当成环境已验证实现。
 
 验收标准：
 
@@ -390,6 +396,7 @@
 - [环境、发布和版本](08_environments-releases/README.md)
 - [系统管理员日常运维教程](08_environments-releases/system-admin-daily-ops-guide.md)
 - [备份、恢复、监控与性能巡检教程](08_environments-releases/backup-restore-monitoring-guide.md)
+- [数据清理归档、接口报文留存与审计追溯专题](08_environments-releases/data-archive-log-retention-audit-guide.md)
 - [问题排查与运维处理手册](09_operations-issues/issue-triage-and-operations-playbook.md)
 - [全模块问题案例库](09_operations-issues/operations-case-library.md)
 
@@ -399,6 +406,7 @@
 2. 再确定复现路径：用户、时间、菜单、单据编号、操作按钮、报错原文。
 3. 再看系统证据：日志、接口报文、操作记录、审批记录、单据状态、权限分配。
 4. 最后形成处理：临时绕行、根因修复、数据补偿、回归测试、预防措施。
+5. 做清理归档前，先确认留存年限、附件、接口报文、操作日志和审计取证要求，避免清理后证据链断掉。
 
 验收标准：
 
