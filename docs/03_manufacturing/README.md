@@ -19,6 +19,7 @@
 
 - [生产制造核心教程](manufacturing-core-guide.md)
 - [工程数据与 BOM 详细教程](engineering-data-bom-guide.md)
+- [PLM-BOM 变更同步、工程变更与生产版本追溯专题](../07_integrations/plm-bom-ecn-change-sync-guide.md)
 - [MRP 与计划管理详细教程](mrp-planning-guide.md)
 - [生产订单执行详细教程](production-order-execution-guide.md)
 - [委外管理详细教程](outsourcing-management-guide.md)
@@ -34,20 +35,21 @@
 
 1. [生产制造核心教程](manufacturing-core-guide.md)
 2. [工程数据与 BOM 详细教程](engineering-data-bom-guide.md)
-3. [MRP 与计划管理详细教程](mrp-planning-guide.md)
-4. [生产订单执行详细教程](production-order-execution-guide.md)
-5. [委外管理详细教程](outsourcing-management-guide.md)
-6. [委外采购协同、发料收料与加工费结算专题](outsourcing-cost-settlement-collaboration-guide.md)
-7. [制造成本核算详细教程](manufacturing-costing-guide.md)
-8. [车间执行与报工教程](shop-floor-execution-guide.md)
-9. [车间看板、MES 报工回写与设备数据采集专题](mes-shop-floor-dashboard-data-collection-guide.md)
-10. [质量管理详细教程](quality-management-guide.md)
-11. [设备管理与维护教程](equipment-maintenance-guide.md)
-12. [制造模块官方资料精读](manufacturing-official-source-digest.md)
+3. [PLM-BOM 变更同步、工程变更与生产版本追溯专题](../07_integrations/plm-bom-ecn-change-sync-guide.md)
+4. [MRP 与计划管理详细教程](mrp-planning-guide.md)
+5. [生产订单执行详细教程](production-order-execution-guide.md)
+6. [委外管理详细教程](outsourcing-management-guide.md)
+7. [委外采购协同、发料收料与加工费结算专题](outsourcing-cost-settlement-collaboration-guide.md)
+8. [制造成本核算详细教程](manufacturing-costing-guide.md)
+9. [车间执行与报工教程](shop-floor-execution-guide.md)
+10. [车间看板、MES 报工回写与设备数据采集专题](mes-shop-floor-dashboard-data-collection-guide.md)
+11. [质量管理详细教程](quality-management-guide.md)
+12. [设备管理与维护教程](equipment-maintenance-guide.md)
+13. [制造模块官方资料精读](manufacturing-official-source-digest.md)
 
 ## 后续继续加厚方向
 
-- 工序委外、产能负荷细化、设备联网采集样例、MES 与金蝶日报工对账样表、真实环境已验证制造 SQL。
+- 工序委外、产能负荷细化、设备联网采集样例、MES 与金蝶日报工对账样表、PLM 工程变更真实案例、真实环境已验证制造 SQL。
 
 ## 和财务的关系
 

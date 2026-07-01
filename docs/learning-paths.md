@@ -65,6 +65,7 @@
 - [财务基础资料与初始化](01_finance/master-data-and-initialization.md)
 - [多组织、多账簿与集团核算教程](01_finance/multi-org-multi-book-accounting-guide.md)
 - [集团合并报表、内部交易抵消与内部往来对账专题](01_finance/consolidated-reporting-elimination-guide.md)
+- [集团管理分析、事业部利润与内部转移定价专题](01_finance/group-management-profit-transfer-pricing-guide.md)
 
 要形成的配置理解：
 
@@ -83,6 +84,7 @@
 3. 用一笔销售业务验证凭证模板是否能正确带出客户、部门、税额和摘要。
 4. 做一张初始化检查表，包含科目余额、客户余额、供应商余额、固定资产卡片和银行余额。
 5. 设计一个两家公司集团样例，列出合并范围、内部往来科目、内部客户供应商和抵消事项。
+6. 设计一张事业部利润表样例，列出收入、成本、内部交易、直接费用、分摊费用和管理利润。
 
 验收标准：
 
@@ -106,6 +108,7 @@
 - [出纳与资金](01_finance/cashier-and-funds.md)
 - [银企直连、票据与资金计划专题](01_finance/bank-enterprise-bills-funds-guide.md)
 - [固定资产](01_finance/fixed-assets.md)
+- [预算执行分析、占用释放与费用报销联动专题](01_finance/budget-execution-control-analysis-guide.md)
 - [费用报销、借款还款与付款学习手册](01_finance/expense-reimbursement-funds-learning-guide.md)
 - [月结流程](01_finance/month-end-close.md)
 - [月结作战手册](01_finance/month-end-close-playbook.md)
@@ -131,9 +134,10 @@
 7. 输出一次应收账龄和催收清单，检查未核销收款、逾期客户和坏账准备口径。
 8. 做一笔银企付款、银行回写和银行对账，区分付款单审核成功和银行支付成功。
 9. 做一笔员工借款、费用报销、付款和还款，检查员工往来余额。
-10. 做一次税务申报勾稽，核对销项、进项、红字、未开票收入和总账税金科目。
-11. 完成一次固定资产新增、计提折旧、生成凭证。
-12. 模拟月结：凭证生成、凭证检查、过账、结转损益、报表取数。
+10. 做一次预算执行测试：申请占用、报销消耗、差额释放、超预算审批和预算调整。
+11. 做一次税务申报勾稽，核对销项、进项、红字、未开票收入和总账税金科目。
+12. 完成一次固定资产新增、计提折旧、生成凭证。
+13. 模拟月结：凭证生成、凭证检查、过账、结转损益、报表取数。
 
 验收标准：
 
@@ -252,6 +256,7 @@
 - [生产制造知识区](03_manufacturing/README.md)
 - [生产制造核心教程](03_manufacturing/manufacturing-core-guide.md)
 - [工程数据与 BOM 详细教程](03_manufacturing/engineering-data-bom-guide.md)
+- [PLM-BOM 变更同步、工程变更与生产版本追溯专题](07_integrations/plm-bom-ecn-change-sync-guide.md)
 - [MRP 与计划管理详细教程](03_manufacturing/mrp-planning-guide.md)
 - [生产订单执行详细教程](03_manufacturing/production-order-execution-guide.md)
 - [委外管理详细教程](03_manufacturing/outsourcing-management-guide.md)
@@ -264,23 +269,26 @@
 制造主线：
 
 1. 物料、BOM、工艺路线、工作中心准备完整。
-2. MRP 根据需求、库存、在途、在制、提前期生成计划建议。
-3. 生产订单下达后形成领料、报工、完工、入库。
-4. MES、条码终端或设备网关把现场开工、报工、质量、停机和产量回写到金蝶。
-5. 成本会计按材料、人工、制造费用归集和分配。
-6. 完工入库和成本结转影响存货和主营业务成本。
+2. PLM 工程变更和 BOM 版本按生效策略同步到金蝶。
+3. MRP 根据需求、库存、在途、在制、提前期生成计划建议。
+4. 生产订单下达后形成领料、报工、完工、入库。
+5. MES、条码终端或设备网关把现场开工、报工、质量、停机和产量回写到金蝶。
+6. 成本会计按材料、人工、制造费用归集和分配。
+7. 完工入库和成本结转影响存货和主营业务成本。
 
 实操练习：
 
 1. 建一个两层 BOM，跑一次 MRP，分析为什么生成或不生成建议。
-2. 做一张生产订单，从领料、补料、退料、报工到完工入库。
-3. 做一张委外订单，从用料清单、委外发料、供应商处材料、委外入库、加工费应付到委外入库核算。
-4. 模拟材料价格变动，观察制造成本和出库成本的影响。
-5. 设计一条 MES 回写链路：生产订单下发、工位扫码、设备采集、报工回写、质检、完工入库和日报工对账。
+2. 模拟一次 PLM 工程变更：新 BOM 版本、生效日期、旧料处理、生产订单影响分析和版本追溯。
+3. 做一张生产订单，从领料、补料、退料、报工到完工入库。
+4. 做一张委外订单，从用料清单、委外发料、供应商处材料、委外入库、加工费应付到委外入库核算。
+5. 模拟材料价格变动，观察制造成本和出库成本的影响。
+6. 设计一条 MES 回写链路：生产订单下发、工位扫码、设备采集、报工回写、质检、完工入库和日报工对账。
 
 验收标准：
 
 - 能解释 MRP 不出计划的原因：需求、库存、BOM、提前期、计划策略、时间范围。
+- 能解释 PLM 工程变更对物料、BOM 版本、采购、生产订单、旧料库存和售后备件的影响。
 - 能解释生产成本差异：材料耗用、替代料、报工、费用分摊、完工数量。
 - 能解释委外成本差异：供应商处材料、补退料、加工费、质检返修、委外入库核算。
 - 能解释 MES 看板与金蝶生产订单进度不一致时，应从报工状态、回写日志、工序映射、质量结果和完工入库逐层排查。
@@ -377,6 +385,7 @@
 - [外部系统集成场景教程](07_integrations/external-system-integration-scenarios.md)
 - [接口联调、监控、重试与对账教程](07_integrations/interface-debugging-monitoring-reconciliation.md)
 - [WMS 出入库对账、接口补偿与库存一致性专题](07_integrations/wms-inventory-reconciliation-compensation-guide.md)
+- [PLM-BOM 变更同步、工程变更与生产版本追溯专题](07_integrations/plm-bom-ecn-change-sync-guide.md)
 - [WebAPI、集成平台与安全参数官方资料精读](07_integrations/webapi-integration-official-source-digest.md)
 - [环境、发布和版本](08_environments-releases/README.md)
 - [系统管理员日常运维教程](08_environments-releases/system-admin-daily-ops-guide.md)

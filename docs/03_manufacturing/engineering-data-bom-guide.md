@@ -120,6 +120,7 @@ BOM 是产品结构，用来表达一个成品需要哪些原材料、零部件�
 - 已下达生产订单是否同步更新，要单独评估。
 - 已领料生产订单不要随意改 BOM。
 - BOM 变更要通知采购和仓库。
+- 如果 BOM 来自 PLM，要同步检查工程变更单号、生效策略、旧料处理、生产订单影响分析和售后备件适配关系，详见 [PLM-BOM 变更同步、工程变更与生产版本追溯专题](../07_integrations/plm-bom-ecn-change-sync-guide.md)。
 
 ## 七、替代料
 
@@ -287,3 +288,4 @@ BOM 是产品材料成本的重要基础。物料清单成本查询可按 BOM �
 - [金蝶云产品手册：产品 BOM](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E4%BA%A7%E5%93%81bom)
 - [金蝶云产品手册：树形维护](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E6%A0%91%E5%BD%A2%E7%BB%B4%E6%8A%A4)
 - [金蝶云产品手册：物料清单成本查询](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E7%89%A9%E6%96%99%E6%B8%85%E5%8D%95%E6%88%90%E6%9C%AC%E6%9F%A5%E8%AF%A2)
+- [PLM-BOM 变更同步、工程变更与生产版本追溯专题](../07_integrations/plm-bom-ecn-change-sync-guide.md)

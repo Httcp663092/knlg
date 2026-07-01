@@ -21,6 +21,7 @@
 - [外部系统集成场景教程](external-system-integration-scenarios.md)
 - [接口联调、监控、重试与对账教程](interface-debugging-monitoring-reconciliation.md)
 - [WMS 出入库对账、接口补偿与库存一致性专题](wms-inventory-reconciliation-compensation-guide.md)
+- [PLM-BOM 变更同步、工程变更与生产版本追溯专题](plm-bom-ecn-change-sync-guide.md)
 - [车间看板、MES 报工回写与设备数据采集专题](../03_manufacturing/mes-shop-floor-dashboard-data-collection-guide.md)
 - [WebAPI、集成平台与安全参数官方资料精读](webapi-integration-official-source-digest.md)
 - [AI 文档分类与结构化提取](ai-document-classification.md)
@@ -28,7 +29,7 @@
 ## 覆盖范围
 
 - Web API / OpenAPI。
-- 第三方系统对接：电商、WMS、MES、OA、CRM。
+- 第三方系统对接：电商、WMS、MES、PLM、OA、CRM。
 - MES 报工回写、设备数据采集、车间看板和日报工对账。
 - 银企直连。
 - 税务和发票平台。
@@ -36,6 +37,7 @@
 - 数据同步和中间库。
 - 接口日志、幂等、重试、对账和监控。
 - WMS 出入库回写、库存状态、批号序列号、接口补偿和库存一致性对账。
+- PLM 物料、BOM、工程变更、版本生效和生产追溯。
 - 接口上线后的日常巡检、失败补偿和财务对账。
 
 ## 财务集成关注点
@@ -45,3 +47,4 @@
 - 接口失败是否有重试、幂等和异常处理。
 - 财务凭证生成是否可追溯到外部来源。
 - WMS、MES 等外部执行系统的实绩是否能回到库存、成本、应收应付和凭证链路。
+- PLM 工程变更是否能影响采购、生产、库存、成本和售后追溯。
