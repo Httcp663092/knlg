@@ -25,24 +25,33 @@
 - [学习路径](docs/learning-paths.md)
 - [知识库缺口与补充路线图](docs/knowledge-gap-roadmap.md)
 - [记录规范](docs/conventions.md)
+- [真实环境内容收集与沉淀清单](docs/00_inbox/real-environment-content-intake.md)
 - [财务知识区](docs/01_finance/README.md)
 - [从业务单据到财务凭证：通俗学习手册](docs/01_finance/business-document-to-voucher-learning-guide.md)
 - [收入确认、合同履约与开票回款跨期专题](docs/01_finance/revenue-recognition-contract-invoice-guide.md)
 - [应收账龄、催收与坏账准备学习手册](docs/01_finance/ar-aging-collection-bad-debt-guide.md)
 - [银企直连、票据与资金计划专题](docs/01_finance/bank-enterprise-bills-funds-guide.md)
 - [费用报销、借款还款与付款学习手册](docs/01_finance/expense-reimbursement-funds-learning-guide.md)
+- [集团合并报表、内部交易抵消与内部往来对账专题](docs/01_finance/consolidated-reporting-elimination-guide.md)
 - [供应链知识区](docs/02_supply-chain/README.md)
 - [供应链单据流通俗学习手册](docs/02_supply-chain/supply-chain-document-flow-learning-guide.md)
 - [价格、信用、批号、盘点与暂估专题](docs/02_supply-chain/price-credit-batch-counting-estimate-guide.md)
 - [采购结算、到票、暂估冲回与采购价差专题](docs/02_supply-chain/purchase-settlement-invoice-variance-guide.md)
 - [销售退货、红冲、退款与折让专题](docs/02_supply-chain/sales-return-red-invoice-refund-guide.md)
+- [客户退货质检、RMA、返修与报废专题](docs/02_supply-chain/customer-return-quality-rma-guide.md)
+- [客户索赔、售后备件、保内保外维修专题](docs/02_supply-chain/after-sales-claims-spare-parts-guide.md)
 - [寄售、VMI 与客户寄售库存专题](docs/02_supply-chain/consignment-vmi-inventory-guide.md)
 - [存货成本差异、异常成本与库存关账专题](docs/02_supply-chain/inventory-cost-variance-close-guide.md)
 - [生产制造知识区](docs/03_manufacturing/README.md)
+- [委外采购协同、发料收料与加工费结算专题](docs/03_manufacturing/outsourcing-cost-settlement-collaboration-guide.md)
+- [车间看板、MES 报工回写与设备数据采集专题](docs/03_manufacturing/mes-shop-floor-dashboard-data-collection-guide.md)
 - [实施方法与交付](docs/04_implementation/README.md)
+- [权限审计、关键岗位内控与越权操作追溯专题](docs/04_implementation/permission-audit-sod-control-guide.md)
 - [BOS/插件/二开](docs/05_development-bos/README.md)
 - [插件治理、排障与上线回归手册](docs/05_development-bos/plugin-governance-and-troubleshooting-guide.md)
 - [数据模型与 SQL](docs/06_data-model-sql/README.md)
+- [核心表字典与常用 SQL 查询包](docs/06_data-model-sql/core-table-dictionary-and-sql-pack.md)
+- [真实环境已验证 SQL 示例库](docs/06_data-model-sql/real-environment-verified-sql-library.md)
 - [接口与集成](docs/07_integrations/README.md)
 - [环境、发布和版本](docs/08_environments-releases/README.md)
 - [财务模块地图](docs/01_finance/finance-module-map.md)
@@ -82,7 +91,7 @@ docs/
 
 ## 维护节奏
 
-- 临时想法先放入 `docs/00_inbox/`。
+- 临时想法、截图、报错、SQL 和单据证据先按 [真实环境内容收集与沉淀清单](docs/00_inbox/real-environment-content-intake.md) 放入 `docs/00_inbox/`。
 - 业务知识沉淀到对应模块目录。
 - 高频短问题沉淀到 `docs/10_common-questions/`。
 - 具体问题处理过程沉淀到 `docs/09_operations-issues/`，稳定后反哺模块文档。

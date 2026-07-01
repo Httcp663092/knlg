@@ -237,3 +237,5 @@ BOM 和工艺路线
 ## 参考资料
 
 - [金蝶云产品手册首页](https://help.open.kingdee.com/)
+- [车间看板、MES 报工回写与设备数据采集专题](mes-shop-floor-dashboard-data-collection-guide.md)
+- [接口联调、监控、重试与对账教程](../07_integrations/interface-debugging-monitoring-reconciliation.md)

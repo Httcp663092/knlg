@@ -19,6 +19,7 @@
 
 - [环境、版本与发布运维手册](environment-release-ops-guide.md)
 - [系统管理员日常运维教程](system-admin-daily-ops-guide.md)
+- [权限审计、关键岗位内控与越权操作追溯专题](../04_implementation/permission-audit-sod-control-guide.md)
 - [备份、恢复、监控与性能巡检教程](backup-restore-monitoring-guide.md)
 - [系统管理、安全权限与业务监控官方资料精读](security-monitoring-official-source-digest.md)
 - [苍穹数据清理服务](cangqiong-data-cleaning.md)
@@ -30,6 +31,7 @@
 - 产品版本和补丁记录。
 - 发布步骤和回滚方案。
 - 权限、账号、接口账号。
+- 高危权限、临时授权、离职账号、接口账号和敏感操作审计。
 - 数据中心、备份和恢复。
 - 日志、监控、告警和性能。
 - 数据清理、归档、水平分库等容量治理能力。

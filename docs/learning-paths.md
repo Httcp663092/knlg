@@ -64,6 +64,7 @@
 - [金蝶财务配置指南](01_finance/kingdee-finance-configuration-guide.md)
 - [财务基础资料与初始化](01_finance/master-data-and-initialization.md)
 - [多组织、多账簿与集团核算教程](01_finance/multi-org-multi-book-accounting-guide.md)
+- [集团合并报表、内部交易抵消与内部往来对账专题](01_finance/consolidated-reporting-elimination-guide.md)
 
 要形成的配置理解：
 
@@ -81,6 +82,7 @@
 2. 为应收账款配置客户核算维度，为管理费用配置部门核算维度。
 3. 用一笔销售业务验证凭证模板是否能正确带出客户、部门、税额和摘要。
 4. 做一张初始化检查表，包含科目余额、客户余额、供应商余额、固定资产卡片和银行余额。
+5. 设计一个两家公司集团样例，列出合并范围、内部往来科目、内部客户供应商和抵消事项。
 
 验收标准：
 
@@ -150,6 +152,7 @@
 - [项目调研与蓝图设计详细教程](04_implementation/project-research-and-blueprint-guide.md)
 - [主数据与初始化详细教程](04_implementation/master-data-and-initialization-guide.md)
 - [权限、角色与内控实施教程](04_implementation/permission-role-control-guide.md)
+- [权限审计、关键岗位内控与越权操作追溯专题](04_implementation/permission-audit-sod-control-guide.md)
 - [测试、培训与上线演练教程](04_implementation/testing-training-drill-guide.md)
 - [上线切换、验收与运维移交教程](04_implementation/go-live-acceptance-handover-guide.md)
 
@@ -171,12 +174,14 @@
 
 1. 选一家制造或商贸企业，写一份端到端蓝图：采购到付款、销售到收款、库存到成本、总账到报表。
 2. 给财务、采购、仓库、销售、生产各设计 5 条测试用例。
-3. 建一个上线切换清单，明确冻结时间、责任人、回退策略和验收口径。
+3. 建一个权限审计包，包含用户角色清单、高危权限清单、职责分离冲突表和临时权限台账。
+4. 建一个上线切换清单，明确冻结时间、责任人、回退策略和验收口径。
 
 验收标准：
 
 - 能把一个业务需求拆成流程、配置、数据、权限、报表、接口、测试几个维度。
 - 能识别“客户想要一个字段”背后到底是查询、控制、报表、审批还是接口需求。
+- 能判断哪些权限必须上线前收紧，哪些临时权限必须设置有效期和回收记录。
 - 能在上线前判断哪些问题必须解决，哪些问题可以进入遗留清单。
 
 ## 路线三：供应链顾问掌握业务到财务衔接
@@ -195,6 +200,8 @@
 - [采购结算、到票、暂估冲回与采购价差专题](02_supply-chain/purchase-settlement-invoice-variance-guide.md)
 - [销售管理详细教程](02_supply-chain/sales-management-guide.md)
 - [销售退货、红冲、退款与折让专题](02_supply-chain/sales-return-red-invoice-refund-guide.md)
+- [客户退货质检、RMA、返修与报废专题](02_supply-chain/customer-return-quality-rma-guide.md)
+- [客户索赔、售后备件、保内保外维修专题](02_supply-chain/after-sales-claims-spare-parts-guide.md)
 - [库存管理详细教程](02_supply-chain/inventory-management-guide.md)
 - [寄售、VMI 与客户寄售库存专题](02_supply-chain/consignment-vmi-inventory-guide.md)
 - [存货核算详细教程](02_supply-chain/inventory-costing-guide.md)
@@ -219,9 +226,11 @@
 4. 测试一次采购价目表、销售价目表、信用控制、批号出库、盘点差异和暂估冲回。
 5. 做一次采购结算：入库暂估、发票到票、暂估冲回、价差调整和供应商对账。
 6. 模拟销售退货、红字应收、红字发票、客户退款和成本冲回，记录对库存、应收、税额和毛利的影响。
-7. 做一次寄售/VMI 练习，区分库存地点、所有权、消耗结算和应收应付时点。
-8. 做一次存货月结：清负库存、核算出库成本、处理暂估价差、生成凭证并和总账对账。
-9. 模拟负库存、无成本、暂估未冲回、红字出库，记录系统表现和处理方法。
+7. 模拟客户退货质检：退回待检、判定返修或报废、换货、红字应收、退款和客户对账。
+8. 模拟一次售后备件出库、保外维修收费、客户赔偿和供应商索赔，检查收入、成本和往来。
+9. 做一次寄售/VMI 练习，区分库存地点、所有权、消耗结算和应收应付时点。
+10. 做一次存货月结：清负库存、核算出库成本、处理暂估价差、生成凭证并和总账对账。
+11. 模拟负库存、无成本、暂估未冲回、红字出库，记录系统表现和处理方法。
 
 验收标准：
 
@@ -232,7 +241,7 @@
 
 适合对象：生产计划、车间、制造顾问、成本会计。
 
-目标：能理解 BOM、MRP、生产订单、领料、报工、完工、委外、质量和制造成本的完整链路。
+目标：能理解 BOM、MRP、生产订单、领料、报工、完工、MES 回写、设备采集、委外、质量和制造成本的完整链路。
 
 先读：
 
@@ -242,7 +251,10 @@
 - [MRP 与计划管理详细教程](03_manufacturing/mrp-planning-guide.md)
 - [生产订单执行详细教程](03_manufacturing/production-order-execution-guide.md)
 - [委外管理详细教程](03_manufacturing/outsourcing-management-guide.md)
+- [委外采购协同、发料收料与加工费结算专题](03_manufacturing/outsourcing-cost-settlement-collaboration-guide.md)
 - [制造成本核算详细教程](03_manufacturing/manufacturing-costing-guide.md)
+- [车间执行与报工教程](03_manufacturing/shop-floor-execution-guide.md)
+- [车间看板、MES 报工回写与设备数据采集专题](03_manufacturing/mes-shop-floor-dashboard-data-collection-guide.md)
 - [制造模块官方资料精读](03_manufacturing/manufacturing-official-source-digest.md)
 
 制造主线：
@@ -250,19 +262,24 @@
 1. 物料、BOM、工艺路线、工作中心准备完整。
 2. MRP 根据需求、库存、在途、在制、提前期生成计划建议。
 3. 生产订单下达后形成领料、报工、完工、入库。
-4. 成本会计按材料、人工、制造费用归集和分配。
-5. 完工入库和成本结转影响存货和主营业务成本。
+4. MES、条码终端或设备网关把现场开工、报工、质量、停机和产量回写到金蝶。
+5. 成本会计按材料、人工、制造费用归集和分配。
+6. 完工入库和成本结转影响存货和主营业务成本。
 
 实操练习：
 
 1. 建一个两层 BOM，跑一次 MRP，分析为什么生成或不生成建议。
 2. 做一张生产订单，从领料、补料、退料、报工到完工入库。
-3. 模拟材料价格变动，观察制造成本和出库成本的影响。
+3. 做一张委外订单，从用料清单、委外发料、供应商处材料、委外入库、加工费应付到委外入库核算。
+4. 模拟材料价格变动，观察制造成本和出库成本的影响。
+5. 设计一条 MES 回写链路：生产订单下发、工位扫码、设备采集、报工回写、质检、完工入库和日报工对账。
 
 验收标准：
 
 - 能解释 MRP 不出计划的原因：需求、库存、BOM、提前期、计划策略、时间范围。
 - 能解释生产成本差异：材料耗用、替代料、报工、费用分摊、完工数量。
+- 能解释委外成本差异：供应商处材料、补退料、加工费、质检返修、委外入库核算。
+- 能解释 MES 看板与金蝶生产订单进度不一致时，应从报工状态、回写日志、工序映射、质量结果和完工入库逐层排查。
 
 ## 路线五：BOS/苍穹开发从配置到插件
 
@@ -312,6 +329,8 @@
 - [数据模型与 SQL](06_data-model-sql/README.md)
 - [数据模型与 SQL 查询作战手册](06_data-model-sql/data-query-playbook.md)
 - [金蝶数据模型阅读方法](06_data-model-sql/kingdee-data-model-reading-guide.md)
+- [核心表字典与常用 SQL 查询包](06_data-model-sql/core-table-dictionary-and-sql-pack.md)
+- [真实环境已验证 SQL 示例库](06_data-model-sql/real-environment-verified-sql-library.md)
 - [财务对账与 SQL 排查教程](06_data-model-sql/finance-reconciliation-sql-guide.md)
 - [供应链与库存数据排查教程](06_data-model-sql/supply-chain-inventory-sql-guide.md)
 - [报表取数、指标口径与数据分析教程](06_data-model-sql/reporting-metrics-data-analysis-guide.md)
@@ -331,11 +350,15 @@
 1. 从一张凭证反查来源单据，再定位单据头、分录和基础资料。
 2. 复现一个总账与应收不一致的问题，写清楚报表口径和过滤条件。
 3. 做一张库存差异排查表，按物料、仓库、批号、期间和单据状态拆解。
+4. 选 5 个常用 SQL 模板，替换成当前环境真实表名字段，并记录前台验证结果。
+5. 从真实问题里沉淀 3 条 SQL 记录卡，至少覆盖单据状态、凭证生成和接口或库存差异。
 
 验收标准：
 
 - 能写一份 SQL 笔记，包含目的、口径、风险、过滤条件和样例结果。
 - 能解释为什么两张报表金额不同，而不是直接说系统错了。
+- 能把常用查询整理成可复核的查询包，而不是散落在聊天记录和临时文件里。
+- 能区分 template、env-ready、verified，不把未经前台核对的 SQL 当成生产结论。
 
 ## 路线七：接口、运维与问题处理
 

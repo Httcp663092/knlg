@@ -42,6 +42,8 @@
 - [金蝶云产品手册：应付款管理使用流程](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E5%BA%94%E4%BB%98%E6%AC%BE%E7%AE%A1%E7%90%86%E4%BD%BF%E7%94%A8%E6%B5%81%E7%A8%8B)
 - [金蝶云产品手册：费用报销](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E8%B4%B9%E7%94%A8%E6%8A%A5%E9%94%80)
 - [金蝶云产品手册：固定资产使用流程](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E5%9B%BA%E5%AE%9A%E8%B5%84%E4%BA%A7%E4%BD%BF%E7%94%A8%E6%B5%81%E7%A8%8B)
+- [金蝶云产品手册：合并报表系统](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E5%90%88%E5%B9%B6%E6%8A%A5%E8%A1%A8%E7%B3%BB%E7%BB%9F)
+- [金蝶云产品手册：内部往来协同](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E5%86%85%E9%83%A8%E5%BE%80%E6%9D%A5%E5%8D%8F%E5%90%8C)
 - [金蝶云社区：金蝶云·星空系统结账手册](https://vip.kingdee.com/article/372379712616026112)
 
 ## 供应链与制造
@@ -74,6 +76,10 @@
 - [金蝶云产品手册：暂估应付](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E6%9A%82%E4%BC%B0%E5%BA%94%E4%BB%98)
 - [金蝶云产品手册：供应商协同](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E4%BE%9B%E5%BA%94%E5%95%86%E5%8D%8F%E5%90%8C)
 - [金蝶云产品手册：供应商](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E4%BE%9B%E5%BA%94%E5%95%86)
+- [金蝶云产品手册：委外管理](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E5%A7%94%E5%A4%96%E7%AE%A1%E7%90%86)
+- [金蝶云产品手册：委外订单](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E5%A7%94%E5%A4%96%E8%AE%A2%E5%8D%95)
+- [金蝶云产品手册：委外领料单](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E5%A7%94%E5%A4%96%E9%A2%86%E6%96%99%E5%8D%95)
+- [金蝶云产品手册：委外入库核算](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E5%A7%94%E5%A4%96%E5%85%A5%E5%BA%93%E6%A0%B8%E7%AE%97)
 - [金蝶云产品手册：基础资料控制策略](https://help.open.kingdee.com/dokuwiki/doku.php?id=%E5%9F%BA%E7%A1%80%E8%B5%84%E6%96%99%E6%8E%A7%E5%88%B6%E7%AD%96%E7%95%A5)
 - [金蝶云产品手册：基础资料自动分配计划](https://help.open.kingdee.com/dokuwiki_std/doku.php?id=%E5%9F%BA%E7%A1%80%E8%B5%84%E6%96%99%E8%87%AA%E5%8A%A8%E5%88%86%E9%85%8D%E8%AE%A1%E5%88%92)
 - [金蝶云产品手册：计划管理](https://help.open.kingdee.com/dokuwiki_std/doku.php?id=%E8%AE%A1%E5%88%92%E7%AE%A1%E7%90%86)

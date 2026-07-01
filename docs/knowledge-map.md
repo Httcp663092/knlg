@@ -21,6 +21,7 @@
 - [学习路径](learning-paths.md)
 - [知识库缺口与补充路线图](knowledge-gap-roadmap.md)
 - [记录规范](conventions.md)
+- [真实环境内容收集与沉淀清单](00_inbox/real-environment-content-intake.md)
 
 ## 财务会计
 
@@ -32,6 +33,7 @@
 - [财务理论到金蝶系统映射](01_finance/finance-theory-to-kingdee-system.md)
 - [金蝶财务配置指南](01_finance/kingdee-finance-configuration-guide.md)
 - [多组织、多账簿与集团核算教程](01_finance/multi-org-multi-book-accounting-guide.md)
+- [集团合并报表、内部交易抵消与内部往来对账专题](01_finance/consolidated-reporting-elimination-guide.md)
 - [财务内控与审计检查清单](01_finance/finance-control-and-audit-checklist.md)
 - [金蝶财务日常操作手册](01_finance/finance-daily-operation-guide.md)
 - [财务实操场景：从业务单据到凭证报表](01_finance/finance-operation-scenarios.md)
@@ -75,6 +77,8 @@
 - [采购结算、到票、暂估冲回与采购价差专题](02_supply-chain/purchase-settlement-invoice-variance-guide.md)
 - [销售管理详细教程](02_supply-chain/sales-management-guide.md)
 - [销售退货、红冲、退款与折让专题](02_supply-chain/sales-return-red-invoice-refund-guide.md)
+- [客户退货质检、RMA、返修与报废专题](02_supply-chain/customer-return-quality-rma-guide.md)
+- [客户索赔、售后备件、保内保外维修专题](02_supply-chain/after-sales-claims-spare-parts-guide.md)
 - [库存管理详细教程](02_supply-chain/inventory-management-guide.md)
 - [寄售、VMI 与客户寄售库存专题](02_supply-chain/consignment-vmi-inventory-guide.md)
 - [存货核算详细教程](02_supply-chain/inventory-costing-guide.md)
@@ -93,8 +97,10 @@
 - [MRP 与计划管理详细教程](03_manufacturing/mrp-planning-guide.md)
 - [生产订单执行详细教程](03_manufacturing/production-order-execution-guide.md)
 - [委外管理详细教程](03_manufacturing/outsourcing-management-guide.md)
+- [委外采购协同、发料收料与加工费结算专题](03_manufacturing/outsourcing-cost-settlement-collaboration-guide.md)
 - [制造成本核算详细教程](03_manufacturing/manufacturing-costing-guide.md)
 - [车间执行与报工教程](03_manufacturing/shop-floor-execution-guide.md)
+- [车间看板、MES 报工回写与设备数据采集专题](03_manufacturing/mes-shop-floor-dashboard-data-collection-guide.md)
 - [质量管理详细教程](03_manufacturing/quality-management-guide.md)
 - [设备管理与维护教程](03_manufacturing/equipment-maintenance-guide.md)
 - [制造模块官方资料精读](03_manufacturing/manufacturing-official-source-digest.md)
@@ -106,6 +112,7 @@
 - [项目调研与蓝图设计详细教程](04_implementation/project-research-and-blueprint-guide.md)
 - [主数据与初始化详细教程](04_implementation/master-data-and-initialization-guide.md)
 - [权限、角色与内控实施教程](04_implementation/permission-role-control-guide.md)
+- [权限审计、关键岗位内控与越权操作追溯专题](04_implementation/permission-audit-sod-control-guide.md)
 - [测试、培训与上线演练教程](04_implementation/testing-training-drill-guide.md)
 - [上线切换、验收与运维移交教程](04_implementation/go-live-acceptance-handover-guide.md)
 
@@ -122,6 +129,8 @@
 - [数据模型与 SQL](06_data-model-sql/README.md)
 - [数据模型与 SQL 查询作战手册](06_data-model-sql/data-query-playbook.md)
 - [金蝶数据模型阅读方法](06_data-model-sql/kingdee-data-model-reading-guide.md)
+- [核心表字典与常用 SQL 查询包](06_data-model-sql/core-table-dictionary-and-sql-pack.md)
+- [真实环境已验证 SQL 示例库](06_data-model-sql/real-environment-verified-sql-library.md)
 - [财务对账与 SQL 排查教程](06_data-model-sql/finance-reconciliation-sql-guide.md)
 - [供应链与库存数据排查教程](06_data-model-sql/supply-chain-inventory-sql-guide.md)
 - [报表取数、指标口径与数据分析教程](06_data-model-sql/reporting-metrics-data-analysis-guide.md)

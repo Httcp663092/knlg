@@ -274,3 +274,4 @@
 ## 参考资料
 
 - [金蝶云产品手册首页](https://help.open.kingdee.com/)
+- [权限审计、关键岗位内控与越权操作追溯专题](permission-audit-sod-control-guide.md)

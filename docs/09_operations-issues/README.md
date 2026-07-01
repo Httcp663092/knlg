@@ -51,6 +51,7 @@
 
 - [问题排查与运维处理手册](issue-triage-and-operations-playbook.md)
 - [全模块问题案例库](operations-case-library.md)
+- [权限审计、关键岗位内控与越权操作追溯专题](../04_implementation/permission-audit-sod-control-guide.md)
 - [常见问题库](../10_common-questions/README.md)
 - [财务高频问题](../10_common-questions/finance-faq.md)
 - [财务常见问题专项页](../01_finance/common-issues.md)

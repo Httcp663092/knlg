@@ -15,6 +15,10 @@
 
 这里存放还没有整理到正式模块的金蝶资料、问题和想法。
 
+## 收集入口
+
+- [真实环境内容收集与沉淀清单](real-environment-content-intake.md)：用于承接截图、菜单路径、报错原文、单据编号、SQL、接口报文、版本环境和处理过程；验证稳定的 SQL 再沉淀到 [真实环境已验证 SQL 示例库](../06_data-model-sql/real-environment-verified-sql-library.md)。
+
 ## 使用规则
 
 - 先记录，不要因为分类不确定而中断。

@@ -20,6 +20,7 @@
 - [金蝶接口集成实施教程](integration-implementation-guide.md)
 - [外部系统集成场景教程](external-system-integration-scenarios.md)
 - [接口联调、监控、重试与对账教程](interface-debugging-monitoring-reconciliation.md)
+- [车间看板、MES 报工回写与设备数据采集专题](../03_manufacturing/mes-shop-floor-dashboard-data-collection-guide.md)
 - [WebAPI、集成平台与安全参数官方资料精读](webapi-integration-official-source-digest.md)
 - [AI 文档分类与结构化提取](ai-document-classification.md)
 
@@ -27,6 +28,7 @@
 
 - Web API / OpenAPI。
 - 第三方系统对接：电商、WMS、MES、OA、CRM。
+- MES 报工回写、设备数据采集、车间看板和日报工对账。
 - 银企直连。
 - 税务和发票平台。
 - 电子会计档案。

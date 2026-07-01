@@ -22,8 +22,10 @@
 - [MRP 与计划管理详细教程](mrp-planning-guide.md)
 - [生产订单执行详细教程](production-order-execution-guide.md)
 - [委外管理详细教程](outsourcing-management-guide.md)
+- [委外采购协同、发料收料与加工费结算专题](outsourcing-cost-settlement-collaboration-guide.md)
 - [制造成本核算详细教程](manufacturing-costing-guide.md)
 - [车间执行与报工教程](shop-floor-execution-guide.md)
+- [车间看板、MES 报工回写与设备数据采集专题](mes-shop-floor-dashboard-data-collection-guide.md)
 - [质量管理详细教程](quality-management-guide.md)
 - [设备管理与维护教程](equipment-maintenance-guide.md)
 - [制造模块官方资料精读](manufacturing-official-source-digest.md)
@@ -35,15 +37,17 @@
 3. [MRP 与计划管理详细教程](mrp-planning-guide.md)
 4. [生产订单执行详细教程](production-order-execution-guide.md)
 5. [委外管理详细教程](outsourcing-management-guide.md)
-6. [制造成本核算详细教程](manufacturing-costing-guide.md)
-7. [车间执行与报工教程](shop-floor-execution-guide.md)
-8. [质量管理详细教程](quality-management-guide.md)
-9. [设备管理与维护教程](equipment-maintenance-guide.md)
-10. [制造模块官方资料精读](manufacturing-official-source-digest.md)
+6. [委外采购协同、发料收料与加工费结算专题](outsourcing-cost-settlement-collaboration-guide.md)
+7. [制造成本核算详细教程](manufacturing-costing-guide.md)
+8. [车间执行与报工教程](shop-floor-execution-guide.md)
+9. [车间看板、MES 报工回写与设备数据采集专题](mes-shop-floor-dashboard-data-collection-guide.md)
+10. [质量管理详细教程](quality-management-guide.md)
+11. [设备管理与维护教程](equipment-maintenance-guide.md)
+12. [制造模块官方资料精读](manufacturing-official-source-digest.md)
 
 ## 后续继续加厚方向
 
-- 车间看板、产能负荷、工序委外、设备联网和 MES 深度集成。
+- 工序委外、产能负荷细化、设备联网采集样例、MES 与金蝶日报工对账样表、真实环境已验证制造 SQL。
 
 ## 和财务的关系
 

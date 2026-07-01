@@ -19,6 +19,8 @@
 
 - [数据模型与 SQL 查询作战手册](data-query-playbook.md)
 - [金蝶数据模型阅读方法](kingdee-data-model-reading-guide.md)
+- [核心表字典与常用 SQL 查询包](core-table-dictionary-and-sql-pack.md)
+- [真实环境已验证 SQL 示例库](real-environment-verified-sql-library.md)
 - [财务对账与 SQL 排查教程](finance-reconciliation-sql-guide.md)
 - [供应链与库存数据排查教程](supply-chain-inventory-sql-guide.md)
 - [报表取数、指标口径与数据分析教程](reporting-metrics-data-analysis-guide.md)
@@ -36,6 +38,8 @@
 
 1. 先读查询作战手册，理解 SQL 排查红线和基本流程。
 2. 再读数据模型阅读方法，学会从单据头、分录、状态、关联关系看数据。
-3. 做财务问题时读财务对账教程。
-4. 做库存、采购、销售、成本问题时读供应链库存教程。
-5. 做管理报表、老板驾驶舱、数据分析时读指标口径教程。
+3. 再读核心表字典与常用 SQL 查询包，建立可复制改造的查询清单。
+4. 再读真实环境已验证 SQL 示例库，把模板改成能回前台核对的记录卡。
+5. 做财务问题时读财务对账教程。
+6. 做库存、采购、销售、成本问题时读供应链库存教程。
+7. 做管理报表、老板驾驶舱、数据分析时读指标口径教程。
