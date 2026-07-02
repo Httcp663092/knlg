@@ -59,6 +59,7 @@
 - [BOS 插件源码级案例：保存校验、操作服务、单据转换与列表过滤](05_development-bos/plugin-code-cases-save-operation-conversion-guide.md)：把保存前校验、审核后日志、单据转换补字段和列表过滤整理成可改造的代码结构。
 - [权限审计、关键岗位内控与越权操作追溯专题](04_implementation/permission-audit-sod-control-guide.md)：沉淀高危权限、职责分离、临时授权、敏感操作和审计证据包。
 - [接口与集成](07_integrations/README.md)：AI 文档分类、AI 管理助手、智能体、OpenAPI、外部系统集成。
+- [税务平台、银企回单与接口批量补偿专题](07_integrations/financial-integration-tax-bank-compensation-guide.md)：把税务平台发票同步、银企回单、银行流水、接口批量补偿和月结证据包串起来。
 - [WMS 出入库对账、接口补偿与库存一致性专题](07_integrations/wms-inventory-reconciliation-compensation-guide.md)：补 WMS 收发货回写、幂等、防重复、异常补偿和库存一致性对账。
 - [PLM-BOM 变更同步、工程变更与生产版本追溯专题](07_integrations/plm-bom-ecn-change-sync-guide.md)：补 PLM 物料、BOM、工程变更、版本生效、生产订单影响分析和售后追溯。
 - [金蝶 AI 应用专题：AI 管理助手、智能体与业务落地](07_integrations/kingdee-ai-agent-application-guide.md)：把财务、供应链、制造、实施、知识库、RAG、工具调用、权限和审计串起来。
@@ -87,7 +88,7 @@
 - 实施交付：调研蓝图、主数据期初、权限内控、权限审计、测试培训、上线验收。
 - BOS/苍穹开发：项目创建、建模、插件、插件治理、保存校验、操作服务、单据转换、列表过滤、工作流和权限扩展。
 - 数据 SQL：数据模型阅读、核心表字典、常用查询包、已验证 SQL 示例、财务对账、库存排查、报表指标口径、BI 指标体系、驾驶舱、ChatBI 问数、口径解释和权限治理。
-- 接口集成：外部系统集成、AI 文档分类、AI 管理助手、智能体落地、接口联调、WMS 出入库回写、PLM-BOM 变更同步、日志、幂等、重试、补偿和对账。
+- 接口集成：外部系统集成、税务平台发票同步、银企回单、接口批量补偿、AI 文档分类、AI 管理助手、智能体落地、接口联调、WMS 出入库回写、PLM-BOM 变更同步、日志、幂等、重试、补偿和对账。
 - 环境运维：环境发布、系统管理员日常、备份恢复、监控巡检、数据清理归档、接口报文留存、操作日志审计、问题处理。
 - 学习路径：财务新人、实施顾问、供应链顾问、制造顾问、BOS 开发、数据 SQL、接口运维的 30/60/90 天路线。
 - 问题案例：应收总账差异、存货对账、MRP、接口重复单、权限、发布后凭证异常、报表性能等全模块案例。

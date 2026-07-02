@@ -150,6 +150,7 @@
 - [金蝶接口集成实施教程](07_integrations/integration-implementation-guide.md)
 - [外部系统集成场景教程](07_integrations/external-system-integration-scenarios.md)
 - [接口联调、监控、重试与对账教程](07_integrations/interface-debugging-monitoring-reconciliation.md)
+- [税务平台、银企回单与接口批量补偿专题](07_integrations/financial-integration-tax-bank-compensation-guide.md)
 - [WMS 出入库对账、接口补偿与库存一致性专题](07_integrations/wms-inventory-reconciliation-compensation-guide.md)
 - [PLM-BOM 变更同步、工程变更与生产版本追溯专题](07_integrations/plm-bom-ecn-change-sync-guide.md)
 - [WebAPI、集成平台与安全参数官方资料精读](07_integrations/webapi-integration-official-source-digest.md)

@@ -63,6 +63,7 @@
 - [BI 分析体系详解：指标、模型、看板、权限和经营洞察](docs/06_data-model-sql/bi-analytics-system-guide.md)
 - [金蝶 ChatBI 实战专题：自然语言问数、口径解释与经营驾驶舱](docs/06_data-model-sql/kingdee-chatbi-practical-guide.md)
 - [接口与集成](docs/07_integrations/README.md)
+- [税务平台、银企回单与接口批量补偿专题](docs/07_integrations/financial-integration-tax-bank-compensation-guide.md)
 - [WMS 出入库对账、接口补偿与库存一致性专题](docs/07_integrations/wms-inventory-reconciliation-compensation-guide.md)
 - [PLM-BOM 变更同步、工程变更与生产版本追溯专题](docs/07_integrations/plm-bom-ecn-change-sync-guide.md)
 - [金蝶 AI 应用专题：AI 管理助手、智能体与业务落地](docs/07_integrations/kingdee-ai-agent-application-guide.md)

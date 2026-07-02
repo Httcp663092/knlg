@@ -231,6 +231,8 @@ OA 费用申请
 - 银行回单附件留存。
 - 大额付款复核。
 
+详细处理见 [税务平台、银企回单与接口批量补偿专题](financial-integration-tax-bank-compensation-guide.md)。
+
 ## 九、发票平台集成
 
 ### 数据方向
@@ -248,6 +250,8 @@ OA 费用申请
 - 红冲关系。
 - 发票号码。
 - 开票日期和入账期间。
+
+详细处理见 [税务平台、银企回单与接口批量补偿专题](financial-integration-tax-bank-compensation-guide.md)。
 
 ## 十、BI 和数据仓库
 

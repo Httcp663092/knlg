@@ -756,6 +756,7 @@
               <a href="docs/03_manufacturing/mes-shop-floor-dashboard-data-collection-guide.md">MES看板</a>
               <a href="docs/07_integrations/plm-bom-ecn-change-sync-guide.md">PLM变更</a>
               <a href="docs/07_integrations/wms-inventory-reconciliation-compensation-guide.md">WMS对账</a>
+              <a href="docs/07_integrations/financial-integration-tax-bank-compensation-guide.md">财务集成补偿</a>
               <a href="docs/02_supply-chain/consignment-vmi-inventory-guide.md">寄售VMI</a>
               <a href="docs/02_supply-chain/inventory-cost-variance-close-guide.md">成本关账</a>
               <a href="docs/06_data-model-sql/core-table-dictionary-and-sql-pack.md">SQL查询包</a>
@@ -926,16 +927,17 @@
               </div>
             </article>
 
-            <article class="card" data-group="tech" data-keywords="接口 WebAPI 集成 外部系统 幂等 重试 对账 日志 AI 文档 AI管理助手 智能体 Agent RAG 知识库 工具调用 人工确认 审计 WMS 仓储 出入库 回写 补偿 库存一致性 批号 序列号 库存状态 PLM BOM ECN ECO 工程变更 版本同步 生产追溯">
+            <article class="card" data-group="tech" data-keywords="接口 WebAPI 集成 外部系统 幂等 重试 对账 日志 税务平台 发票平台 银企 回单 银行流水 批量补偿 月结证据 AI 文档 AI管理助手 智能体 Agent RAG 知识库 工具调用 人工确认 审计 WMS 仓储 出入库 回写 补偿 库存一致性 批号 序列号 库存状态 PLM BOM ECN ECO 工程变更 版本同步 生产追溯">
               <div class="card-top">
                 <div class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M9 7H7a5 5 0 0 0 0 10h2m6-10h2a5 5 0 0 1 0 10h-2M8 12h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
                 <span class="tag">集成</span>
               </div>
               <h3>接口与集成</h3>
-              <p>外部系统集成、WebAPI、字段映射、AI 文档分类、AI 管理助手、智能体工具调用、WMS 出入库回写、PLM-BOM 工程变更同步、幂等控制、失败重试、接口补偿、监控和接口对账。</p>
+              <p>外部系统集成、WebAPI、字段映射、税务平台、银企回单、接口批量补偿、AI 文档分类、AI 管理助手、WMS 出入库回写、PLM-BOM 工程变更同步、幂等控制、监控和接口对账。</p>
               <div class="card-links">
                 <a href="docs/07_integrations/README.md">进入集成目录</a>
                 <a href="docs/07_integrations/interface-debugging-monitoring-reconciliation.md">联调监控对账</a>
+                <a href="docs/07_integrations/financial-integration-tax-bank-compensation-guide.md">财务集成补偿</a>
                 <a href="docs/07_integrations/wms-inventory-reconciliation-compensation-guide.md">WMS库存一致性</a>
                 <a href="docs/07_integrations/plm-bom-ecn-change-sync-guide.md">PLM-BOM变更</a>
                 <a href="docs/07_integrations/webapi-integration-official-source-digest.md">WebAPI 精读</a>
@@ -1167,6 +1169,11 @@
                   <td>AI 管理助手或智能体回答不准、越权，或不确定能不能让它自动执行</td>
                   <td><a href="docs/07_integrations/kingdee-ai-agent-application-guide.md">AI智能体落地</a></td>
                   <td><a href="docs/07_integrations/ai-document-classification.md">AI文档分类</a></td>
+                </tr>
+                <tr>
+                  <td>税务平台、银企回单或批量补偿后和金蝶不一致</td>
+                  <td><a href="docs/07_integrations/financial-integration-tax-bank-compensation-guide.md">财务集成补偿</a></td>
+                  <td><a href="docs/01_finance/tax-declaration-invoice-reconciliation-guide.md">税务申报勾稽</a></td>
                 </tr>
                 <tr>
                   <td>用户能进菜单但看不到数据，或者按钮不能点</td>

@@ -34,6 +34,7 @@
 | [插件治理、排障与上线回归手册](../05_development-bos/plugin-governance-and-troubleshooting-guide.md) | 插件类型选择、操作服务插件、幂等、日志、发布回归、BOM 字段带入案例 | 金蝶 SDK、金蝶开发者官网、项目实践 |
 | [BOS 插件源码级案例：保存校验、操作服务、单据转换与列表过滤](../05_development-bos/plugin-code-cases-save-operation-conversion-guide.md) | 保存前校验、审核后日志、单据转换补字段、列表过滤和插件回归矩阵 | 金蝶 SDK、金蝶开发者官网、项目实践 |
 | [WebAPI、集成平台与安全参数官方资料精读](../07_integrations/webapi-integration-official-source-digest.md) | WebAPI、OpenAPI、接口认证、集成平台、安全参数 | 金蝶开发者官网、金蝶云产品手册 |
+| [税务平台、银企回单与接口批量补偿专题](../07_integrations/financial-integration-tax-bank-compensation-guide.md) | 税务平台发票同步、银企回单、银行流水、接口批量补偿、幂等键、月结证据包 | 金蝶云产品手册、项目实践 |
 | [系统管理、安全权限与业务监控官方资料精读](../08_environments-releases/security-monitoring-official-source-digest.md) | 用户、角色、功能授权、数据权限、移动安全、业务监控 | 金蝶云产品手册 |
 | [数据清理归档、接口报文留存与审计追溯专题](../08_environments-releases/data-archive-log-retention-audit-guide.md) | 数据清理、附件归档、接口报文留存、操作日志审计和追溯证据包 | 金蝶开发者官网、项目实践 |
 | [BI 分析体系详解：指标、模型、看板、权限和经营洞察](../06_data-model-sql/bi-analytics-system-guide.md) | BI 和普通报表区别、指标字典、数据模型、老板驾驶舱、销售/采购/库存/财务 BI、ChatBI 和权限治理 | 金蝶官网 ChatBI 资料、项目实践 |
@@ -52,7 +53,7 @@
 - 成本管理、产品成本、标准成本。
 - 合并报表和集团财务。
 - 费用报销和预算控制。
-- 银企直连、票据和资金计划。
+- 银企直连、票据和资金计划的真实回单、银行流水和补偿样本。
 - PLM、MES、WMS 深度集成。
 - 数据流、事件网格、集成服务云。
 - 真实客户 ChatBI 问答记录、指标解释和标准报表核对样本。

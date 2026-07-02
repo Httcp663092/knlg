@@ -403,6 +403,7 @@
 - [金蝶接口集成实施教程](07_integrations/integration-implementation-guide.md)
 - [外部系统集成场景教程](07_integrations/external-system-integration-scenarios.md)
 - [接口联调、监控、重试与对账教程](07_integrations/interface-debugging-monitoring-reconciliation.md)
+- [税务平台、银企回单与接口批量补偿专题](07_integrations/financial-integration-tax-bank-compensation-guide.md)
 - [WMS 出入库对账、接口补偿与库存一致性专题](07_integrations/wms-inventory-reconciliation-compensation-guide.md)
 - [PLM-BOM 变更同步、工程变更与生产版本追溯专题](07_integrations/plm-bom-ecn-change-sync-guide.md)
 - [WebAPI、集成平台与安全参数官方资料精读](07_integrations/webapi-integration-official-source-digest.md)
@@ -423,6 +424,7 @@
 4. 最后形成处理：临时绕行、根因修复、数据补偿、回归测试、预防措施。
 5. 做清理归档前，先确认留存年限、附件、接口报文、操作日志和审计取证要求，避免清理后证据链断掉。
 6. 做 AI 智能体或管理助手上线前，先确认知识来源、数据权限、工具权限、人工确认点、失败回滚和审计日志。
+7. 做财务集成补偿前，先确认外部事实、金蝶单据、凭证、回单/发票附件和补偿批次报告。
 
 验收标准：
 
@@ -430,6 +432,7 @@
 - 能把问题归因到配置、数据、权限、二开、接口、环境或产品限制。
 - 能知道哪些操作需要先备份、先审批、先演练。
 - 能判断 AI 场景是问答、生成、分析、审核还是执行，并设置对应的权限和人工确认点。
+- 能区分接口重试和批量补偿，避免税务发票、银企付款、银行流水重复入账或重复付款。
 
 ## 30/60/90 天学习计划
 

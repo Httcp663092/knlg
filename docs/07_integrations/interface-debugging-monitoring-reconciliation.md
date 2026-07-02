@@ -5,7 +5,7 @@
 >
 > [界面首页](../../index.html) | [文档首页](../README.md) | [知识地图](../knowledge-map.md) | [学习路径](../learning-paths.md) | [财务](../01_finance/README.md) | [供应链](../02_supply-chain/README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
-> 上一章：[外部系统集成场景教程](external-system-integration-scenarios.md) | 下一章：[WMS 出入库对账、接口补偿与库存一致性专题](wms-inventory-reconciliation-compensation-guide.md) | [本章目录](README.md)
+> 上一章：[外部系统集成场景教程](external-system-integration-scenarios.md) | 下一章：[税务平台、银企回单与接口批量补偿专题](financial-integration-tax-bank-compensation-guide.md) | [本章目录](README.md)
 <!-- NAV_END -->
 
 
@@ -273,3 +273,4 @@
 ## 参考资料
 
 - [金蝶开发者官网](https://developer.kingdee.com/)
+- [税务平台、银企回单与接口批量补偿专题](financial-integration-tax-bank-compensation-guide.md)

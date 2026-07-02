@@ -20,6 +20,7 @@
 - [金蝶接口集成实施教程](integration-implementation-guide.md)
 - [外部系统集成场景教程](external-system-integration-scenarios.md)
 - [接口联调、监控、重试与对账教程](interface-debugging-monitoring-reconciliation.md)
+- [税务平台、银企回单与接口批量补偿专题](financial-integration-tax-bank-compensation-guide.md)
 - [WMS 出入库对账、接口补偿与库存一致性专题](wms-inventory-reconciliation-compensation-guide.md)
 - [PLM-BOM 变更同步、工程变更与生产版本追溯专题](plm-bom-ecn-change-sync-guide.md)
 - [车间看板、MES 报工回写与设备数据采集专题](../03_manufacturing/mes-shop-floor-dashboard-data-collection-guide.md)
@@ -35,6 +36,7 @@
 - 银企直连。
 - 税务和发票平台。
 - 电子会计档案。
+- 税务平台发票同步、银企回单、银行流水、接口批量补偿和月结证据包。
 - 数据同步和中间库。
 - 接口日志、幂等、重试、对账和监控。
 - WMS 出入库回写、库存状态、批号序列号、接口补偿和库存一致性对账。
