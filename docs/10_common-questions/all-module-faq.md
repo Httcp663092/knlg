@@ -36,6 +36,7 @@
 | 下推不了下游单据 | 单据状态、转换规则、未执行数量 | 单据转换 |
 | 报表数字不对 | 查询条件、状态、期间、组织、口径 | 数据口径 |
 | BI 看板、老板驾驶舱或 ChatBI 数字和标准报表不一致 | 指标字典、数据模型、权限、下钻口径 | BI 分析体系 |
+| AI 管理助手或智能体回答不准、越权或不敢让它自动执行 | 知识库、权限、工具调用、人工确认、审计日志 | 金蝶 AI 应用 |
 | 接口失败 | 认证、主数据、字段、业务规则 | 集成 |
 | 库存不对 | 单据审核、批号库位、盘点、核算 | 库存 |
 | 成本不对 | 入库成本、出库核算、负库存、费用分配 | 存货或制造成本 |
@@ -403,7 +404,27 @@
 4. 检查用户权限、组织权限、维度权限和导出权限。
 5. 如果是 ChatBI 问答，重新写成更明确的问题，例如“按已审核销售出库单、不含税、本位币，统计 2026 年 6 月华东区产品线毛利”。
 
-详细处理见 [BI 分析体系详解：指标、模型、看板、权限和经营洞察](../06_data-model-sql/bi-analytics-system-guide.md)。
+详细处理见 [BI 分析体系详解：指标、模型、看板、权限和经营洞察](../06_data-model-sql/bi-analytics-system-guide.md) 和 [金蝶 ChatBI 实战专题：自然语言问数、口径解释与经营驾驶舱](../06_data-model-sql/kingdee-chatbi-practical-guide.md)。
+
+### 17.2 AI 管理助手或智能体回答不准、越权或不敢让它自动执行
+
+常见原因：
+
+- 知识库资料过期、没有来源、没有 owner，AI 引用了旧制度或旧流程。
+- 文档权限、数据权限和工具权限没有统一，问答能看到不该看的资料。
+- 智能体调用工具时没有人工确认点，生成草稿和正式提交没有分清。
+- 没有记录用户问题、检索来源、工具调用、返回结果和人工处理结果。
+- 场景太大，例如“帮我管采购”，没有拆成供应商价格异常、采购订单逾期、到票暂估等可执行任务。
+
+处理顺序：
+
+1. 先判断场景类型：问答、生成、分析、审核、执行还是多智能体编排。
+2. 核对知识库来源、版本、负责人、权限和引用结果。
+3. 核对智能体能调用哪些 API、报表、流程或业务工具。
+4. 对下单、付款、审批、驳回、数据补偿等高风险动作设置人工确认点。
+5. 用不同角色账号测试同一问题，确认权限、脱敏和审计日志有效。
+
+详细处理见 [金蝶 AI 应用专题：AI 管理助手、智能体与业务落地](../07_integrations/kingdee-ai-agent-application-guide.md)。
 
 ## 八、接口类问题
 
@@ -608,6 +629,8 @@
 - [财务基础通俗入门：从业务、凭证到报表](../01_finance/finance-starter-plain-language-guide.md)
 - [供应链基础通俗入门：采购、销售、库存和存货核算](../02_supply-chain/supply-chain-starter-plain-language-guide.md)
 - [BI 分析体系详解：指标、模型、看板、权限和经营洞察](../06_data-model-sql/bi-analytics-system-guide.md)
+- [金蝶 ChatBI 实战专题：自然语言问数、口径解释与经营驾驶舱](../06_data-model-sql/kingdee-chatbi-practical-guide.md)
+- [金蝶 AI 应用专题：AI 管理助手、智能体与业务落地](../07_integrations/kingdee-ai-agent-application-guide.md)
 - [金蝶接口集成实施教程](../07_integrations/integration-implementation-guide.md)
 - [集团管理分析、事业部利润与内部转移定价专题](../01_finance/group-management-profit-transfer-pricing-guide.md)
 - [经营分析月报样例：事业部利润、产品毛利、客户贡献与预算执行](../01_finance/management-analysis-monthly-report-sample-guide.md)

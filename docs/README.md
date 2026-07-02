@@ -53,13 +53,15 @@
 - [核心表字典与常用 SQL 查询包](06_data-model-sql/core-table-dictionary-and-sql-pack.md)：沉淀单据、凭证、库存、成本、往来、接口和内部往来的常用查询模板。
 - [真实环境已验证 SQL 示例库](06_data-model-sql/real-environment-verified-sql-library.md)：按单据状态、凭证、往来、库存成本、接口、MES 和月结异常沉淀可验证查询记录。
 - [BI 分析体系详解：指标、模型、看板、权限和经营洞察](06_data-model-sql/bi-analytics-system-guide.md)：把普通报表、BI、ChatBI、老板驾驶舱、指标字典、数据模型和权限治理串起来。
+- [金蝶 ChatBI 实战专题：自然语言问数、口径解释与经营驾驶舱](06_data-model-sql/kingdee-chatbi-practical-guide.md)：把问数智能体、标准问法、口径解释、权限控制和验收矩阵落到实操。
 - [BOS/插件/二开](05_development-bos/README.md)：苍穹开发者工作台、项目创建、单据和基础资料建模。
 - [插件治理、排障与上线回归手册](05_development-bos/plugin-governance-and-troubleshooting-guide.md)：插件类型选择、事件时机、幂等、日志、发布回归和生产故障定位。
 - [BOS 插件源码级案例：保存校验、操作服务、单据转换与列表过滤](05_development-bos/plugin-code-cases-save-operation-conversion-guide.md)：把保存前校验、审核后日志、单据转换补字段和列表过滤整理成可改造的代码结构。
 - [权限审计、关键岗位内控与越权操作追溯专题](04_implementation/permission-audit-sod-control-guide.md)：沉淀高危权限、职责分离、临时授权、敏感操作和审计证据包。
-- [接口与集成](07_integrations/README.md)：AI 文档分类、OpenAPI、外部系统集成。
+- [接口与集成](07_integrations/README.md)：AI 文档分类、AI 管理助手、智能体、OpenAPI、外部系统集成。
 - [WMS 出入库对账、接口补偿与库存一致性专题](07_integrations/wms-inventory-reconciliation-compensation-guide.md)：补 WMS 收发货回写、幂等、防重复、异常补偿和库存一致性对账。
 - [PLM-BOM 变更同步、工程变更与生产版本追溯专题](07_integrations/plm-bom-ecn-change-sync-guide.md)：补 PLM 物料、BOM、工程变更、版本生效、生产订单影响分析和售后追溯。
+- [金蝶 AI 应用专题：AI 管理助手、智能体与业务落地](07_integrations/kingdee-ai-agent-application-guide.md)：把财务、供应链、制造、实施、知识库、RAG、工具调用、权限和审计串起来。
 - [环境、发布和版本](08_environments-releases/README.md)：数据清理、水平分库、环境和补丁。
 - [数据清理归档、接口报文留存与审计追溯专题](08_environments-releases/data-archive-log-retention-audit-guide.md)：补历史数据清理、附件归档、接口报文留存、操作日志审计和追溯证据。
 - [运维与问题库](09_operations-issues/README.md)：问题现象、根因、处理方案。
@@ -84,8 +86,8 @@
 - 生产制造：BOM、PLM 工程变更、MRP、生产订单、委外、委外加工费结算、车间报工、MES 报工回写、设备采集、车间看板、质量、设备和制造成本。
 - 实施交付：调研蓝图、主数据期初、权限内控、权限审计、测试培训、上线验收。
 - BOS/苍穹开发：项目创建、建模、插件、插件治理、保存校验、操作服务、单据转换、列表过滤、工作流和权限扩展。
-- 数据 SQL：数据模型阅读、核心表字典、常用查询包、已验证 SQL 示例、财务对账、库存排查、报表指标口径、BI 指标体系、驾驶舱、ChatBI 和权限治理。
-- 接口集成：外部系统集成、接口联调、WMS 出入库回写、PLM-BOM 变更同步、日志、幂等、重试、补偿和对账。
+- 数据 SQL：数据模型阅读、核心表字典、常用查询包、已验证 SQL 示例、财务对账、库存排查、报表指标口径、BI 指标体系、驾驶舱、ChatBI 问数、口径解释和权限治理。
+- 接口集成：外部系统集成、AI 文档分类、AI 管理助手、智能体落地、接口联调、WMS 出入库回写、PLM-BOM 变更同步、日志、幂等、重试、补偿和对账。
 - 环境运维：环境发布、系统管理员日常、备份恢复、监控巡检、数据清理归档、接口报文留存、操作日志审计、问题处理。
 - 学习路径：财务新人、实施顾问、供应链顾问、制造顾问、BOS 开发、数据 SQL、接口运维的 30/60/90 天路线。
 - 问题案例：应收总账差异、存货对账、MRP、接口重复单、权限、发布后凭证异常、报表性能等全模块案例。

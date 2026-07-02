@@ -715,7 +715,7 @@
           <svg aria-hidden="true" viewBox="0 0 24 24" fill="none">
             <path d="m21 21-4.2-4.2m1.2-5.3a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
           </svg>
-          <input id="kbSearch" type="search" placeholder="搜索模块、问题、教程、角色，例如：财务基础、供应链基础、BI、ChatBI、月结、经营月报、PLM、WMS">
+          <input id="kbSearch" type="search" placeholder="搜索模块、问题、教程、角色，例如：财务基础、供应链基础、BI、ChatBI、AI助手、智能体、月结、经营月报、PLM、WMS">
         </label>
         <div class="top-actions" aria-label="快捷操作">
           <a class="action-link primary" href="docs/learning-paths.md">学习路径</a>
@@ -761,9 +761,11 @@
               <a href="docs/06_data-model-sql/core-table-dictionary-and-sql-pack.md">SQL查询包</a>
               <a href="docs/06_data-model-sql/real-environment-verified-sql-library.md">SQL示例库</a>
               <a href="docs/06_data-model-sql/bi-analytics-system-guide.md">BI分析</a>
+              <a href="docs/06_data-model-sql/kingdee-chatbi-practical-guide.md">ChatBI问数</a>
               <a href="docs/05_development-bos/plugin-code-cases-save-operation-conversion-guide.md">插件案例</a>
               <a href="docs/08_environments-releases/data-archive-log-retention-audit-guide.md">归档审计</a>
               <a href="docs/04_implementation/permission-audit-sod-control-guide.md">权限审计</a>
+              <a href="docs/07_integrations/kingdee-ai-agent-application-guide.md">AI智能体</a>
               <a href="docs/00_inbox/real-environment-content-intake.md">内容收集</a>
             </div>
           </div>
@@ -906,13 +908,13 @@
               </div>
             </article>
 
-            <article class="card" data-group="tech" data-keywords="数据 SQL BI ChatBI 驾驶舱 老板驾驶舱 指标字典 指标体系 数据模型 看板 毛利 库存周转 逾期应收 预算执行 SQL查询包 SQL示例库 已验证SQL verified 报表 口径 对账 查询 表结构 底表 取数 表字典 查询包 单据状态 凭证生成 库存成本 接口日志 内部往来 MES回写 月结异常">
+            <article class="card" data-group="tech" data-keywords="数据 SQL BI ChatBI 自然语言问数 问数智能体 口径解释 驾驶舱 老板驾驶舱 指标字典 指标体系 数据模型 看板 毛利 库存周转 逾期应收 预算执行 SQL查询包 SQL示例库 已验证SQL verified 报表 口径 对账 查询 表结构 底表 取数 表字典 查询包 单据状态 凭证生成 库存成本 接口日志 内部往来 MES回写 月结异常">
               <div class="card-top">
                 <div class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M5 6c0-1.7 3.1-3 7-3s7 1.3 7 3-3.1 3-7 3-7-1.3-7-3Zm0 0v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
                 <span class="tag">数据</span>
               </div>
               <h3>数据模型与 SQL</h3>
-              <p>从业务对象追到数据表，沉淀核心表字典、常用查询包、已验证 SQL 示例、BI 指标体系、老板驾驶舱、财务对账、库存成本、接口日志、内部往来和报表口径。</p>
+              <p>从业务对象追到数据表，沉淀核心表字典、常用查询包、已验证 SQL 示例、BI 指标体系、ChatBI 问数、老板驾驶舱、财务对账、库存成本、接口日志、内部往来和报表口径。</p>
               <div class="card-links">
                 <a href="docs/06_data-model-sql/README.md">进入数据目录</a>
                 <a href="docs/06_data-model-sql/core-table-dictionary-and-sql-pack.md">核心表字典与SQL包</a>
@@ -920,22 +922,25 @@
                 <a href="docs/06_data-model-sql/finance-reconciliation-sql-guide.md">财务对账 SQL</a>
                 <a href="docs/06_data-model-sql/reporting-metrics-data-analysis-guide.md">报表指标口径</a>
                 <a href="docs/06_data-model-sql/bi-analytics-system-guide.md">BI与驾驶舱</a>
+                <a href="docs/06_data-model-sql/kingdee-chatbi-practical-guide.md">ChatBI问数实战</a>
               </div>
             </article>
 
-            <article class="card" data-group="tech" data-keywords="接口 WebAPI 集成 外部系统 幂等 重试 对账 日志 AI 文档 WMS 仓储 出入库 回写 补偿 库存一致性 批号 序列号 库存状态 PLM BOM ECN ECO 工程变更 版本同步 生产追溯">
+            <article class="card" data-group="tech" data-keywords="接口 WebAPI 集成 外部系统 幂等 重试 对账 日志 AI 文档 AI管理助手 智能体 Agent RAG 知识库 工具调用 人工确认 审计 WMS 仓储 出入库 回写 补偿 库存一致性 批号 序列号 库存状态 PLM BOM ECN ECO 工程变更 版本同步 生产追溯">
               <div class="card-top">
                 <div class="module-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M9 7H7a5 5 0 0 0 0 10h2m6-10h2a5 5 0 0 1 0 10h-2M8 12h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
                 <span class="tag">集成</span>
               </div>
               <h3>接口与集成</h3>
-              <p>外部系统集成、WebAPI、字段映射、WMS 出入库回写、PLM-BOM 工程变更同步、幂等控制、失败重试、接口补偿、监控和接口对账。</p>
+              <p>外部系统集成、WebAPI、字段映射、AI 文档分类、AI 管理助手、智能体工具调用、WMS 出入库回写、PLM-BOM 工程变更同步、幂等控制、失败重试、接口补偿、监控和接口对账。</p>
               <div class="card-links">
                 <a href="docs/07_integrations/README.md">进入集成目录</a>
                 <a href="docs/07_integrations/interface-debugging-monitoring-reconciliation.md">联调监控对账</a>
                 <a href="docs/07_integrations/wms-inventory-reconciliation-compensation-guide.md">WMS库存一致性</a>
                 <a href="docs/07_integrations/plm-bom-ecn-change-sync-guide.md">PLM-BOM变更</a>
                 <a href="docs/07_integrations/webapi-integration-official-source-digest.md">WebAPI 精读</a>
+                <a href="docs/07_integrations/ai-document-classification.md">AI文档分类</a>
+                <a href="docs/07_integrations/kingdee-ai-agent-application-guide.md">AI智能体落地</a>
               </div>
             </article>
 
@@ -1152,6 +1157,16 @@
                   <td>BI 看板、老板驾驶舱或 ChatBI 数字和标准报表不一致</td>
                   <td><a href="docs/06_data-model-sql/bi-analytics-system-guide.md">BI分析体系</a></td>
                   <td><a href="docs/06_data-model-sql/reporting-metrics-data-analysis-guide.md">报表指标口径</a></td>
+                </tr>
+                <tr>
+                  <td>想让业务人员用 ChatBI 问销售毛利、逾期应收、呆滞库存，但担心口径和权限</td>
+                  <td><a href="docs/06_data-model-sql/kingdee-chatbi-practical-guide.md">ChatBI问数实战</a></td>
+                  <td><a href="docs/06_data-model-sql/bi-analytics-system-guide.md">BI分析体系</a></td>
+                </tr>
+                <tr>
+                  <td>AI 管理助手或智能体回答不准、越权，或不确定能不能让它自动执行</td>
+                  <td><a href="docs/07_integrations/kingdee-ai-agent-application-guide.md">AI智能体落地</a></td>
+                  <td><a href="docs/07_integrations/ai-document-classification.md">AI文档分类</a></td>
                 </tr>
                 <tr>
                   <td>用户能进菜单但看不到数据，或者按钮不能点</td>

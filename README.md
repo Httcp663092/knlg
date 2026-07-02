@@ -15,7 +15,7 @@
 
 我的金蝶个人知识库，用来沉淀金蝶系统学习、实施、开发、运维、问题排查和业务理解。
 
-当前知识库已按完整金蝶项目知识体系展开：财务、供应链、生产制造、实施交付、BOS/苍穹开发、数据 SQL、接口集成、环境发布、运维问题和常见问题都已经建立可继续扩展的详细教程。
+当前知识库已按完整金蝶项目知识体系展开：财务、供应链、生产制造、实施交付、BOS/苍穹开发、数据 SQL、BI/ChatBI、接口集成、金蝶 AI、环境发布、运维问题和常见问题都已经建立可继续扩展的详细教程。
 
 ## 快速入口
 
@@ -61,9 +61,11 @@
 - [核心表字典与常用 SQL 查询包](docs/06_data-model-sql/core-table-dictionary-and-sql-pack.md)
 - [真实环境已验证 SQL 示例库](docs/06_data-model-sql/real-environment-verified-sql-library.md)
 - [BI 分析体系详解：指标、模型、看板、权限和经营洞察](docs/06_data-model-sql/bi-analytics-system-guide.md)
+- [金蝶 ChatBI 实战专题：自然语言问数、口径解释与经营驾驶舱](docs/06_data-model-sql/kingdee-chatbi-practical-guide.md)
 - [接口与集成](docs/07_integrations/README.md)
 - [WMS 出入库对账、接口补偿与库存一致性专题](docs/07_integrations/wms-inventory-reconciliation-compensation-guide.md)
 - [PLM-BOM 变更同步、工程变更与生产版本追溯专题](docs/07_integrations/plm-bom-ecn-change-sync-guide.md)
+- [金蝶 AI 应用专题：AI 管理助手、智能体与业务落地](docs/07_integrations/kingdee-ai-agent-application-guide.md)
 - [环境、发布和版本](docs/08_environments-releases/README.md)
 - [数据清理归档、接口报文留存与审计追溯专题](docs/08_environments-releases/data-archive-log-retention-audit-guide.md)
 - [财务模块地图](docs/01_finance/finance-module-map.md)

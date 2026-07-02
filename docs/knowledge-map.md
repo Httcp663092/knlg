@@ -144,6 +144,7 @@
 - [供应链与库存数据排查教程](06_data-model-sql/supply-chain-inventory-sql-guide.md)
 - [报表取数、指标口径与数据分析教程](06_data-model-sql/reporting-metrics-data-analysis-guide.md)
 - [BI 分析体系详解：指标、模型、看板、权限和经营洞察](06_data-model-sql/bi-analytics-system-guide.md)
+- [金蝶 ChatBI 实战专题：自然语言问数、口径解释与经营驾驶舱](06_data-model-sql/kingdee-chatbi-practical-guide.md)
 - [财务数据模型](06_data-model-sql/finance/README.md)
 - [接口与集成](07_integrations/README.md)
 - [金蝶接口集成实施教程](07_integrations/integration-implementation-guide.md)
@@ -153,6 +154,7 @@
 - [PLM-BOM 变更同步、工程变更与生产版本追溯专题](07_integrations/plm-bom-ecn-change-sync-guide.md)
 - [WebAPI、集成平台与安全参数官方资料精读](07_integrations/webapi-integration-official-source-digest.md)
 - [AI 文档分类与结构化提取](07_integrations/ai-document-classification.md)
+- [金蝶 AI 应用专题：AI 管理助手、智能体与业务落地](07_integrations/kingdee-ai-agent-application-guide.md)
 
 ## 环境与运维
 

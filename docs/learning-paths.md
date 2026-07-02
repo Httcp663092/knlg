@@ -357,6 +357,7 @@
 - [供应链与库存数据排查教程](06_data-model-sql/supply-chain-inventory-sql-guide.md)
 - [报表取数、指标口径与数据分析教程](06_data-model-sql/reporting-metrics-data-analysis-guide.md)
 - [BI 分析体系详解：指标、模型、看板、权限和经营洞察](06_data-model-sql/bi-analytics-system-guide.md)
+- [金蝶 ChatBI 实战专题：自然语言问数、口径解释与经营驾驶舱](06_data-model-sql/kingdee-chatbi-practical-guide.md)
 
 数据排查原则：
 
@@ -368,6 +369,7 @@
 | 只读优先 | 排查阶段不直接改库，必须保留查询条件和证据 |
 | 版本相关 | 表结构、字段名、业务逻辑可能随版本和补丁变化 |
 | BI 要能下钻 | 经营指标必须能追到维度、明细单据和责任动作 |
+| ChatBI 要能解释 | 自然语言答案必须显示公式、来源、过滤条件、权限和更新时间 |
 
 实操练习：
 
@@ -378,6 +380,7 @@
 5. 从真实问题里沉淀 3 条 SQL 记录卡，至少覆盖单据状态、凭证生成和接口或库存差异。
 6. 设计一份 BI 指标字典，至少覆盖销售额、毛利率、库存周转、逾期应收和预算执行率。
 7. 画一个老板驾驶舱草图，要求每个指标都能说明数据来源、口径和下钻路径。
+8. 为销售毛利、逾期应收、呆滞库存和预算执行各写 3 条 ChatBI 标准问法，并写出必须澄清的模糊问法。
 
 验收标准：
 
@@ -386,6 +389,7 @@
 - 能把常用查询整理成可复核的查询包，而不是散落在聊天记录和临时文件里。
 - 能区分 template、env-ready、verified，不把未经前台核对的 SQL 当成生产结论。
 - 能说明 BI 看板数字和标准报表不一致时，应该先查口径、权限、状态和日期，而不是先改图表。
+- 能说明 ChatBI 问数结果需要怎样回到指标字典、标准报表、权限范围和源单明细复核。
 
 ## 路线七：接口、运维与问题处理
 
@@ -402,6 +406,8 @@
 - [WMS 出入库对账、接口补偿与库存一致性专题](07_integrations/wms-inventory-reconciliation-compensation-guide.md)
 - [PLM-BOM 变更同步、工程变更与生产版本追溯专题](07_integrations/plm-bom-ecn-change-sync-guide.md)
 - [WebAPI、集成平台与安全参数官方资料精读](07_integrations/webapi-integration-official-source-digest.md)
+- [AI 文档分类与结构化提取](07_integrations/ai-document-classification.md)
+- [金蝶 AI 应用专题：AI 管理助手、智能体与业务落地](07_integrations/kingdee-ai-agent-application-guide.md)
 - [环境、发布和版本](08_environments-releases/README.md)
 - [系统管理员日常运维教程](08_environments-releases/system-admin-daily-ops-guide.md)
 - [备份、恢复、监控与性能巡检教程](08_environments-releases/backup-restore-monitoring-guide.md)
@@ -416,12 +422,14 @@
 3. 再看系统证据：日志、接口报文、操作记录、审批记录、单据状态、权限分配。
 4. 最后形成处理：临时绕行、根因修复、数据补偿、回归测试、预防措施。
 5. 做清理归档前，先确认留存年限、附件、接口报文、操作日志和审计取证要求，避免清理后证据链断掉。
+6. 做 AI 智能体或管理助手上线前，先确认知识来源、数据权限、工具权限、人工确认点、失败回滚和审计日志。
 
 验收标准：
 
 - 能写出一份完整问题记录，而不是只保存一句“已处理”。
 - 能把问题归因到配置、数据、权限、二开、接口、环境或产品限制。
 - 能知道哪些操作需要先备份、先审批、先演练。
+- 能判断 AI 场景是问答、生成、分析、审核还是执行，并设置对应的权限和人工确认点。
 
 ## 30/60/90 天学习计划
 

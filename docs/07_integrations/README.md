@@ -25,6 +25,7 @@
 - [车间看板、MES 报工回写与设备数据采集专题](../03_manufacturing/mes-shop-floor-dashboard-data-collection-guide.md)
 - [WebAPI、集成平台与安全参数官方资料精读](webapi-integration-official-source-digest.md)
 - [AI 文档分类与结构化提取](ai-document-classification.md)
+- [金蝶 AI 应用专题：AI 管理助手、智能体与业务落地](kingdee-ai-agent-application-guide.md)
 
 ## 覆盖范围
 
@@ -39,6 +40,7 @@
 - WMS 出入库回写、库存状态、批号序列号、接口补偿和库存一致性对账。
 - PLM 物料、BOM、工程变更、版本生效和生产追溯。
 - 接口上线后的日常巡检、失败补偿和财务对账。
+- AI 管理助手、智能体、知识库 RAG、工具调用、人工确认、权限脱敏和操作审计。
 
 ## 财务集成关注点
 

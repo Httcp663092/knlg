@@ -5,7 +5,7 @@
 >
 > [界面首页](../../index.html) | [文档首页](../README.md) | [知识地图](../knowledge-map.md) | [学习路径](../learning-paths.md) | [财务](../01_finance/README.md) | [供应链](../02_supply-chain/README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
-> 上一章：[报表取数、指标口径与数据分析教程](reporting-metrics-data-analysis-guide.md) | 下一章：[财务数据模型](finance/README.md) | [本章目录](README.md)
+> 上一章：[报表取数、指标口径与数据分析教程](reporting-metrics-data-analysis-guide.md) | 下一章：[金蝶 ChatBI 实战专题：自然语言问数、口径解释与经营驾驶舱](kingdee-chatbi-practical-guide.md) | [本章目录](README.md)
 <!-- NAV_END -->
 
 BI 不是“把 ERP 数据画成图”。真正有用的 BI，要能回答经营问题：
@@ -410,4 +410,5 @@ BI 权限比普通报表更敏感，因为它往往集中展示利润、成本�
 - [经营分析月报样例](../01_finance/management-analysis-monthly-report-sample-guide.md)：管理层月报结构。
 - [核心表字典与常用 SQL 查询包](core-table-dictionary-and-sql-pack.md)：常用取数模板。
 - [真实环境已验证 SQL 示例库](real-environment-verified-sql-library.md)：把 BI 取数升级为已验证记录。
+- [金蝶 ChatBI 实战专题](kingdee-chatbi-practical-guide.md)：自然语言问数、口径解释、权限和验收。
 - [权限审计、关键岗位内控与越权操作追溯专题](../04_implementation/permission-audit-sod-control-guide.md)：BI 权限和敏感数据控制。

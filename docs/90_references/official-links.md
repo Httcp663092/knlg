@@ -116,8 +116,13 @@
 
 ## BI 与 AI 分析
 
+- [金蝶官网：金蝶 ChatBI，用「对话」解锁数据的终极生产力](https://www.kingdee.com/article/1930199414069084161.html)
+- [金蝶官网：ChatBI 如何实现“自然语言问数”与口径自动解释](https://www.kingdee.com/article/2000766033408921601.html)
 - [金蝶官网：ChatBI 如何解决“财务看财务、业务看业务”的割裂](https://www.kingdee.com/article/2000766928553086978.html)
 - [金蝶官网：ChatBI 如何降低经营分析对人员能力的依赖](https://www.kingdee.com/article/2000767524362358785.html)
+- [金蝶官网：新一代企业级 AI 平台-苍穹 AI 管理助手](https://www.kingdee.com/market/ai.html)
+- [金蝶官网：金蝶 AI 苍穹 Agent 开发平台](https://www.kingdee.com/products/cosmic_ai_services.html)
+- [金蝶官网：金蝶 AI 新品全线发布，开启企业管理 AI 时代](https://www.kingdee.com/resources/articles/1395470974949866369)
 
 ## 金蝶开发者官网
 

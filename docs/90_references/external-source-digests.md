@@ -37,6 +37,8 @@
 | [系统管理、安全权限与业务监控官方资料精读](../08_environments-releases/security-monitoring-official-source-digest.md) | 用户、角色、功能授权、数据权限、移动安全、业务监控 | 金蝶云产品手册 |
 | [数据清理归档、接口报文留存与审计追溯专题](../08_environments-releases/data-archive-log-retention-audit-guide.md) | 数据清理、附件归档、接口报文留存、操作日志审计和追溯证据包 | 金蝶开发者官网、项目实践 |
 | [BI 分析体系详解：指标、模型、看板、权限和经营洞察](../06_data-model-sql/bi-analytics-system-guide.md) | BI 和普通报表区别、指标字典、数据模型、老板驾驶舱、销售/采购/库存/财务 BI、ChatBI 和权限治理 | 金蝶官网 ChatBI 资料、项目实践 |
+| [金蝶 ChatBI 实战专题：自然语言问数、口径解释与经营驾驶舱](../06_data-model-sql/kingdee-chatbi-practical-guide.md) | ChatBI 问数场景、标准问法、口径自动解释、权限安全、验收矩阵和运营治理 | 金蝶官网 ChatBI 资料、项目实践 |
+| [金蝶 AI 应用专题：AI 管理助手、智能体与业务落地](../07_integrations/kingdee-ai-agent-application-guide.md) | AI 管理助手、Agent Builder、知识库 RAG、财务/供应链/制造场景、权限审计和 AIGO 方法论 | 金蝶官网 AI 平台资料、金蝶开发者官网 |
 
 ## 使用方法
 
@@ -53,6 +55,7 @@
 - 银企直连、票据和资金计划。
 - PLM、MES、WMS 深度集成。
 - 数据流、事件网格、集成服务云。
-- 金蝶 ChatBI 和自然语言经营分析。
+- 真实客户 ChatBI 问答记录、指标解释和标准报表核对样本。
+- 金蝶 AI 智能体在真实流程里的工具调用日志、人工确认和审计样本。
 - 苍穹协同开发、部署运维、性能调优。
 - 更多 BOS 插件事件、服务插件和单据转换插件源码样例。

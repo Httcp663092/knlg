@@ -32,6 +32,8 @@
 | 基础资料建模 | [苍穹单据与基础资料建模](../05_development-bos/cangqiong-business-object-modeling.md) | 基础资料、树形基础资料、长编码 |
 | 物料库存信息 | [物料库存信息](../02_supply-chain/material-inventory-info.md) | 库存单位、批号、序列号、保质期 |
 | 文档分类（大模型）使用手册 | [AI 文档分类与结构化提取](../07_integrations/ai-document-classification.md) | 组合识别器、大模型分类、结构化提取 |
+| 金蝶 AI 管理助手和苍穹 Agent 平台公开资料 | [金蝶 AI 应用专题：AI 管理助手、智能体与业务落地](../07_integrations/kingdee-ai-agent-application-guide.md) | AI 管理助手、智能体、知识库 RAG、工具调用、权限和审计 |
+| 金蝶 ChatBI 公开资料 | [金蝶 ChatBI 实战专题：自然语言问数、口径解释与经营驾驶舱](../06_data-model-sql/kingdee-chatbi-practical-guide.md) | 自然语言问数、口径解释、BI 权限和经营分析 |
 | 数据清理服务使用指南 | [苍穹数据清理服务](../08_environments-releases/cangqiong-data-cleaning.md) | 数据归档、数据清理、清理规则、调度计划 |
 | 数据清理服务使用指南和运行治理经验 | [数据清理归档、接口报文留存与审计追溯专题](../08_environments-releases/data-archive-log-retention-audit-guide.md) | 历史数据清理、附件归档、接口报文留存、操作日志审计、追溯证据 |
 | 苍穹水平分库 | [苍穹水平分库](../08_environments-releases/cangqiong-horizontal-sharding.md) | 水平分库、分片、海量单据 |
@@ -46,7 +48,7 @@
 - 数据流、事件网格、集成服务云。
 - 协同开发平台。
 - 部署运维专题。
-- 金蝶 ChatBI。
+- 金蝶 ChatBI 真实问答记录、指标字典和标准报表核对样本。
 - 更多 SDK 插件类、事件和示例代码。
 
 ## 使用原则

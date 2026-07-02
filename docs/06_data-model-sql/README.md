@@ -25,6 +25,7 @@
 - [供应链与库存数据排查教程](supply-chain-inventory-sql-guide.md)
 - [报表取数、指标口径与数据分析教程](reporting-metrics-data-analysis-guide.md)
 - [BI 分析体系详解：指标、模型、看板、权限和经营洞察](bi-analytics-system-guide.md)
+- [金蝶 ChatBI 实战专题：自然语言问数、口径解释与经营驾驶舱](kingdee-chatbi-practical-guide.md)
 - [财务数据模型](finance/README.md)
 
 ## SQL 记录原则
@@ -44,4 +45,5 @@
 5. 做财务问题时读财务对账教程。
 6. 做库存、采购、销售、成本问题时读供应链库存教程。
 7. 做管理报表、老板驾驶舱、数据分析时读指标口径教程。
-8. 做 BI、ChatBI、经营驾驶舱和专题看板时读 BI 分析体系教程。
+8. 做 BI、经营驾驶舱和专题看板时读 BI 分析体系教程。
+9. 做 ChatBI、自然语言问数、口径解释和权限验收时读 ChatBI 实战专题。
