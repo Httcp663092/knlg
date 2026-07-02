@@ -19,6 +19,7 @@
 | [供应链基础通俗入门：采购、销售、库存和存货核算](../02_supply-chain/supply-chain-starter-plain-language-guide.md) | 供应链基础资料、采购到付款、销售到收款、库存状态、存货核算和业财衔接 | 金蝶云产品手册、项目实践 |
 | [供应链单据流通俗学习手册](../02_supply-chain/supply-chain-document-flow-learning-guide.md) | 采购到付款、销售到收款、库存管理、存货核算、业财对账 | 金蝶云产品手册、项目实践 |
 | [商贸与分销行业场景包：价格、信用、发货、回款、返利和渠道对账](../02_supply-chain/trading-distribution-scenario-pack.md) | 客户分层、价格政策、信用控制、销售发货、回款核销、退货折让、返利、渠道库存和经营指标 | 项目实践 |
+| [连锁零售行业场景包：门店、POS、会员、促销、补货和日结对账](../02_supply-chain/retail-chain-pos-store-scenario-pack.md) | 门店档案、POS 小票、会员权益、促销规则、门店库存、补货调拨、退换货、收银日结和门店经营指标 | 项目实践 |
 | [价格、信用、批号、盘点与暂估专题](../02_supply-chain/price-credit-batch-counting-estimate-guide.md) | 采购价格、销售价格、信用控制、批号保质期、盘点、暂估应付 | 金蝶云产品手册、项目实践 |
 | [采购结算、到票、暂估冲回与采购价差专题](../02_supply-chain/purchase-settlement-invoice-variance-guide.md) | 采购结算、采购发票、暂估冲回、采购价差、费用分摊、供应商对账 | 金蝶云产品手册、项目实践 |
 | [销售退货、红冲、退款与折让专题](../02_supply-chain/sales-return-red-invoice-refund-guide.md) | 销售退货、红字应收、红字发票、客户退款、销售折让、成本冲回 | 金蝶云产品手册、项目实践 |

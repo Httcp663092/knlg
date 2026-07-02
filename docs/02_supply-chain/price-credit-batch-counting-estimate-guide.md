@@ -5,7 +5,7 @@
 >
 > [界面首页](../../index.html) | [文档首页](../README.md) | [知识地图](../knowledge-map.md) | [学习路径](../learning-paths.md) | [财务](../01_finance/README.md) | [供应链](README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
-> 上一章：[商贸与分销行业场景包](trading-distribution-scenario-pack.md) | 下一章：[采购管理详细教程](purchase-management-guide.md) | [本章目录](README.md)
+> 上一章：[连锁零售行业场景包](retail-chain-pos-store-scenario-pack.md) | 下一章：[采购管理详细教程](purchase-management-guide.md) | [本章目录](README.md)
 <!-- NAV_END -->
 
 供应链项目里，很多问题不是“不会录单”，而是价格、信用、批号、盘点、暂估这些控制点没有设计好。它们看起来分散，其实都在回答一个问题：

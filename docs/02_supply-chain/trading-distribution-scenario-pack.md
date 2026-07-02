@@ -5,7 +5,7 @@
 >
 > [界面首页](../../index.html) | [文档首页](../README.md) | [知识地图](../knowledge-map.md) | [学习路径](../learning-paths.md) | [财务](../01_finance/README.md) | [供应链](README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
-> 上一章：[供应链单据流通俗学习手册](supply-chain-document-flow-learning-guide.md) | 下一章：[价格、信用、批号、盘点与暂估专题](price-credit-batch-counting-estimate-guide.md) | [本章目录](README.md)
+> 上一章：[供应链单据流通俗学习手册](supply-chain-document-flow-learning-guide.md) | 下一章：[连锁零售行业场景包](retail-chain-pos-store-scenario-pack.md) | [本章目录](README.md)
 <!-- NAV_END -->
 
 商贸和分销企业看起来只是“买进来、卖出去”，但系统落地时最容易乱在价格、信用、发货、回款、返利、渠道库存和对账。销售部门关心订单和客户，仓库关心能不能发货，财务关心应收和利润，老板关心毛利、周转和回款。金蝶项目要把这些口径串成一条能追溯的链。
@@ -355,6 +355,7 @@
 
 - [供应链基础通俗入门](supply-chain-starter-plain-language-guide.md)：先理解采购、销售、库存和存货核算主线。
 - [供应链单据流通俗学习手册](supply-chain-document-flow-learning-guide.md)：把单据流和业财影响串起来。
+- [连锁零售行业场景包](retail-chain-pos-store-scenario-pack.md)：继续学习门店、POS、会员、促销、日结和门店库存。
 - [价格、信用、批号、盘点与暂估专题](price-credit-batch-counting-estimate-guide.md)：深入价格、信用和批号盘点控制。
 - [销售退货、红冲、退款与折让专题](sales-return-red-invoice-refund-guide.md)：处理退货、红冲、退款和折让。
 - [寄售、VMI 与客户寄售库存专题](consignment-vmi-inventory-guide.md)：处理渠道库存和库存所有权。

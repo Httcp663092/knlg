@@ -44,6 +44,7 @@
 - [供应链基础通俗入门：采购、销售、库存和存货核算](docs/02_supply-chain/supply-chain-starter-plain-language-guide.md)
 - [供应链单据流通俗学习手册](docs/02_supply-chain/supply-chain-document-flow-learning-guide.md)
 - [商贸与分销行业场景包：价格、信用、发货、回款、返利和渠道对账](docs/02_supply-chain/trading-distribution-scenario-pack.md)
+- [连锁零售行业场景包：门店、POS、会员、促销、补货和日结对账](docs/02_supply-chain/retail-chain-pos-store-scenario-pack.md)
 - [价格、信用、批号、盘点与暂估专题](docs/02_supply-chain/price-credit-batch-counting-estimate-guide.md)
 - [采购结算、到票、暂估冲回与采购价差专题](docs/02_supply-chain/purchase-settlement-invoice-variance-guide.md)
 - [销售退货、红冲、退款与折让专题](docs/02_supply-chain/sales-return-red-invoice-refund-guide.md)
