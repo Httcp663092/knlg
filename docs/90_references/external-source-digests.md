@@ -18,6 +18,7 @@
 | [供应链官方资料精读：协同、主数据和监控](../02_supply-chain/supply-chain-official-source-digest.md) | 供应商协同、采购申请状态、基础资料控制、业务监控 | 金蝶云产品手册 |
 | [供应链基础通俗入门：采购、销售、库存和存货核算](../02_supply-chain/supply-chain-starter-plain-language-guide.md) | 供应链基础资料、采购到付款、销售到收款、库存状态、存货核算和业财衔接 | 金蝶云产品手册、项目实践 |
 | [供应链单据流通俗学习手册](../02_supply-chain/supply-chain-document-flow-learning-guide.md) | 采购到付款、销售到收款、库存管理、存货核算、业财对账 | 金蝶云产品手册、项目实践 |
+| [商贸与分销行业场景包：价格、信用、发货、回款、返利和渠道对账](../02_supply-chain/trading-distribution-scenario-pack.md) | 客户分层、价格政策、信用控制、销售发货、回款核销、退货折让、返利、渠道库存和经营指标 | 项目实践 |
 | [价格、信用、批号、盘点与暂估专题](../02_supply-chain/price-credit-batch-counting-estimate-guide.md) | 采购价格、销售价格、信用控制、批号保质期、盘点、暂估应付 | 金蝶云产品手册、项目实践 |
 | [采购结算、到票、暂估冲回与采购价差专题](../02_supply-chain/purchase-settlement-invoice-variance-guide.md) | 采购结算、采购发票、暂估冲回、采购价差、费用分摊、供应商对账 | 金蝶云产品手册、项目实践 |
 | [销售退货、红冲、退款与折让专题](../02_supply-chain/sales-return-red-invoice-refund-guide.md) | 销售退货、红字应收、红字发票、客户退款、销售折让、成本冲回 | 金蝶云产品手册、项目实践 |
@@ -30,6 +31,7 @@
 | [应收账龄、催收与坏账准备学习手册](../01_finance/ar-aging-collection-bad-debt-guide.md) | 应收账龄、收款条件、催收闭环、信用控制、坏账准备和月末证据包 | 金蝶云产品手册、项目实践 |
 | [银企直连、票据与资金计划专题](../01_finance/bank-enterprise-bills-funds-guide.md) | 银企直连、网上银行、银行对账、应收票据、应付票据、资金计划 | 金蝶云产品手册、项目实践 |
 | [国外财务与国际化核算专题：多币别、多准则、税务和合并](../01_finance/international-finance-accounting-guide.md) | 海外法人、多币别、IFRS、US GAAP、VAT/GST/Sales Tax、预提税、转移定价和集团报表包 | IFRS Foundation、FASB、OECD、European Commission、IRS、项目实践 |
+| [海外子公司建账与月结实操包](../01_finance/overseas-subsidiary-close-implementation-pack.md) | 海外主体建模、多账簿、税码、汇率、跨境付款、月结日历、集团报表包和 UAT 场景 | 项目实践 |
 | [制造模块官方资料精读](../03_manufacturing/manufacturing-official-source-digest.md) | 计划管理、排产、质量、技术文档、MES | 金蝶云产品手册、金蝶官网 |
 | [BOS、业务流程与低代码官方资料精读](../05_development-bos/bos-workflow-official-source-digest.md) | 单据建模、基础资料、业务流程、工作流、BOS 参数 | 金蝶开发者官网、金蝶云产品手册 |
 | [插件治理、排障与上线回归手册](../05_development-bos/plugin-governance-and-troubleshooting-guide.md) | 插件类型选择、操作服务插件、幂等、日志、发布回归、BOM 字段带入案例 | 金蝶 SDK、金蝶开发者官网、项目实践 |

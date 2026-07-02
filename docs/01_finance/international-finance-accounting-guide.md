@@ -5,7 +5,7 @@
 >
 > [界面首页](../../index.html) | [文档首页](../README.md) | [知识地图](../knowledge-map.md) | [学习路径](../learning-paths.md) | [财务](README.md) | [供应链](../02_supply-chain/README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
-> 上一章：[多组织、多账簿与集团核算教程](multi-org-multi-book-accounting-guide.md) | 下一章：[集团合并报表、内部交易抵消与内部往来对账专题](consolidated-reporting-elimination-guide.md) | [本章目录](README.md)
+> 上一章：[多组织、多账簿与集团核算教程](multi-org-multi-book-accounting-guide.md) | 下一章：[海外子公司建账与月结实操包](overseas-subsidiary-close-implementation-pack.md) | [本章目录](README.md)
 <!-- NAV_END -->
 
 这篇用于补“国外财务”在金蝶项目里的基本框架。它不是某一个国家的税务申报手册，而是把海外法人、多币别、多会计准则、VAT/GST/Sales Tax、预提税、转移定价、跨境往来和集团合并这些高频问题整理成系统实施和日常财务能用的清单。
@@ -407,6 +407,7 @@ OECD 转移定价指南围绕独立交易原则，为关联企业跨境交易定
 ## 十四、关联学习
 
 - [多组织、多账簿与集团核算教程](multi-org-multi-book-accounting-guide.md)：组织、账簿、币别和集团核算基础。
+- [海外子公司建账与月结实操包](overseas-subsidiary-close-implementation-pack.md)：把海外主体建账、月结、报表包和差异排查落成项目清单。
 - [集团合并报表、内部交易抵消与内部往来对账专题](consolidated-reporting-elimination-guide.md)：合并范围、外币折算、抵消和工作底稿。
 - [集团管理分析、事业部利润与内部转移定价专题](group-management-profit-transfer-pricing-guide.md)：转移定价和管理利润。
 - [发票税务申报勾稽、红字和未开票收入专题](tax-declaration-invoice-reconciliation-guide.md)：税务台账和总账勾稽。

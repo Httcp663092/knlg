@@ -30,6 +30,7 @@
 - [银企直连、票据与资金计划专题](01_finance/bank-enterprise-bills-funds-guide.md)：把付款状态、银行回写、票据流转、银行对账和资金预测串起来。
 - [费用报销、借款还款与付款学习手册](01_finance/expense-reimbursement-funds-learning-guide.md)：把员工借款、报销、预算、付款、凭证和附件归档串成闭环。
 - [国外财务与国际化核算专题：多币别、多准则、税务和合并](01_finance/international-finance-accounting-guide.md)：把海外法人、本位币、交易币别、IFRS/US GAAP、VAT/GST/Sales Tax、预提税、转移定价和集团报表包串起来。
+- [海外子公司建账与月结实操包](01_finance/overseas-subsidiary-close-implementation-pack.md)：把海外主体建账、税码、汇率、跨境付款、月结日历和集团报表包落成检查清单。
 - [集团合并报表、内部交易抵消与内部往来对账专题](01_finance/consolidated-reporting-elimination-guide.md)：把个别报表上报、内部往来、内部交易、权益抵消和工作底稿串成合并闭环。
 - [集团管理分析、事业部利润与内部转移定价专题](01_finance/group-management-profit-transfer-pricing-guide.md)：把事业部利润、产品线毛利、客户贡献、内部转移价和费用分摊串成经营分析闭环。
 - [经营分析月报样例：事业部利润、产品毛利、客户贡献与预算执行](01_finance/management-analysis-monthly-report-sample-guide.md)：把事业部利润、产品线毛利、客户贡献、预算执行和异常清单组织成月报样例。
@@ -38,6 +39,7 @@
 - [供应链知识区](02_supply-chain/README.md)：采购、销售、库存、存货核算和业财衔接。
 - [供应链基础通俗入门：采购、销售、库存和存货核算](02_supply-chain/supply-chain-starter-plain-language-guide.md)：用四条线讲清业务流、实物流、资金流和成本流。
 - [供应链单据流通俗学习手册](02_supply-chain/supply-chain-document-flow-learning-guide.md)：用单据流讲采购到付款、销售到收款、库存和存货核算。
+- [商贸与分销行业场景包：价格、信用、发货、回款、返利和渠道对账](02_supply-chain/trading-distribution-scenario-pack.md)：把客户分层、价格政策、信用占用、发货、回款、退货返利和渠道库存串成行业闭环。
 - [价格、信用、批号、盘点与暂估专题](02_supply-chain/price-credit-batch-counting-estimate-guide.md)：补供应链价格、信用、批号保质期、盘点和暂估控制点。
 - [采购结算、到票、暂估冲回与采购价差专题](02_supply-chain/purchase-settlement-invoice-variance-guide.md)：补采购入库、发票匹配、暂估冲回、价差和费用分摊。
 - [销售退货、红冲、退款与折让专题](02_supply-chain/sales-return-red-invoice-refund-guide.md)：把退货入库、红字应收、红字发票、退款核销和成本冲回串成闭环。
@@ -84,7 +86,7 @@
 ## 当前覆盖
 
 - 财务：会计循环、科目维度、总账、收入确认、应收、应收账龄催收、坏账准备、应付、出纳、银企票据资金计划、固定资产、预算、预算执行、费用报销、月结、财务通俗入门、业务单据到凭证、现金流、报表分析、合并报表、国外财务、多币别、多准则、跨境税务、集团管理分析、经营分析月报、税务发票、税务申报勾稽、电子档案、案例和常见问题。
-- 供应链：采购、采购结算、销售、销售退货红冲退款、客户退货质检/RMA、售后索赔备件、渠道售后、服务站库存、经销商代修、库存、寄售/VMI、存货核算、存货成本差异、库存关账、供应链通俗入门、单据流学习、价格信用、批号盘点、暂估、组织间结算、条码仓库、供应商协同、业务到财务衔接。
+- 供应链：采购、采购结算、销售、商贸分销、销售退货红冲退款、客户退货质检/RMA、售后索赔备件、渠道售后、服务站库存、经销商代修、库存、寄售/VMI、存货核算、存货成本差异、库存关账、供应链通俗入门、单据流学习、价格信用、批号盘点、暂估、组织间结算、条码仓库、供应商协同、业务到财务衔接。
 - 生产制造：BOM、PLM 工程变更、MRP、生产订单、委外、委外加工费结算、车间报工、MES 报工回写、设备采集、车间看板、质量、设备和制造成本。
 - 实施交付：调研蓝图、主数据期初、权限内控、权限审计、测试培训、上线验收。
 - BOS/苍穹开发：项目创建、建模、插件、插件治理、保存校验、操作服务、单据转换、列表过滤、工作流和权限扩展。
