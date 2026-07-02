@@ -18,6 +18,7 @@
 ## 已整理内容
 
 - [供应链核心操作教程](supply-chain-core-operation-guide.md)
+- [供应链基础通俗入门：采购、销售、库存和存货核算](supply-chain-starter-plain-language-guide.md)
 - [供应链单据流通俗学习手册](supply-chain-document-flow-learning-guide.md)
 - [价格、信用、批号、盘点与暂估专题](price-credit-batch-counting-estimate-guide.md)
 - [采购管理详细教程](purchase-management-guide.md)
@@ -40,24 +41,25 @@
 ## 学习顺序
 
 1. [供应链核心操作教程](supply-chain-core-operation-guide.md)
-2. [供应链单据流通俗学习手册](supply-chain-document-flow-learning-guide.md)
-3. [价格、信用、批号、盘点与暂估专题](price-credit-batch-counting-estimate-guide.md)
-4. [采购管理详细教程](purchase-management-guide.md)
-5. [采购结算、到票、暂估冲回与采购价差专题](purchase-settlement-invoice-variance-guide.md)
-6. [销售管理详细教程](sales-management-guide.md)
-7. [销售退货、红冲、退款与折让专题](sales-return-red-invoice-refund-guide.md)
-8. [客户退货质检、RMA、返修与报废专题](customer-return-quality-rma-guide.md)
-9. [客户索赔、售后备件、保内保外维修专题](after-sales-claims-spare-parts-guide.md)
-10. [渠道售后、服务站库存与经销商代修专题](channel-after-sales-service-station-guide.md)
-11. [库存管理详细教程](inventory-management-guide.md)
-12. [寄售、VMI 与客户寄售库存专题](consignment-vmi-inventory-guide.md)
-13. [存货核算详细教程](inventory-costing-guide.md)
-14. [存货成本差异、异常成本与库存关账专题](inventory-cost-variance-close-guide.md)
-15. [物料库存信息](material-inventory-info.md)
-16. [组织间结算详细教程](intercompany-settlement-guide.md)
-17. [条码与移动仓库作业教程](barcode-mobile-warehouse-guide.md)
-18. [供应商协同与采购门户教程](supplier-collaboration-guide.md)
-19. [供应链官方资料精读：协同、主数据和监控](supply-chain-official-source-digest.md)
+2. [供应链基础通俗入门：采购、销售、库存和存货核算](supply-chain-starter-plain-language-guide.md)
+3. [供应链单据流通俗学习手册](supply-chain-document-flow-learning-guide.md)
+4. [价格、信用、批号、盘点与暂估专题](price-credit-batch-counting-estimate-guide.md)
+5. [采购管理详细教程](purchase-management-guide.md)
+6. [采购结算、到票、暂估冲回与采购价差专题](purchase-settlement-invoice-variance-guide.md)
+7. [销售管理详细教程](sales-management-guide.md)
+8. [销售退货、红冲、退款与折让专题](sales-return-red-invoice-refund-guide.md)
+9. [客户退货质检、RMA、返修与报废专题](customer-return-quality-rma-guide.md)
+10. [客户索赔、售后备件、保内保外维修专题](after-sales-claims-spare-parts-guide.md)
+11. [渠道售后、服务站库存与经销商代修专题](channel-after-sales-service-station-guide.md)
+12. [库存管理详细教程](inventory-management-guide.md)
+13. [寄售、VMI 与客户寄售库存专题](consignment-vmi-inventory-guide.md)
+14. [存货核算详细教程](inventory-costing-guide.md)
+15. [存货成本差异、异常成本与库存关账专题](inventory-cost-variance-close-guide.md)
+16. [物料库存信息](material-inventory-info.md)
+17. [组织间结算详细教程](intercompany-settlement-guide.md)
+18. [条码与移动仓库作业教程](barcode-mobile-warehouse-guide.md)
+19. [供应商协同与采购门户教程](supplier-collaboration-guide.md)
+20. [供应链官方资料精读：协同、主数据和监控](supply-chain-official-source-digest.md)
 
 ## 后续继续加厚方向
 
@@ -74,4 +76,4 @@
 - 库存关账、存货核算和成本核算会影响总账月结。
 - 寄售和 VMI 要单独区分库存地点、所有权、消耗结算和财务确认时点。
 - 存货成本差异要同时看库存单据、入库成本、出库成本、暂估价差、凭证和总账。
-- 新人学习时建议先看 [供应链单据流通俗学习手册](supply-chain-document-flow-learning-guide.md)，再进入采购、销售、库存和存货核算专项页。
+- 新人学习时建议先看 [供应链基础通俗入门](supply-chain-starter-plain-language-guide.md) 和 [供应链单据流通俗学习手册](supply-chain-document-flow-learning-guide.md)，再进入采购、销售、库存和存货核算专项页。

@@ -114,6 +114,11 @@
 - [金蝶 K3Cloud SDK：DynamicForm.PlugIn 命名空间层级](https://open.kingdee.com/k3cloud/SDK/Kingdee.BOS.Core~Kingdee.BOS.Core.DynamicForm.PlugIn_namespace_hierarchy.html)
 - [金蝶 K3Cloud SDK：AbstractOperationServicePlugIn](https://open.kingdee.com/k3cloud/SDK/Kingdee.BOS.Core~Kingdee.BOS.Core.DynamicForm.PlugIn.AbstractOperationServicePlugIn.html)
 
+## BI 与 AI 分析
+
+- [金蝶官网：ChatBI 如何解决“财务看财务、业务看业务”的割裂](https://www.kingdee.com/article/2000766928553086978.html)
+- [金蝶官网：ChatBI 如何降低经营分析对人员能力的依赖](https://www.kingdee.com/article/2000767524362358785.html)
+
 ## 金蝶开发者官网
 
 - [金蝶开发者官网：金蝶 AI 苍穹产品页](https://developer.kingdee.com/?productId=87&productLineId=29&lang=zh-CN)

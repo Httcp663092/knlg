@@ -16,12 +16,14 @@
 | 精读页 | 覆盖主题 | 主要来源 |
 | --- | --- | --- |
 | [供应链官方资料精读：协同、主数据和监控](../02_supply-chain/supply-chain-official-source-digest.md) | 供应商协同、采购申请状态、基础资料控制、业务监控 | 金蝶云产品手册 |
+| [供应链基础通俗入门：采购、销售、库存和存货核算](../02_supply-chain/supply-chain-starter-plain-language-guide.md) | 供应链基础资料、采购到付款、销售到收款、库存状态、存货核算和业财衔接 | 金蝶云产品手册、项目实践 |
 | [供应链单据流通俗学习手册](../02_supply-chain/supply-chain-document-flow-learning-guide.md) | 采购到付款、销售到收款、库存管理、存货核算、业财对账 | 金蝶云产品手册、项目实践 |
 | [价格、信用、批号、盘点与暂估专题](../02_supply-chain/price-credit-batch-counting-estimate-guide.md) | 采购价格、销售价格、信用控制、批号保质期、盘点、暂估应付 | 金蝶云产品手册、项目实践 |
 | [采购结算、到票、暂估冲回与采购价差专题](../02_supply-chain/purchase-settlement-invoice-variance-guide.md) | 采购结算、采购发票、暂估冲回、采购价差、费用分摊、供应商对账 | 金蝶云产品手册、项目实践 |
 | [销售退货、红冲、退款与折让专题](../02_supply-chain/sales-return-red-invoice-refund-guide.md) | 销售退货、红字应收、红字发票、客户退款、销售折让、成本冲回 | 金蝶云产品手册、项目实践 |
 | [寄售、VMI 与客户寄售库存专题](../02_supply-chain/consignment-vmi-inventory-guide.md) | 供应商寄售、客户寄售、VMI、库存所有权、消耗结算、寄售对账 | 金蝶云产品手册、项目实践 |
 | [存货成本差异、异常成本与库存关账专题](../02_supply-chain/inventory-cost-variance-close-guide.md) | 存货核算、出库成本、成本调整、暂估价差、存货对账、库存关账 | 金蝶云产品手册、项目实践 |
+| [财务基础通俗入门：从业务、凭证到报表](../01_finance/finance-starter-plain-language-guide.md) | 资产、负债、收入、成本、费用、采购销售案例、凭证和月结报表 | 金蝶云产品手册、项目实践 |
 | [从业务单据到财务凭证：通俗学习手册](../01_finance/business-document-to-voucher-learning-guide.md) | 业务单据、应收应付、收付款、存货核算、凭证生成、总账追溯 | 金蝶云产品手册、项目实践 |
 | [收入确认、合同履约与开票回款跨期专题](../01_finance/revenue-recognition-contract-invoice-guide.md) | 收入确认、合同履约、销售出库、应收、发票、收款、收入成本跨期 | 金蝶云产品手册、项目实践 |
 | [费用报销、借款还款与付款学习手册](../01_finance/expense-reimbursement-funds-learning-guide.md) | 员工借款、费用报销、预算控制、付款、凭证、附件归档 | 金蝶云产品手册、项目实践 |
@@ -34,6 +36,7 @@
 | [WebAPI、集成平台与安全参数官方资料精读](../07_integrations/webapi-integration-official-source-digest.md) | WebAPI、OpenAPI、接口认证、集成平台、安全参数 | 金蝶开发者官网、金蝶云产品手册 |
 | [系统管理、安全权限与业务监控官方资料精读](../08_environments-releases/security-monitoring-official-source-digest.md) | 用户、角色、功能授权、数据权限、移动安全、业务监控 | 金蝶云产品手册 |
 | [数据清理归档、接口报文留存与审计追溯专题](../08_environments-releases/data-archive-log-retention-audit-guide.md) | 数据清理、附件归档、接口报文留存、操作日志审计和追溯证据包 | 金蝶开发者官网、项目实践 |
+| [BI 分析体系详解：指标、模型、看板、权限和经营洞察](../06_data-model-sql/bi-analytics-system-guide.md) | BI 和普通报表区别、指标字典、数据模型、老板驾驶舱、销售/采购/库存/财务 BI、ChatBI 和权限治理 | 金蝶官网 ChatBI 资料、项目实践 |
 
 ## 使用方法
 
@@ -50,5 +53,6 @@
 - 银企直连、票据和资金计划。
 - PLM、MES、WMS 深度集成。
 - 数据流、事件网格、集成服务云。
+- 金蝶 ChatBI 和自然语言经营分析。
 - 苍穹协同开发、部署运维、性能调优。
 - 更多 BOS 插件事件、服务插件和单据转换插件源码样例。

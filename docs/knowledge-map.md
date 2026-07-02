@@ -28,6 +28,7 @@
 - [财务知识区](01_finance/README.md)
 - [财务模块地图](01_finance/finance-module-map.md)
 - [财务基础入门：结合金蝶理解](01_finance/finance-basics-for-kingdee.md)
+- [财务基础通俗入门：从业务、凭证到报表](01_finance/finance-starter-plain-language-guide.md)
 - [会计循环与金蝶系统落地教程](01_finance/accounting-cycle-kingdee-guide.md)
 - [科目体系与核算维度设计教程](01_finance/chart-of-accounts-dimensions-guide.md)
 - [财务理论到金蝶系统映射](01_finance/finance-theory-to-kingdee-system.md)
@@ -75,6 +76,7 @@
 
 - [供应链知识区](02_supply-chain/README.md)
 - [供应链核心操作教程](02_supply-chain/supply-chain-core-operation-guide.md)
+- [供应链基础通俗入门：采购、销售、库存和存货核算](02_supply-chain/supply-chain-starter-plain-language-guide.md)
 - [供应链单据流通俗学习手册](02_supply-chain/supply-chain-document-flow-learning-guide.md)
 - [价格、信用、批号、盘点与暂估专题](02_supply-chain/price-credit-batch-counting-estimate-guide.md)
 - [采购管理详细教程](02_supply-chain/purchase-management-guide.md)
@@ -141,6 +143,7 @@
 - [财务对账与 SQL 排查教程](06_data-model-sql/finance-reconciliation-sql-guide.md)
 - [供应链与库存数据排查教程](06_data-model-sql/supply-chain-inventory-sql-guide.md)
 - [报表取数、指标口径与数据分析教程](06_data-model-sql/reporting-metrics-data-analysis-guide.md)
+- [BI 分析体系详解：指标、模型、看板、权限和经营洞察](06_data-model-sql/bi-analytics-system-guide.md)
 - [财务数据模型](06_data-model-sql/finance/README.md)
 - [接口与集成](07_integrations/README.md)
 - [金蝶接口集成实施教程](07_integrations/integration-implementation-guide.md)
