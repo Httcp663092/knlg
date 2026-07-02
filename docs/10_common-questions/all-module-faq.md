@@ -45,6 +45,7 @@
 | 预算还有但报销或采购申请提示超预算 | 预算维度、占用未释放、期间、预算版本 | 财务预算 |
 | 新人看不懂财务和供应链怎么接起来 | 业务单据、凭证、库存、应收应付、成本 | 基础通俗入门 |
 | 事业部利润、产品线毛利和法人口径利润对不上 | 管理维度、内部交易、费用分摊、转移定价 | 集团管理分析 |
+| 海外子公司、多币别、IFRS/US GAAP、VAT/GST 或预提税口径不清 | 本位币、交易币别、多账簿、税码、转移定价、集团报表包 | 国外财务 |
 | 经营月报很多表但管理层看不懂 | 摘要结构、指标口径、预算偏差、异常清单 | 经营分析月报 |
 | 税务申报、销项、进项、红字和总账税金对不上 | 发票状态、认证期间、红字来源、未开票收入、凭证 | 财务和税务 |
 | 客户退货后不知道进良品、返修还是报废 | 退货授权、库存状态、质检判定、红冲退款 | 供应链和质量 |
@@ -311,6 +312,25 @@
 5. 输出“法人口径 -> 管理口径”调节表。
 
 详细处理见 [集团管理分析、事业部利润与内部转移定价专题](../01_finance/group-management-profit-transfer-pricing-guide.md)。
+
+### 14.05 海外子公司、多币别、IFRS/US GAAP、VAT/GST 或预提税口径不清
+
+常见原因：
+
+- 海外法人、本位币、交易币别和集团列报币别没有分清。
+- 当地准则、IFRS/US GAAP、集团会计政策和中国准则混在同一张报表里。
+- VAT/GST/Sales Tax、Import VAT、预提税和银行手续费没有单独建税码、科目和付款证据。
+- 关联交易价格、服务费、特许权使用费和转移定价文档没有和应收应付、合并抵消联动。
+
+排查顺序：
+
+1. 先确认海外主体的法定账簿、本位币、交易币别和集团报表包币别。
+2. 列出当地税种、税码、税率来源、发票类型、申报周期和预提税规则。
+3. 检查科目映射、汇率类型、汇兑损益、外币重估和报表折算规则。
+4. 检查跨境付款证据包：合同、发票、预提税、完税凭证、手续费和实际到账金额。
+5. 最后再进入合并报表，做报表包、准则调整、内部往来和内部交易抵消。
+
+详细处理见 [国外财务与国际化核算专题：多币别、多准则、税务和合并](../01_finance/international-finance-accounting-guide.md)。
 
 ### 14.1 经营分析月报很多表但管理层看不懂
 
@@ -654,6 +674,7 @@
 - [金蝶 AI 应用专题：AI 管理助手、智能体与业务落地](../07_integrations/kingdee-ai-agent-application-guide.md)
 - [金蝶接口集成实施教程](../07_integrations/integration-implementation-guide.md)
 - [税务平台、银企回单与接口批量补偿专题](../07_integrations/financial-integration-tax-bank-compensation-guide.md)
+- [国外财务与国际化核算专题：多币别、多准则、税务和合并](../01_finance/international-finance-accounting-guide.md)
 - [集团管理分析、事业部利润与内部转移定价专题](../01_finance/group-management-profit-transfer-pricing-guide.md)
 - [经营分析月报样例：事业部利润、产品毛利、客户贡献与预算执行](../01_finance/management-analysis-monthly-report-sample-guide.md)
 - [预算执行分析、占用释放与费用报销联动专题](../01_finance/budget-execution-control-analysis-guide.md)

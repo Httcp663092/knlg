@@ -5,7 +5,7 @@
 >
 > [界面首页](../../index.html) | [文档首页](../README.md) | [知识地图](../knowledge-map.md) | [学习路径](../learning-paths.md) | [财务](README.md) | [供应链](../02_supply-chain/README.md) | [制造](../03_manufacturing/README.md) | [实施](../04_implementation/README.md) | [开发](../05_development-bos/README.md) | [数据](../06_data-model-sql/README.md) | [集成](../07_integrations/README.md) | [运维](../09_operations-issues/README.md) | [问题](../10_common-questions/README.md) | [资料](../90_references/README.md)
 >
-> 上一章：[多组织、多账簿与集团核算教程](multi-org-multi-book-accounting-guide.md) | 下一章：[集团管理分析、事业部利润与内部转移定价专题](group-management-profit-transfer-pricing-guide.md) | [本章目录](README.md)
+> 上一章：[国外财务与国际化核算专题：多币别、多准则、税务和合并](international-finance-accounting-guide.md) | 下一章：[集团管理分析、事业部利润与内部转移定价专题](group-management-profit-transfer-pricing-guide.md) | [本章目录](README.md)
 <!-- NAV_END -->
 
 
@@ -14,6 +14,8 @@
 
 
 多组织、多账簿页面讲的是集团核算的基础设计。这篇继续补“合并报表怎么真正落地”：合并范围、个别报表上报、报表模板、内部往来对账、内部交易抵消、权益抵消、外币折算、调整分录、工作底稿和月末关账证据。
+
+如果集团包含海外主体、IFRS/US GAAP 或当地准则、VAT/GST/Sales Tax、预提税和跨境付款，先读 [国外财务与国际化核算专题](international-finance-accounting-guide.md)，再进入本页做合并抵消和报表包。
 
 合并报表不是把几个公司的资产负债表和利润表简单相加。集团内部买卖、内部借款、内部往来、投资与权益、内部利润都要按合并口径抵消。系统能自动生成部分抵消，但前提是基础资料、组织关系、内部客户供应商、科目映射、报表项目、往来勾稽和抵消模板设计正确。
 

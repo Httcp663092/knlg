@@ -29,6 +29,7 @@
 | [费用报销、借款还款与付款学习手册](../01_finance/expense-reimbursement-funds-learning-guide.md) | 员工借款、费用报销、预算控制、付款、凭证、附件归档 | 金蝶云产品手册、项目实践 |
 | [应收账龄、催收与坏账准备学习手册](../01_finance/ar-aging-collection-bad-debt-guide.md) | 应收账龄、收款条件、催收闭环、信用控制、坏账准备和月末证据包 | 金蝶云产品手册、项目实践 |
 | [银企直连、票据与资金计划专题](../01_finance/bank-enterprise-bills-funds-guide.md) | 银企直连、网上银行、银行对账、应收票据、应付票据、资金计划 | 金蝶云产品手册、项目实践 |
+| [国外财务与国际化核算专题：多币别、多准则、税务和合并](../01_finance/international-finance-accounting-guide.md) | 海外法人、多币别、IFRS、US GAAP、VAT/GST/Sales Tax、预提税、转移定价和集团报表包 | IFRS Foundation、FASB、OECD、European Commission、IRS、项目实践 |
 | [制造模块官方资料精读](../03_manufacturing/manufacturing-official-source-digest.md) | 计划管理、排产、质量、技术文档、MES | 金蝶云产品手册、金蝶官网 |
 | [BOS、业务流程与低代码官方资料精读](../05_development-bos/bos-workflow-official-source-digest.md) | 单据建模、基础资料、业务流程、工作流、BOS 参数 | 金蝶开发者官网、金蝶云产品手册 |
 | [插件治理、排障与上线回归手册](../05_development-bos/plugin-governance-and-troubleshooting-guide.md) | 插件类型选择、操作服务插件、幂等、日志、发布回归、BOM 字段带入案例 | 金蝶 SDK、金蝶开发者官网、项目实践 |

@@ -124,6 +124,19 @@
 - [金蝶官网：金蝶 AI 苍穹 Agent 开发平台](https://www.kingdee.com/products/cosmic_ai_services.html)
 - [金蝶官网：金蝶 AI 新品全线发布，开启企业管理 AI 时代](https://www.kingdee.com/resources/articles/1395470974949866369)
 
+## 国际财务、准则与税务
+
+- [IFRS Foundation：IFRS Accounting Standards Navigator](https://www.ifrs.org/issued-standards/list-of-standards/)
+- [IFRS Foundation：IAS 21 The Effects of Changes in Foreign Exchange Rates](https://www.ifrs.org/issued-standards/list-of-standards/ias-21-the-effects-of-changes-in-foreign-exchange-rates/)
+- [FASB：Standards](https://www.fasb.org/standards)
+- [OECD：Transfer pricing topic](https://www.oecd.org/en/topics/sub-issues/transfer-pricing.html)
+- [OECD：Transfer Pricing Guidelines for Multinational Enterprises and Tax Administrations 2022](https://www.oecd.org/en/publications/2022/01/oecd-transfer-pricing-guidelines-for-multinational-enterprises-and-tax-administrations-2022_57104b3a.html)
+- [OECD：VAT policy and administration](https://www.oecd.org/en/topics/sub-issues/vat-policy-and-administration.html)
+- [OECD：International VAT/GST Guidelines](https://www.oecd.org/en/publications/2017/04/international-vat-gst-guidelines_g1g75db4.html)
+- [European Commission：Value Added Tax](https://taxation-customs.ec.europa.eu/taxation/vat_en)
+- [European Commission：VAT invoicing](https://taxation-customs.ec.europa.eu/taxation/vat/vat-businesses/invoicing_en)
+- [IRS：NRA withholding](https://www.irs.gov/individuals/international-taxpayers/nra-withholding)
+
 ## 金蝶开发者官网
 
 - [金蝶开发者官网：金蝶 AI 苍穹产品页](https://developer.kingdee.com/?productId=87&productLineId=29&lang=zh-CN)

@@ -34,6 +34,7 @@
 - [财务理论到金蝶系统映射](01_finance/finance-theory-to-kingdee-system.md)
 - [金蝶财务配置指南](01_finance/kingdee-finance-configuration-guide.md)
 - [多组织、多账簿与集团核算教程](01_finance/multi-org-multi-book-accounting-guide.md)
+- [国外财务与国际化核算专题：多币别、多准则、税务和合并](01_finance/international-finance-accounting-guide.md)
 - [集团合并报表、内部交易抵消与内部往来对账专题](01_finance/consolidated-reporting-elimination-guide.md)
 - [集团管理分析、事业部利润与内部转移定价专题](01_finance/group-management-profit-transfer-pricing-guide.md)
 - [经营分析月报样例：事业部利润、产品毛利、客户贡献与预算执行](01_finance/management-analysis-monthly-report-sample-guide.md)
